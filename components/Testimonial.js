@@ -1,5 +1,26 @@
-const Testimonial = () => (
-  <div className="sass-testimonial-section">
+import React, { Component } from 'react';
+
+class Testimonial extends Component{
+  componentDidMount(){
+    var agnTslider = $('.agn-testimonial-slider');
+    if (agnTslider.length) {
+      agnTslider.owlCarousel({
+        loop: true,
+        nav: true,
+        navText: ["<i class='flaticon-back'></i>", "<i class='flaticon-next'></i>"],
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        smartSpeed: 1200,
+        autoplayHoverPause: true,
+        lazyLoad: true,
+        items: 1
+      });
+    }
+  }
+  render(){
+    return(
+      <div className="sass-testimonial-section">
     <img src="images/home/2.jpg" alt="" className="people" />
     <img src="images/home/3.jpg" alt="" className="people" />
     <img src="images/home/4.jpg" alt="" className="people" />
@@ -48,6 +69,7 @@ const Testimonial = () => (
     </div>{' '}
     {/* /.container */}
   </div>
-);
-
+    )
+  }
+}
 export default Testimonial;

@@ -1996,53 +1996,87 @@ const Layout = props => __jsx("div", null, __jsx(_Header__WEBPACK_IMPORTED_MODUL
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-const Partner = () => __jsx("div", {
-  className: "trusted-partner"
-}, __jsx("div", {
-  className: "container"
-}, __jsx("h6", {
-  className: "title"
-}, "Trusted Over ", __jsx("span", null, "2300+"), " Companies"), __jsx("div", {
-  className: "partner-slider "
-}, __jsx("div", {
-  className: "item"
-}, __jsx("a", {
-  href: "#"
-}, __jsx("img", {
-  src: "images/logo/envato.svg",
-  alt: ""
-}))), __jsx("div", {
-  className: "item"
-}, __jsx("a", {
-  href: "#"
-}, __jsx("img", {
-  src: "images/logo/envato.svg",
-  alt: ""
-}))), __jsx("div", {
-  className: "item"
-}, __jsx("a", {
-  href: "#"
-}, __jsx("img", {
-  src: "images/logo/envato.svg",
-  alt: ""
-}))), __jsx("div", {
-  className: "item"
-}, __jsx("a", {
-  href: "#"
-}, __jsx("img", {
-  src: "images/logo/envato.svg",
-  alt: ""
-}))), __jsx("div", {
-  className: "item"
-}, __jsx("a", {
-  href: "#"
-}, __jsx("img", {
-  src: "images/logo/envato.svg",
-  alt: ""
-}))))));
+
+class Partner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  componentDidMount() {
+    var logoslider = $('.partner-slider');
+
+    if (logoslider.length) {
+      logoslider.owlCarousel({
+        loop: true,
+        nav: false,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        autoplaySpeed: 1000,
+        lazyLoad: true,
+        singleItem: true,
+        center: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          550: {
+            items: 3
+          },
+          992: {
+            items: 5
+          }
+        }
+      });
+    }
+  }
+
+  render() {
+    return __jsx("div", {
+      className: "trusted-partner"
+    }, __jsx("div", {
+      className: "container"
+    }, __jsx("h6", {
+      className: "title"
+    }, "Trusted Over ", __jsx("span", null, "2300+"), " Companies"), __jsx("div", {
+      className: "partner-slider "
+    }, __jsx("div", {
+      className: "item"
+    }, __jsx("a", {
+      href: "#"
+    }, __jsx("img", {
+      src: "images/logo/envato.svg",
+      alt: ""
+    }))), __jsx("div", {
+      className: "item"
+    }, __jsx("a", {
+      href: "#"
+    }, __jsx("img", {
+      src: "images/logo/envato.svg",
+      alt: ""
+    }))), __jsx("div", {
+      className: "item"
+    }, __jsx("a", {
+      href: "#"
+    }, __jsx("img", {
+      src: "images/logo/envato.svg",
+      alt: ""
+    }))), __jsx("div", {
+      className: "item"
+    }, __jsx("a", {
+      href: "#"
+    }, __jsx("img", {
+      src: "images/logo/envato.svg",
+      alt: ""
+    }))), __jsx("div", {
+      className: "item"
+    }, __jsx("a", {
+      href: "#"
+    }, __jsx("img", {
+      src: "images/logo/envato.svg",
+      alt: ""
+    }))))));
+  }
+
+}
 
 /* harmony default export */ __webpack_exports__["default"] = (Partner);
 
@@ -2459,70 +2493,94 @@ const Service = () => __jsx("div", {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-const Testimonial = () => __jsx("div", {
-  className: "sass-testimonial-section"
-}, __jsx("img", {
-  src: "images/home/2.jpg",
-  alt: "",
-  className: "people"
-}), __jsx("img", {
-  src: "images/home/3.jpg",
-  alt: "",
-  className: "people"
-}), __jsx("img", {
-  src: "images/home/4.jpg",
-  alt: "",
-  className: "people"
-}), __jsx("img", {
-  src: "images/home/5.jpg",
-  alt: "",
-  className: "people"
-}), __jsx("img", {
-  src: "images/home/6.jpg",
-  alt: "",
-  className: "people"
-}), __jsx("img", {
-  src: "images/home/7.jpg",
-  alt: "",
-  className: "people"
-}), __jsx("div", {
-  className: "container"
-}, __jsx("div", {
-  className: "theme-title-one text-center hide-pr"
-}, __jsx("div", {
-  className: "icon-box hide-pr"
-}, __jsx("img", {
-  src: "images/shape/bg-shape5.svg",
-  alt: "",
-  className: "bg-shape"
-}), __jsx("img", {
-  src: "images/icon/icon27.svg",
-  alt: "",
-  className: "icon"
-})), __jsx("h2", {
-  className: "main-title"
-}, "What\u2019s Our Client Think ", __jsx("br", null), "About Us.")), ' ', __jsx("div", {
-  className: "inner-container"
-}, __jsx("div", {
-  className: "main-content"
-}, __jsx("div", {
-  className: "agn-testimonial-slider"
-}, __jsx("div", {
-  className: "item"
-}, __jsx("p", null, "ommodo consequat. Duis aute irure dolor in reprehendert voluptate velit esse cillum dolore eu fugiat nulla Excepteu sint occaecat cupidat non proident, sunt in culpa qui officia deserunt mollit anim id est lrum."), __jsx("h6", {
-  className: "name"
-}, "Rashed Ka."), __jsx("span", {
-  className: "designation"
-}, "Senior Designer, Squre.")), ' ', __jsx("div", {
-  className: "item"
-}, __jsx("p", null, "ommodo consequat. Duis aute irure dolor in reprehendert voluptate velit esse cillum dolore eu fugiat nulla Excepteu sint occaecat cupidat non proident, sunt in culpa qui officia deserunt mollit anim id est lrum."), __jsx("h6", {
-  className: "name"
-}, "Zubayer al hasan"), __jsx("span", {
-  className: "designation"
-}, "Senior Developer, Envato.")), ' '))), ' '), ' ');
+
+class Testimonial extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  componentDidMount() {
+    var agnTslider = $('.agn-testimonial-slider');
+
+    if (agnTslider.length) {
+      agnTslider.owlCarousel({
+        loop: true,
+        nav: true,
+        navText: ["<i class='flaticon-back'></i>", "<i class='flaticon-next'></i>"],
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        smartSpeed: 1200,
+        autoplayHoverPause: true,
+        lazyLoad: true,
+        items: 1
+      });
+    }
+  }
+
+  render() {
+    return __jsx("div", {
+      className: "sass-testimonial-section"
+    }, __jsx("img", {
+      src: "images/home/2.jpg",
+      alt: "",
+      className: "people"
+    }), __jsx("img", {
+      src: "images/home/3.jpg",
+      alt: "",
+      className: "people"
+    }), __jsx("img", {
+      src: "images/home/4.jpg",
+      alt: "",
+      className: "people"
+    }), __jsx("img", {
+      src: "images/home/5.jpg",
+      alt: "",
+      className: "people"
+    }), __jsx("img", {
+      src: "images/home/6.jpg",
+      alt: "",
+      className: "people"
+    }), __jsx("img", {
+      src: "images/home/7.jpg",
+      alt: "",
+      className: "people"
+    }), __jsx("div", {
+      className: "container"
+    }, __jsx("div", {
+      className: "theme-title-one text-center hide-pr"
+    }, __jsx("div", {
+      className: "icon-box hide-pr"
+    }, __jsx("img", {
+      src: "images/shape/bg-shape5.svg",
+      alt: "",
+      className: "bg-shape"
+    }), __jsx("img", {
+      src: "images/icon/icon27.svg",
+      alt: "",
+      className: "icon"
+    })), __jsx("h2", {
+      className: "main-title"
+    }, "What\u2019s Our Client Think ", __jsx("br", null), "About Us.")), ' ', __jsx("div", {
+      className: "inner-container"
+    }, __jsx("div", {
+      className: "main-content"
+    }, __jsx("div", {
+      className: "agn-testimonial-slider"
+    }, __jsx("div", {
+      className: "item"
+    }, __jsx("p", null, "ommodo consequat. Duis aute irure dolor in reprehendert voluptate velit esse cillum dolore eu fugiat nulla Excepteu sint occaecat cupidat non proident, sunt in culpa qui officia deserunt mollit anim id est lrum."), __jsx("h6", {
+      className: "name"
+    }, "Rashed Ka."), __jsx("span", {
+      className: "designation"
+    }, "Senior Designer, Squre.")), ' ', __jsx("div", {
+      className: "item"
+    }, __jsx("p", null, "ommodo consequat. Duis aute irure dolor in reprehendert voluptate velit esse cillum dolore eu fugiat nulla Excepteu sint occaecat cupidat non proident, sunt in culpa qui officia deserunt mollit anim id est lrum."), __jsx("h6", {
+      className: "name"
+    }, "Zubayer al hasan"), __jsx("span", {
+      className: "designation"
+    }, "Senior Developer, Envato.")), ' '))), ' '), ' ');
+  }
+
+}
 
 /* harmony default export */ __webpack_exports__["default"] = (Testimonial);
 
@@ -4267,7 +4325,7 @@ const PostLink = props => __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MO
   href: `/post?title=${props.title}`
 }, __jsx("a", null, props.title)));
 
-const Index = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_3__["default"], null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, null, __jsx("link", {
+const Index = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_3__["default"], null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, null, __jsx("title", null, "Erxes mn"), __jsx("link", {
   href: "static/owl-carousel/owl-carousel.min.css",
   type: "text/css",
   rel: "stylesheet"

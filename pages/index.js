@@ -22,6 +22,7 @@ const PostLink = props => (
 const Index = () => (
   <Layout>
     <Head>
+      <title>Erxes mn</title>
       <link href="static/owl-carousel/owl-carousel.min.css" type="text/css" rel="stylesheet" />
       <link href="static/jquery-ui/jquery-ui.min.css" type="text/css" rel="stylesheet" />
       <script src="static/jquery.2.2.3.min.js"></script>

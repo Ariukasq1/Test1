@@ -1,5 +1,36 @@
-const Partner = () => (
-  <div className="trusted-partner">
+import React, { Component } from 'react'
+class Partner extends Component{
+
+  componentDidMount(){
+    var logoslider = $('.partner-slider');
+    if (logoslider.length) {
+      logoslider.owlCarousel({
+        loop: true,
+        nav: false,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        autoplaySpeed: 1000,
+        lazyLoad: true,
+        singleItem: true,
+        center: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          550: {
+            items: 3
+          },
+          992: {
+            items: 5
+          }
+        }
+      });
+    }
+  }
+  render(){
+    return(
+      <div className="trusted-partner">
     <div className="container">
       <h6 className="title">
         Trusted Over <span>2300+</span> Companies
@@ -33,6 +64,8 @@ const Partner = () => (
       </div>
     </div>
   </div>
-)
+    )
+  }
+}
 
 export default Partner;
