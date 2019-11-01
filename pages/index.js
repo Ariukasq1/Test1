@@ -12,18 +12,11 @@ import "../style/fonts/font-awesome/css/font-awesome.css"
 import Testimonial from '../components/Testimonial';
 import Faq from '../components/Faq';
 import Contact from '../components/Contact';
-const PostLink = props => (
-  <li>
-    <Link href={`/post?title=${props.title}`}>
-      <a>{props.title}</a>
-    </Link>
-  </li>
-)
 const Index = () => (
   <Layout>
     <Head>
       <title>Erxes mn</title>
-      <link href="static/owl-carousel/owl-carousel.min.css" type="text/css" rel="stylesheet" />
+      <link href="static/owl-carousel/owl.carousel.css" type="text/css" rel="stylesheet" />
       <link href="static/jquery-ui/jquery-ui.min.css" type="text/css" rel="stylesheet" />
       <script src="static/jquery.2.2.3.min.js"></script>
       <script src="static/popper.js/popper.min.js"></script>
@@ -35,7 +28,6 @@ const Index = () => (
       <script src="static/jquery.appear.js"></script>
       <script src="static/jquery.countTo.js"></script>
       <script src="static/fancybox/dist/jquery.fancybox.min.js"></script>
-
       <script src="static/lang.js"></script>
       <script src="static/theme.js"></script>
     </Head>

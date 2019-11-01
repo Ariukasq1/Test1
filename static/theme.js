@@ -398,24 +398,6 @@
         }
 
 
-// ------------------------------- Testimonial Slider
-        var agnTslider = $ (".agn-testimonial-slider");
-        if(agnTslider.length) {
-            agnTslider.owlCarousel({
-              loop:true,
-              nav:true,
-              navText: ["<i class='flaticon-back'></i>" , "<i class='flaticon-next'></i>"],
-              dots:false,
-              autoplay:true,
-              autoplayTimeout:4000,
-              smartSpeed:1200,
-              autoplayHoverPause:true,
-              lazyLoad:true,
-              items:1
-          });
-        }
-
-
 // ------------------------------- Home Blog Slider
         var nSlider = $ (".blog-one-slider");
         if(nSlider.length) {
@@ -442,35 +424,6 @@
                 },
           });
         }
-
-
-// ------------------------------ Partner Logo Footer 
-        var logoslider = $ (".partner-slider");
-          if(logoslider.length) {
-              logoslider.owlCarousel({
-                loop:true,
-                nav:false,
-                dots:false,
-                autoplay:true,
-                autoplayTimeout:4000,
-                autoplaySpeed:1000,
-                lazyLoad:true,
-                singleItem:true,
-                center:true,
-                responsive:{
-                    0:{
-                        items:1
-                    },
-                    550:{
-                        items:3
-                    },
-                    992:{
-                        items:5
-                    }
-                }
-            });
-          }
-
 
 // -------------------------------- Customer Slider 
         var csSlider = $ (".customer-slider");

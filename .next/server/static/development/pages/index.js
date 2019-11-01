@@ -4321,12 +4321,8 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-const PostLink = props => __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  href: `/post?title=${props.title}`
-}, __jsx("a", null, props.title)));
-
 const Index = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_3__["default"], null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, null, __jsx("title", null, "Erxes mn"), __jsx("link", {
-  href: "static/owl-carousel/owl-carousel.min.css",
+  href: "static/owl-carousel/owl.carousel.css",
   type: "text/css",
   rel: "stylesheet"
 }), __jsx("link", {
