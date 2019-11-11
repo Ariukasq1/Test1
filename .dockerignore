@@ -3,7 +3,6 @@
 .snyk
 *.md
 *.yml
-node_modules
 scripts
 Dockerfile*
 public
