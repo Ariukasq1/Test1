@@ -2,10 +2,13 @@ import axios from 'axios';
 import React, { Component } from 'react';
 import Layout from '../components/Layout';
 import Link from 'next/link';
+import '../style/css/custom.css';
+import '../style/css/responsive.css';
+import '../style/fonts/font-awesome/css/font-awesome.css';
 export default class extends Component{
   static async getInitialProps(){
     //request for posts from wp
-    const response = await axios.get('http://erxes/wp-json/wp/v2/posts');
+    const response = await axios.get('https://erxes.io/blog_wp/wp-json/wp/v2/posts');
     return {
       posts: response.data
     }

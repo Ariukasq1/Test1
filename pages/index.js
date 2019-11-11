@@ -6,12 +6,12 @@ import Partner from '../components/Partner';
 import Service from '../components/Service';
 import Feature from '../components/Feature';
 import Pricing from '../components/Pricing';
-import "../style/css/custom.css"
-import "../style/css/responsive.css"
-import "../style/fonts/font-awesome/css/font-awesome.css"
 import Testimonial from '../components/Testimonial';
 import Faq from '../components/Faq';
 import Contact from '../components/Contact';
+import '../style/css/custom.css';
+import '../style/css/responsive.css';
+import '../style/fonts/font-awesome/css/font-awesome.css';
 const Index = () => (
   <Layout>
     <Head>

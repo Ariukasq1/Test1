@@ -7,7 +7,7 @@ export default class extends Component {
   static async getInitialProps( context ) {
     const slug = context.query.slug
 
-    const response = await axios.get(`http://erxes/wp-json/wp/v2/posts?slug=${slug}`);
+    const response = await axios.get(`https://erxes.io/blog_wp/wp-json/wp/v2/posts?slug=${slug}`);
 
     return {
       post: response.data[0]
