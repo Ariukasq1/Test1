@@ -25,18 +25,148 @@ const Feature = () => (
                 <img src="images/icon/icon24.svg" alt="" className="icon" />
               </div>
               <h2 className="main-title">
-                Provide awesome customer service with our tools. <b className="line" />
+                Хэрэглэгчтэйгээ нэг сувгаар харилцана
+                <b className="line" />
               </h2>
             </div>{' '}
+            <p></p>
             {/* /.theme-title-one */}
-            <p>
+            <ul>
+              <li>Сошиал медиа сувгууд, мессеж платформууд</li>
+              <li>Цахим хуудасны мессенжер, мобайл аппликэйшны чат</li>
+              <li>
+                Утас, имэйл, чатбот гэх мэт хэрэглэгчтэй харилцах бүх сувгуудыг нэг инбокст хүлээн
+                авч хэрэглэгчийн мэдээллийн сан үүсгэнэ
+              </li>
+              <li>
+                Хэрэглэгчтэй харилцах явцад үүссэн санал гомдол, шинэ борлуулалтыг холбогдох
+                багуудад хуваарилан, мэдээллийн давхцалгүй уялдаатай ажиллана.
+              </li>
+            </ul>
+            <a href="#" className="read-more">
+              Read More
+            </a>
+          </div>{' '}
+          {/* /.text-box */}
+        </div>{' '}
+        {/* /.container */}
+        <div className="img-box">
+          <img
+            src="images/shape/shape-15.svg"
+            alt=""
+            className="main-shape"
+            data-aos="fade-right"
+            data-aos-delay={200}
+          />
+          <img
+            src="images/shape/shape-16.svg"
+            alt=""
+            className="bg-shape"
+            data-aos="fade-right"
+            data-aos-delay={400}
+          />
+          <img
+            src="https://erxes.io/static/images/BOTMAP.png"
+            alt=""
+            className="screen-three"
+            data-aos="fade-down"
+            data-aos-delay={600}
+          />
+        </div>
+      </div>{' '}
+      {/* /.single-feature-block */}
+      <div className="single-feature-block">
+        <div className="container clearfix">
+          <div className="text-box">
+            <div className="theme-title-one hide-pr">
+              <div className="icon-box hide-pr">
+                <img src="images/shape/bg-shape3.svg" alt="" className="bg-shape" />
+                <img src="images/icon/icon25.svg" alt="" className="icon" />
+              </div>
+              <h2 className="main-title">
+                Маркетинг, борлуулалтаа автоматжуулна <b className="line" />
+              </h2>
+            </div>{' '}
+            <p></p>
+            {/* /.theme-title-one */}
+            {/* <p>
               Lorem ipsum dolor sit amet, hendrerit omittantur mel, es vidit Ius te altera essent
               incorrupte.
-            </p>
+            </p> */}
             <ul>
-              <li>Lorem ipsum essent alien eam hendrerit mel anil.</li>
-              <li>Lorem ipsum essent alien eam hendrerit mel es vidit lus anil.</li>
-              <li>hendrerit mel es vidit lus anil nibh due.</li>
+              <li>
+                Хэрэглэгчээ таних, бүлэглэх, стандарт үйлчилгээгээр халамжлах, үнэ цэнийг үнэлэх
+              </li>
+              <li>
+                Борлуулалтынхаа алхам бүрийг удирдах, амжилтын магадлалыг тооцоолох, хэн хэчнээн
+                борлуулалт хийсэн, хийх төлөвлөгөөтэй танилцах
+              </li>
+              <li>
+                Зорилтот хэрэглэгчрүүгээ масс имэйл, авто дуудлага, мсж, цахим хуудасны угтах мессеж
+                илгээх
+              </li>
+              <li>
+                Маркетингийн кампанит ажлын санаануудаа бүртгэх, үнэлэх, хэмжих зэрэг боломжуудыг
+                олгоно.
+              </li>
+            </ul>
+            <a href="#" className="read-more">
+              Read More
+            </a>
+          </div>{' '}
+          {/* /.text-box */}
+        </div>{' '}
+        {/* /.container */}
+        <div className="img-box">
+          <img
+            src="images/shape/shape-17.svg"
+            alt=""
+            className="main-shape"
+            data-aos="fade-left"
+            data-aos-delay={200}
+          />
+          <img
+            src="images/home/roadmap.png"
+            alt=""
+            style="width:900px; margin-top:200px"
+            className="screen-one"
+            data-aos="fade-down"
+            data-aos-delay={400}
+          />
+        </div>
+      </div>{' '}
+      <div className="single-feature-block">
+        <div className="container clearfix">
+          <div className="text-box">
+            <div className="theme-title-one hide-pr">
+              <div className="icon-box hide-pr">
+                <img src="images/shape/bg-shape2.svg" alt="" className="bg-shape" />
+                <img src="images/icon/icon24.svg" alt="" className="icon" />
+              </div>
+              <h2 className="main-title">
+                Хиймэл оюун ухаантай хувийн туслахтай хамтран ажиллана
+                <b className="line" />
+              </h2>
+            </div>{' '}
+            <p></p>
+            {/* /.theme-title-one */}
+            <ul>
+              <li>
+                Нэг хэрэглэгч хэд хэдэн сувгаар хандсаныг систем хэд хэдэн хэрэглэгч гэж хадгалсныг
+                AI Assistant илрүүлэн, нэгтгэнэ
+              </li>
+              <li>
+                Хэрэглэгчийн өмнөх худалдан авалт, харилцааны түүх, санал гомдол зэрэгт үндэслэн
+                хэрэглэгч бүрт оноо өгч, хэрэглэгчийн шатлалыг үүсгэнэ.
+              </li>
+              <li>
+                Борлуулалтын амжилтын хувийг тооцоолон, амжилтын магадлал өндөртэй борлуулалтруу
+                чиглэн ажиллахад туслана.
+              </li>
+              <li>
+                Платформыг ашиглахтай холбоотой бүх боломжуудыг танилцуулан, ашиглалтын хувийг
+                тооцоолно. Ашиглаагүй боломжуудыг сануулна.
+              </li>
             </ul>
             <a href="#" className="read-more">
               Read More
@@ -87,60 +217,6 @@ const Feature = () => (
             className="screen-four"
             data-aos="fade-down"
             data-aos-delay={1200}
-          />
-        </div>
-      </div>{' '}
-      {/* /.single-feature-block */}
-      <div className="single-feature-block">
-        <div className="container clearfix">
-          <div className="text-box">
-            <div className="theme-title-one hide-pr">
-              <div className="icon-box hide-pr">
-                <img src="images/shape/bg-shape3.svg" alt="" className="bg-shape" />
-                <img src="images/icon/icon25.svg" alt="" className="icon" />
-              </div>
-              <h2 className="main-title">
-                Great managment and strong security system. <b className="line" />
-              </h2>
-            </div>{' '}
-            {/* /.theme-title-one */}
-            <p>
-              Lorem ipsum dolor sit amet, hendrerit omittantur mel, es vidit Ius te altera essent
-              incorrupte.
-            </p>
-            <ul>
-              <li>Lorem ipsum essent alien eam hendrerit mel anil.</li>
-              <li>Lorem ipsum essent alien eam hendrerit mel es vidit lus anil.</li>
-              <li>hendrerit mel es vidit lus anil nibh due.</li>
-            </ul>
-            <a href="#" className="read-more">
-              Read More
-            </a>
-          </div>{' '}
-          {/* /.text-box */}
-        </div>{' '}
-        {/* /.container */}
-        <div className="img-box">
-          <img
-            src="images/shape/shape-17.svg"
-            alt=""
-            className="main-shape"
-            data-aos="fade-left"
-            data-aos-delay={200}
-          />
-          <img
-            src="images/home/screen5.png"
-            alt=""
-            className="screen-one"
-            data-aos="fade-down"
-            data-aos-delay={400}
-          />
-          <img
-            src="images/home/screen6.png"
-            alt=""
-            className="screen-two"
-            data-aos="zoom-in"
-            data-aos-delay={600}
           />
         </div>
       </div>{' '}

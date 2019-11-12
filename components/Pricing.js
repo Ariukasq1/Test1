@@ -27,12 +27,11 @@ const Pricing = () => (
           <img src="images/icon/icon26.svg" alt="" className="icon" />
         </div>
         <h2 className="main-title">
-          No Hidden Charges! Choose <br />
-          your Plan.
+          Эрксисийн ашиглах алтан <br /> 3 шалтгаан
         </h2>
       </div>{' '}
       {/* /.theme-title-one */}
-      <div className="pricing-tab-menu pb-150">
+      {/* <div className="pricing-tab-menu pb-150">
         <div className="nav-wrapper">
           <ul className="nav nav-tabs justify-content-center">
             <li className="nav-item">
@@ -48,7 +47,7 @@ const Pricing = () => (
           </ul>
         </div>
         <p>Save 30% on annual plan</p>
-      </div>{' '}
+      </div>{' '} */}
       {/* /.pricing-tab-menu */}
       <div className="tab-content">
         {/* ^^^^^^^^^^^^^^^^^^^^^ Monthly ^^^^^^^^^^^^^^^^^^^^^^^^^^^ */}
@@ -56,28 +55,28 @@ const Pricing = () => (
           <div className="row no-gutters">
             <div className="col-lg-4">
               <div className="single-pr-table free">
-                <div className="pr-header">
+                {/* <div className="pr-header">
                   <div className="price">$0.00</div>
                   <h4 className="title">Free</h4>
-                </div>{' '}
+                </div>{' '} */}
                 {/* /.pr-header */}
                 <div className="pr-body">
-                  <h3 className="feature">Top Features</h3>
+                  <h3 className="feature">НЭГ ПЛАТФОРМ</h3>
                   <ul>
-                    <li>Limited Acess Library</li>
-                    <li>Single User</li>
-                    <li>No Updates</li>
+                    <li>Нэг багаж ашиглаад бүгдийг хийнэ</li>
+                    <li>Нэг санд бүх мэдээллүүдээ төвлөрүүлнэ</li>
+                    <li>Нэг системрүү хандан, үүрэг даалгавруудаа хуваарилна</li>
                   </ul>
                 </div>{' '}
                 {/* /.pr-body */}
-                <div className="pr-footer">
+                {/* <div className="pr-footer">
                   <a href="#" className="upgrade-button">
                     Upgrade
                   </a>
                   <a href="#" className="trial-button">
                     Get your 30 day free trial
                   </a>
-                </div>{' '}
+                </div> */}
                 {/* /.pr-footer */}
               </div>{' '}
               {/* /.single-pr-table */}
@@ -85,30 +84,29 @@ const Pricing = () => (
             {/* /.col- */}
             <div className="col-lg-4">
               <div className="single-pr-table regular">
-                <div className="pr-header">
+                {/* <div className="pr-header">
                   <div className="price">$11.25</div>
                   <h4 className="title">Reguler</h4>
                   <div className="package">Single User, Billed Monthly</div>
-                </div>{' '}
+                </div>{' '} */}
                 {/* /.pr-header */}
                 <div className="pr-body">
-                  <h3 className="feature">Top Features</h3>
+                  <h3 className="feature">НЭГ ТӨЛБӨР</h3>
                   <ul>
-                    <li>Full Acess Library</li>
-                    <li>Multiple User</li>
-                    <li>10gb Bandwith &amp; 2 Panel</li>
-                    <li>2x Faster speed </li>
+                    <li>Хэрэглэгчийн тооны өсөлтөөс шалтгаалж нэмэлт төлбөр авахгүй</li>
+                    <li>Аль нэг боломжоо тусад нь үнэлээд нэмэлт төлбөр авахгүй</li>
+                    <li>Шинээр хөгжүүлэгдэх боломжуудаасаа нэмэлт төлбөр авахгүй</li>
                   </ul>
                 </div>{' '}
                 {/* /.pr-body */}
-                <div className="pr-footer">
+                {/* <div className="pr-footer">
                   <a href="#" className="upgrade-button">
                     Upgrade
                   </a>
                   <a href="#" className="trial-button">
                     Get your 30 day free trial
                   </a>
-                </div>{' '}
+                </div>{' '} */}
                 {/* /.pr-footer */}
               </div>{' '}
               {/* /.single-pr-table */}
@@ -116,31 +114,32 @@ const Pricing = () => (
             {/* /.col- */}
             <div className="col-lg-4">
               <div className="single-pr-table plus">
-                <div className="pr-header">
+                {/* <div className="pr-header">
                   <div className="price">$39.15</div>
                   <h4 className="title">Plus</h4>
                   <div className="package">Multiple User, Billed Monthly</div>
                 </div>{' '}
-                {/* /.pr-header */}
+                /.pr-header */}
                 <div className="pr-body">
-                  <h3 className="feature">Top Features</h3>
+                  <h3 className="feature">НЭГ ҮНДЭСТЭН/ ГЭР БҮЛ</h3>
                   <ul>
-                    <li>Full Acess Library</li>
-                    <li>Multiple User</li>
-                    <li>10gb Bandwith &amp; 2 Panel</li>
-                    <li>2x Faster speed </li>
-                    <li>Hotline Support 24x7</li>
+                    <li>Монгол хэрэглэгчид эх хэл дээрээ платформоо ашиглана</li>
+                    <li>Монгол хэрэглэгчдийн амжилтын кейсийг бүтээж, дэлхийд танилцуулна</li>
+                    <li>
+                      Монгол бизнесүүд технологийн хурдыг ашиглан, бизнесээ хөгжүүлэхэд хувь нэмрээ
+                      оруулна
+                    </li>
                   </ul>
                 </div>{' '}
                 {/* /.pr-body */}
-                <div className="pr-footer">
+                {/* <div className="pr-footer">
                   <a href="#" className="upgrade-button">
                     Upgrade
                   </a>
                   <a href="#" className="trial-button">
                     Get your 30 day free trial
                   </a>
-                </div>{' '}
+                </div>{' '} */}
                 {/* /.pr-footer */}
               </div>{' '}
               {/* /.single-pr-table */}

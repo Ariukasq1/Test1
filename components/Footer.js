@@ -5,56 +5,41 @@ const Footer = () => (
     <div className="top-footer">
       <div className="container">
         <div className="row">
-          <div className="col-lg-3 col-sm-6 col-12 about-widget" data-aos="fade-up">
-            <a href="index.html" className="logo">
-              <img src="images/logo/logo2.svg" alt="" />
-            </a>
-            <a href="#" className="email">
-              boga.inc@company.com
-            </a>
-            <a href="#" className="phone">
-              720.661.2231
-            </a>
+          <div className="col-lg-3 col-sm-6 col-12 footer-list" data-aos="fade-up">
+            <h5 className="title">Бидний тухай</h5>
+            <ul>
+              <li>
+                <a href="#">Товч танилцуулга</a>
+              </li>
+              <li>
+                <a href="#">Баг хамт олон</a>
+              </li>
+              <li>
+                <a href="#">Үйл явдал</a>
+              </li>
+            </ul>
           </div>{' '}
           {/* /.about-widget */}
           <div className="col-lg-3 col-lg-3 col-sm-6 col-12 footer-list" data-aos="fade-up">
-            <h5 className="title">Services</h5>
+            <h5 className="title">Хүний нөөц</h5>
             <ul>
               <li>
-                <a href="#">Web Design</a>
+                <a href="#">Хүний нөөцийн бодлого</a>
               </li>
               <li>
-                <a href="#">Development</a>
-              </li>
-              <li>
-                <a href="#">Wordpress</a>
-              </li>
-              <li>
-                <a href="#">Online Marketing</a>
-              </li>
-              <li>
-                <a href="#">Content</a>
+                <a href="#">Нээлттэй ажлын байр</a>
               </li>
             </ul>
           </div>{' '}
           {/* /.footer-recent-post */}
           <div className="col-lg-3 col-sm-6 col-12 footer-list" data-aos="fade-up">
-            <h5 className="title">About us</h5>
+            <h5 className="title">Хөрөнгө оруулагч</h5>
             <ul>
               <li>
-                <a href="about-us-standard.html">About us</a>
+                <a href="about-us-standard.html">Хөрөнгө оруулагчид</a>
               </li>
               <li>
-                <a href="project-standard.html">Work Portfolio</a>
-              </li>
-              <li>
-                <a href="team-standard.html">Team</a>
-              </li>
-              <li>
-                <a href="#">Plan &amp; Pricing</a>
-              </li>
-              <li>
-                <a href="blog-default.html">News</a>
+                <a href="project-standard.html">Төлөөлөн удирдах зөвлөл</a>
               </li>
             </ul>
           </div>{' '}

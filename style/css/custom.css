@@ -185,7 +185,7 @@ body{
        url('../fonts/font-awesome/fonts/fontawesome-webfont.svg') format('svg'); /* Legacy iOS */
  }
  body {
-  font-family: 'CircularStd-book';
+  font-family: sans-serif;
   font-weight: normal;
   color:#57667E;
   font-size: 17px;
@@ -1220,7 +1220,6 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 }
 #theme-banner-four .main-wrapper .slogan span {color: #FF605E;}
 #theme-banner-four .main-wrapper .main-title {
-  font-family: 'CircularStdmed';
   font-size: 70px;
   line-height: 80px;
   padding: 25px 0 35px;
@@ -4293,7 +4292,6 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   min-height: 330px;
 }
 .sass-our-pricing .single-pr-table .pr-body .feature {
-  font-family: 'CircularStdmed';
   font-size: 20px;
   color: #303858;
   padding-bottom: 15px;
