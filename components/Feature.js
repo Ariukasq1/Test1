@@ -128,7 +128,7 @@ const Feature = () => (
           <img
             src="images/home/roadmap.png"
             alt=""
-            style="width:900px; margin-top:200px"
+            style={{width: '900px', marginTop: '200px'}}
             className="screen-one"
             data-aos="fade-down"
             data-aos-delay={400}
