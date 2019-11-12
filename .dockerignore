@@ -1,0 +1,8 @@
+.env*
+.git*
+.snyk
+*.md
+*.yml
+scripts
+Dockerfile*
+public
