@@ -3,7 +3,7 @@ const Service = () => (
     <div className="container">
       <div className="theme-title-one text-center">
         <div className="icon-box hide-pr">
-          <img src="images/shape/bg-shape1.svg" alt="" className="bg-shape" />
+          <img src="/bg-shape1.svg" alt="" className="bg-shape" />
           <img src="images/icon/icon23.svg" alt="" className="icon" />
         </div>
         <h2 className="main-title">
