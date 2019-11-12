@@ -1,7 +1,9 @@
+import b1 from '../public/images/home/1.png'
+
 const Header = () => (
   <div id="theme-banner-four">
     <img
-      src="images/home/1.png"
+      src={b1}
       alt=""
       className="screen-one wow fadeInRight animated"
       data-wow-duration="2s"
