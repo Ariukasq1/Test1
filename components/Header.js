@@ -11,34 +11,29 @@ const Header = () => (
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav">
-                <li className="nav-item active">
+                <li className="nav-item">
                   <Link href="/">
-                   <a className="nav-link">Нүүр.</a>
+                    <a className="nav-link">Амжилтын түүх</a>
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link href="/">
-                    <a className="nav-link">Амжилтын түүх.</a>
+                    <a className="nav-link">Шийдэл</a>
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link href="/">
-                    <a className="nav-link">Шийдэл.</a>
+                    <a className="nav-link">Блог</a>
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link href="/">
-                    <a className="nav-link">Блог.</a>
+                    <a className="nav-link">Боломжууд</a>
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link href="/">
-                    <a className="nav-link">Боломжууд.</a>
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link href="/">
-                    <a className="nav-link">Үнийн санал.</a>
+                    <a className="nav-link">Үнийн санал</a>
                   </Link>
                 </li>
                 

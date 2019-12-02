@@ -28,13 +28,16 @@ const Header = () => (
           <span>70% Off</span> for first 3 months
         </div> */}
         <h1 className="main-title wow fadeInUp animated" data-wow-delay="0.4s">
-          Эрксис Growth <br />
-          Маркетингийн <br />
-          Платформ
+        <b>МАРКЕТИНГ, БОРЛУУЛАЛТ,<br/>
+        ХЭРЭГЛЭГЧТЭЙ ХАРИЛЦАХ</b> <br/>
+        ҮЙЛ АЖИЛЛАГААГАА УДИРДАХ <br/>
+        ЦОГЦ ПЛАТФОРМ<br/>
+
         </h1>
         <p className="sub-title wow fadeInUp animated" data-wow-delay="0.9s">
-          Эрксис нь танай байгууллагын маркетинг, борлуулалтыг <br /> автоматчилах, хэрэглэгчээ
-          таних, үнэлэх, <br /> халамжлах үйл явцыг дэлхийн түвшинд хөгжүүлнэ.
+        Маркетингийн санаануудаа үнэлэх, хэмжих, борлуулалтаа <br />
+        төлөвлөх хянах, хэрэглэгчтэйгээ харилцах, <br />
+        халамжлах үйл ажиллагааг нэг технологиос удирдаарай.
         </p>
         <ul className="button-group lightgallery">
           <li>
@@ -43,7 +46,7 @@ const Header = () => (
               className="more-button wow fadeInLeft animated"
               data-wow-delay="1.5s"
             >
-              Төлбөргүй ашиглах <i className="fa fa-angle-right" aria-hidden="true" />
+              Төлбөргүй турших <i className="fa fa-angle-right" aria-hidden="true" />
             </a>
           </li>
           <li>
@@ -53,15 +56,8 @@ const Header = () => (
               className="fancybox video-button video-button-one wow fadeInRight animated"
               data-wow-delay="1.5s"
             >
-              Демотой танилцах
+              Уулзалтын цаг товлох
             </a>
-          </li>
-        </ul>
-        <ul className="button-group lightgallery">
-          <li>
-            <button className="white-shdw-button fadeInLeft animated wow" data-wow-delay="1.5s">
-              Уулзалтын цаг товлох <i className="icon flaticon-next"></i>
-            </button>
           </li>
         </ul>
       </div>{' '}

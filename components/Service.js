@@ -7,7 +7,7 @@ const Service = () => (
           <img src="images/icon/icon23.svg" alt="" className="icon" />
         </div>
         <h2 className="main-title">
-          Эрксис танай байгууллагыг <br /> халамжилна
+        Эрксисийг ашиглан үйл ажиллагаагаа <br/>  нягт уялдуулаарай
         </h2>
       </div>{' '}
       {/* /.theme-title-one */}
@@ -25,9 +25,9 @@ const Service = () => (
               <div className="hover-content" />
               <i className="flaticon-web icon-s" />
               <h5 className="title">
-                <a href="#">Салбарын онцлог.</a>
+                <a href="#">Хэрэглэгчтэй харилцах баг.</a>
               </h5>
-              <p>Таны бизнесийн онцлогт зориулсан платформ ашиглалтын зөвлөмж</p>
+              <p>Хэрэглэгчтэй харилцах бүх сувгаа эрксист нэгтгэснээр хэрэглэгчтэй харилцах хурдыг 80% нэмэгдүүлж, олон платформд төлөх зардлыг 62% бууруулна.</p>
               <a href="#" className="detail-button">
                 <i className="flaticon-next-1" />
               </a>
@@ -47,9 +47,9 @@ const Service = () => (
               <div className="hover-content" />
               <i className="flaticon-value icon-s" />
               <h5 className="title">
-                <a href="#">Онлайн зөвлөхүүд.</a>
+                <a href="#">Маркетингийн баг</a>
               </h5>
-              <p>Таныг платформоо бүрэн ашиглахад туслах онлайн зөвлөхүүд 24/7 танд туслана</p>
+              <p>Хэрэглэгчээ зорилтот бүлгээр ангилснаар тэдэнд тохирох маркетингийн үйл ажиллагааг оновчилж, маркетингийн кампанит ажлуудаа олон улсын стандартаар бүртгэнэ, хэмжинэ.</p>
               <a href="#" className="detail-button">
                 <i className="flaticon-next-1" />
               </a>
@@ -69,9 +69,9 @@ const Service = () => (
               <div className="hover-content" />
               <i className="flaticon-login icon-s" />
               <h5 className="title">
-                <a href="#">Нэмэлт хөгжүүлэлтүүд.</a>
+                <a href="#"> Борлуулалтын баг</a>
               </h5>
-              <p>Платформын нэмэлт хөгжүүлэлтүүдийг төлбөргүй ашиглана</p>
+              <p>Борлуулалт эхлэхээс дуусах хүртэлх алхмуудад ямар үйл явц, амжилт, уналт тохиолдолж  буйтай цаг алдалгүй танилцан, алхам тутамдаа сайжруулна.</p>
               <a href="#" className="detail-button">
                 <i className="flaticon-next-1" />
               </a>
