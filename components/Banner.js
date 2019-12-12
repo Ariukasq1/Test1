@@ -1,15 +1,15 @@
-import b1 from '../public/images/home/1.png'
+import b1 from '../public/images/123.png'
 
 const Header = () => (
   <div id="theme-banner-four">
     <img
-      src={b1}
+      src="images/header-1.png"
       alt=""
       className="screen-one wow fadeInRight animated"
       data-wow-duration="2s"
     />
     <img
-      src="images/home/2.png"
+      src="images/splash-2.png"
       alt=""
       className="screen-two wow fadeInUp animated"
       data-wow-duration="2s"

@@ -37,22 +37,22 @@ const Feature = () => (
             <li>Цахим хуудасны цэс болгонд угтах мессэж тохируулах боломж</li>
 
             </ul>
-            <a href="#" className="read-more">
+            {/* <a href="#" className="read-more">
               Read More
-            </a>
+            </a> */}
           </div>{' '}
           {/* /.text-box */}
         </div>{' '}
         {/* /.container */}
         <div className="img-box">
           <img
-            src="images/shape/shape-15.svg"
+            src="images/side-1.png"
             alt=""
             className="main-shape"
             data-aos="fade-right"
             data-aos-delay={200}
           />
-          <img
+          {/* <img
             src="images/shape/shape-16.svg"
             alt=""
             className="bg-shape"
@@ -65,7 +65,7 @@ const Feature = () => (
             className="screen-three"
             data-aos="fade-down"
             data-aos-delay={600}
-          />
+          /> */}
         </div>
       </div>{' '}
       {/* /.single-feature-block */}
@@ -98,23 +98,23 @@ const Feature = () => (
               Ирэх саруудад ямар борлуулалтууд хийгдэх магадлалтай танилцах боломж
               </li>
             </ul>
-            <a href="#" className="read-more">
+            {/* <a href="#" className="read-more">
               Read More
-            </a>
+            </a> */}
           </div>{' '}
           {/* /.text-box */}
         </div>{' '}
         {/* /.container */}
         <div className="img-box">
-          <img
-            src="images/shape/shape-17.svg"
+          {/* <img
+            src="images/side-2.png"
             alt=""
             className="main-shape"
             data-aos="fade-left"
             data-aos-delay={200}
-          />
+          /> */}
           <img
-            src="images/home/roadmap.png"
+            src="images/side-2.png"
             alt=""
             style={{width: '900px', marginTop: '200px'}}
             className="screen-one"
@@ -149,22 +149,22 @@ const Feature = () => (
               Хэрэглэгчтэй харилцах явцад илэрсэн мэдээллүүдийг бүртгэн, хэрэглэгчийн мэдээллийн сангаа улам баяжуулна.
               </li>
             </ul>
-            <a href="#" className="read-more">
+            {/* <a href="#" className="read-more">
               Read More
-            </a>
+            </a> */}
           </div>{' '}
           {/* /.text-box */}
         </div>{' '}
         {/* /.container */}
-        <div className="img-box">
+        <div className="img-box" style={{marginTop:'300px', left:'-30px', width: '55%'}}>
           <img
-            src="images/shape/shape-15.svg"
+            src="images/side-3.png"
             alt=""
             className="main-shape"
             data-aos="fade-right"
             data-aos-delay={200}
           />
-          <img
+          {/* <img
             src="images/shape/shape-16.svg"
             alt=""
             className="bg-shape"
@@ -198,7 +198,7 @@ const Feature = () => (
             className="screen-four"
             data-aos="fade-down"
             data-aos-delay={1200}
-          />
+          /> */}
         </div>
       </div>{' '}
       {/* /.single-feature-block */}

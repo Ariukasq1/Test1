@@ -185,7 +185,7 @@ body{
        url('../fonts/font-awesome/fonts/fontawesome-webfont.svg') format('svg'); /* Legacy iOS */
  }
  body {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   color:#57667E;
   font-size: 17px;
@@ -695,7 +695,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 .theme-menu-one.d-align-item .navbar-nav .nav-item.active .nav-link:before {width: 100%;}
 .theme-menu-one.d-align-item #mega-menu-holder {margin-right: 125px;}
 .theme-menu-one.d-align-item .header-right-widget {right: auto; left: 15%;}
-.theme-menu-one.d-align-item .logo {top:45px;left:75px;width: 63px;}
+.theme-menu-one.d-align-item .logo {top:45px;left:75px;width: 110px;}
 .theme-menu-one.d-align-item .navbar-nav .login-button a {
   width: 150px;
   line-height: 50px;
@@ -827,7 +827,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   box-shadow: 0px 13px 35px -12px rgba(35,35,35,0.15);
   animation: menu_sticky  0.60s ease-in-out;
 }
-.theme-menu-one.d-align-item.fixed .logo {width: 63px;}
+.theme-menu-one.d-align-item.fixed .logo {width: 110px;}
 .theme-menu-one.fixed.d-align-item .logo {top:5px;}
 .theme-menu-one.fixed .navbar-nav .nav-item .nav-link,
 .theme-menu-two.fixed .navbar-nav .nav-item .nav-link {padding-bottom: 20px;}
@@ -1119,15 +1119,15 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 #theme-banner-four .main-wrapper {padding: 290px 0 260px;position: relative;z-index: 5;}
 #theme-banner-four .screen-one {
   position: absolute;
-  right: 0;
-  top:12%;
-  z-index: 1;
-  width: 35%;
+    right: -340px;
+    top: 12%;
+    z-index: 1;
+    width: 55%;
 }
 #theme-banner-four .screen-two {
   position: absolute;
   right: 24%;
-  top:27%;
+  top: 21%;
   z-index: 1;
   width: 22%;
 }
@@ -3916,10 +3916,10 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 }
 .our-feature-sass .feature-wrapper .single-feature-block:nth-child(odd) .img-box {
   position: absolute;
-  top:-35px;
-  left:-52px;
+  top:-250px;
+  left:42px;
   z-index: -1;
-  width: 43%;
+  width: 45%;
 }
 .our-feature-sass .feature-wrapper .single-feature-block:nth-child(odd) .img-box .bg-shape {
   position: absolute;

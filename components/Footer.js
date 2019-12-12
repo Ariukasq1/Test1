@@ -45,10 +45,12 @@ const Footer = () => (
           </div>{' '}
           {/* /.footer-list */}
           <div className="col-lg-3 col-lg-2 col-sm-6 col-12 footer-information" data-aos="fade-up">
-            <h5 className="title">Our Address</h5>
+            <h5 className="title">Холбоо барих</h5>
             <p>
-              00 Orville Road Apt. 728 <br />
-              California, USA
+            11 36 5555 <br /> info@erxes.io
+            </p>
+            <p>
+            СБД, 1-р хороо, 5-р хороолол, Чингисийн өргөн чөлөө, Бизнес Тауэр, 16 давхарт
             </p>
             <ul>
               <li>
