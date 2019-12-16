@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
-class Partner extends Component{
+import React,{Component} from 'react'
+class Partner extends Component {
 
-  componentDidMount(){
+  componentDidMount() {
     var logoslider = $('.partner-slider');
-    if (logoslider.length) {
+    if(logoslider.length) {
       logoslider.owlCarousel({
         loop: true,
         nav: false,
@@ -28,7 +28,7 @@ class Partner extends Component{
       });
     }
   }
-  render(){
+  render() {
     return (
       <div className="trusted-partner">
         <div className="container">

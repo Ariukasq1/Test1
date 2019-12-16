@@ -373,7 +373,7 @@ body .dark-button-one {
 /*--------------------- Transition --------------------*/
 .tran3s,h2 a,h3 a,h4 a,h5 a,h6 a,.svg path,body .video-button-one,body .video-button-one i,body .line-button-two,body .line-button-three,
 .agn-what-we-do .single-block .more-button,.agn-our-gallery .main-wrapper .img-box .hover-content,.owl-theme .owl-nav [class*=owl-],.theme-footer-three .social-icon li a,
-.theme-menu-one .logo,.theme-main-menu .header-right-widget,.agn-our-gallery .main-wrapper .view-gallery,.sass-contact-banner .subscribe-button,.language-switcher .dropdown-menu ul li a,
+.theme-menu-one .logo,.theme-main-menu .header-right-widget,.agn-our-gallery .main-wrapper .view-gallery,.sass-contact-banner .subscribe-button,
 .theme-footer-one .top-footer .footer-list ul li a,.theme-footer-one .top-footer .footer-information ul li a,.theme-footer-one .bottom-footer ul li a,.panel .panel-heading .panel-title a:before,
 .theme-menu-two .quote-button,.theme-menu-two .logo,.seo-what-we-do .single-block .wrapper,.seo-our-goal .text-wrapper .request-button,.our-service-seo .single-block .more-button,
 .our-service-seo .single-block p,.seo-our-pricing .single-pr-table .pr-footer .plan-button:before,.seo-our-pricing .single-pr-table .pr-footer .plan-button,.navbar-nav .nav-item .nav-link,
@@ -431,11 +431,11 @@ body .dark-button-one {
 body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel .panel .panel-heading.active-panel .panel-title a:before,.faq-tab-wrapper-two .faq-panel .panel .panel-heading.active-panel .panel-title a:before,
 .faq-tab-wrapper-four .faq-panel .panel .panel-heading .panel-title a i,.breadcrumbs-two .page-breadcrumbs li a:hover,.b-wh-text .page-breadcrumbs li a:hover,.agn-counter-section .counter-wrapper .single-counter-box .icon,
 .agn-counter-section .counter-wrapper .single-counter-box .number,.theme-counter-three .single-counter-box .icon,.theme-list-item li .color-style,.theme-menu-one .header-right-widget .call-us a,.theme-footer-two .social-icon li a:hover,
-.agn-our-pricing .table-wrapper .pr-column .pr-header .price,.theme-footer-one .about-widget .phone,.navbar .mega-dropdown-list li a:hover,.theme-menu-one .header-right-widget .language-switcher .dropdown-menu ul li a:hover,
+.agn-our-pricing .table-wrapper .pr-column .pr-header .price,.theme-footer-one .about-widget .phone,.navbar .mega-dropdown-list li a:hover,
 .theme-footer-three .phone,.theme-footer-four .footer-list ul li a:hover,.theme-footer-four .phone,.theme-footer-four .bottom-footer ul li a:hover,.theme-footer-four.light-v .footer-list ul li a:hover,
 .theme-footer-four.light-v .bottom-footer ul li a:hover,.shrt-menu .main-header .call-us a,.shrt-menu .top-header .infoList li a:hover,.shrt-menu .top-header .right-widget .language-switcher .dropdown-menu ul li a:hover,
 .shrt-menu .top-header .right-widget .user-profile-action .dropdown-menu ul li a:hover,.shrt-menu.text-light .navbar .dropdown-menu .dropdown-item:hover, .shrt-menu.text-light .navbar .mega-dropdown-list li a:hover,
-.shrt-menu.text-light .top-header .infoList li a:hover,.shrt-menu.dark-bg .top-header .right-widget .language-switcher .dropdown-menu ul li a:hover,.shrt-menu.dark-bg .top-header .right-widget .user-profile-action .dropdown-menu ul li a:hover,
+.shrt-menu.text-light .top-header .infoList li a:hover,.shrt-menu.dark-bg .top-header .right-widget .user-profile-action .dropdown-menu ul li a:hover,
 .navbar .mega-dropdown-list li a:hover .icon,.pricing-tab-menu .nav-tabs .nav-item .nav-link,.signin-form-wrapper .signUp-text a,#arch-carousel .inner-item-wrapper .upper-title,#arch-carousel .indicators-one li i,
 .arch-project-gallery .isotop-menu-wrapper li.is-checked,.arch-service .single-block:hover .title a,.arch-blog .blog-post:hover .title a,.arch-contact .form-wrapper .contact-text .call-us,.arch-footer .top-footer h2 a,
 .arch-footer .top-footer .phone,.theme-footer-one.arch-footer .top-footer .footer-list ul li a:hover,.theme-tab-basic.theme-tab .tabs-menu li.z-active a,.theme-tab .z-content-inner ol li a:hover,.studio-feature-area .feature-block:hover .title,
@@ -630,7 +630,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   z-index: 3;
 }
 .theme-menu-one .logo a {display: block;}
-.theme-menu-one .navbar-nav .nav-item .nav-link {color: #64697A;}
+.theme-menu-one .navbar-nav .nav-item .nav-link {color: #64697A;font-size: 18px;}
 .theme-menu-one .navbar-nav .nav-item:first-child .nav-link {margin-left: 0;}
 .theme-menu-one .header-right-widget {
   position: absolute;
@@ -640,33 +640,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 }
 .theme-menu-one .header-right-widget>ul>li {display: inline-block;vertical-align: middle;}
 
-.theme-menu-one .header-right-widget .language-switcher button {
-  background: transparent;
-  height: 55px;
-  text-transform: uppercase;
-  color: #233D63;
-  font-size: 16px;
-  margin:0 45px 0 40px;
-}
-.theme-menu-one .header-right-widget .language-switcher .dropdown-menu {
-  min-width: 170px;
-  padding: 10px 0;
-  background: #fff;
-  box-shadow: 0px 25px 50px 0px rgba(213, 216, 223, 0.5);
-  border: 1px solid #f8f8f8;
-  border-radius: 0;
-}
-.theme-menu-one .header-right-widget .language-switcher .dropdown-menu ul li a {
-  display: block;
-  padding: 0 15px;
-  font-size: 15px;
-  color: #767a89;
-  line-height: 35px;
-  text-transform: uppercase;
-}
 .skiptranslate {display: none !important;}
-.theme-menu-one .header-right-widget .language-switcher .dropdown-menu ul li a:hover {padding-left: 20px;}
-.theme-menu-one .header-right-widget .language-switcher .dropdown-toggle::after {color: #233D63;}
 .theme-menu-one .header-right-widget .call-us {font-size: 20px;color: #A2ADBD;}
 .theme-menu-one .header-right-widget .call-us a {font-size: 24px;margin-left: 15px;}
 /*----------------- SASS MENU ---------------------*/
@@ -705,26 +679,15 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   color: #ead24c;
   text-align: center;
   margin-top: -12px;
+  margin-right: 10px;
 }
 .theme-menu-one.d-align-item .navbar-nav .login-button a:hover {background: #f569f8;color: #fff;}
-.theme-menu-one.d-align-item .navbar-nav .login-button-two a {
-  width: 150px;
-  line-height: 48px;
-  border: 1px solid #ffffff;
-  border-radius: 3px;
-  font-size: 18px;
-  color: #fff;
-  text-align: center;
-  margin-top: -12px;
-}
 .theme-menu-one.d-align-item .navbar-nav .login-button-two a:hover {
   background: #fff;
   color: #614ef9;
 }
 /*------------------ Menu One Color Fix -------------------*/
 .theme-menu-one.d-align-item.color-white .header-right-widget .call-us a,
-.theme-menu-one.d-align-item.color-white .header-right-widget .language-switcher button,
-.theme-menu-one.d-align-item.color-white .header-right-widget .language-switcher .dropdown-toggle::after,
 .theme-menu-one.d-align-item.color-white .navbar-nav .nav-item .nav-link {
   color: #fff;
 }
@@ -5683,7 +5646,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 }
 .solid-inner-banner.white-bg {background: #fff;}
 .solid-inner-banner .page-title {
-  font-family: 'CircularStdmed';
+  font-family: 'Roboto', sans-serif;
   font-size: 60px;
   color: #313131;
   padding-bottom: 150px;
@@ -8096,33 +8059,7 @@ Modal animation
 .shrt-menu .top-header .infoList li a {color: #2a2a2a;}
 .shrt-menu .top-header .infoList li a i {margin-right: 5px;}
 .shrt-menu .top-header .right-widget>li {display: inline-block;line-height: 52px;vertical-align: middle;}
-.shrt-menu .top-header .right-widget .language-switcher button {
-  background: transparent;
-  height: 52px;
-  text-transform: uppercase;
-  color: #233D63;
-  font-size: 14px;
-  margin: 0 20px 0;
-  padding: 0 20px;
-  border-left: 1px solid #ececec;
-  border-right: 1px solid #ececec;
-}
-.shrt-menu .top-header .right-widget .language-switcher .dropdown-menu {
-  min-width: 170px;
-  padding: 10px 0;
-  background: #fff;
-  box-shadow: 0px 25px 50px 0px rgba(213, 216, 223, 0.5);
-  border: 1px solid #f8f8f8;
-  border-radius: 0;
-}
-.shrt-menu .top-header .right-widget .language-switcher .dropdown-menu ul li a {
-  display: block;
-  padding: 0 15px;
-  font-size: 15px;
-  color: #767a89;
-  line-height: 32px;
-  text-transform: uppercase;
-}
+
 .shrt-menu .top-header .right-widget .user-profile-action {margin-right: 18px;}
 .shrt-menu .top-header .right-widget .user-profile-action .dropdown-toggle img {display: inline-block;}
 .shrt-menu .top-header .right-widget .user-profile-action .dropdown-toggle span {
@@ -8272,11 +8209,10 @@ Modal animation
 .shrt-menu-three .main-header {padding:0 40px 0 10px;}
 .shrt-menu.shrt-menu-five .top-header .infoList li {padding: 0 15px 0 0;border:none;}
 .shrt-menu.text-light .top-header .infoList li a,
-.shrt-menu.text-light .top-header .right-widget .language-switcher button,
 .shrt-menu.text-light .top-header .right-widget .user-profile-action .dropdown-toggle span,
 .shrt-menu.text-light .top-header .right-widget .user-profile-action .dropdown-toggle:after,
 .dark-bg .header-search .icon,.shrt-menu.dark-bg .top-header .right-widget .user-profile-action .dropdown-menu ul li a,
-.shrt-menu.dark-bg .top-header .right-widget .language-switcher .dropdown-menu ul li a,.shrt-menu.text-light .navbar .mega-menu-title {color: #fff;}
+.shrt-menu.text-light .navbar .mega-menu-title {color: #fff;}
 .shrt-menu.text-light .menu-social-icon li a {color: rgba(255,255,255,0.3);}
 .shrt-menu.text-light .menu-social-icon li a:hover {color: rgba(255,255,255,1);}
 .shrt-menu.text-light .navbar .dropdown-menu .dropdown-item,
@@ -8284,11 +8220,9 @@ Modal animation
 .shrt-menu.dark-bg .top-header .infoList li {border-right-color:#383f50;}
 .shrt-menu.shrt-menu-five.dark-bg .menu-social-icon li {border-left-color:#383f50;}
 .shrt-menu.dark-bg .top-header,.shrt-menu.dark-bg .main-header .cart-action-wrapper .cart-product-list .selected-item {border-bottom-color:#383f50;}
-.shrt-menu.dark-bg .top-header .right-widget .language-switcher button {border-right-color:#383f50; border-left-color:#383f50;}
 .shrt-menu.dark-bg .navbar .dropdown-submenu.dropdown>.dropdown-item:before {border-top-color:#383f50; border-bottom-color:#383f50;}
 .dark-bg .header-search input {background: transparent;border-bottom-color:#383f50; color: rgba(255,255,255,0.4);}
 .dark-bg .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {border-top-color:#383f50;}
-.shrt-menu.dark-bg .top-header .right-widget .language-switcher .dropdown-menu,
 .shrt-menu.dark-bg .top-header .right-widget .user-profile-action .dropdown-menu,
 .shrt-menu.dark-bg .navbar .dropdown-menu,.shrt-menu.dark-bg .main-header .cart-action-wrapper .dropdown-menu {
   background: #222836;

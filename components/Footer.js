@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const Footer = () => (
   <footer className="theme-footer-one" id="footer">
     <div className="shape-one" data-aos="zoom-in-right" />
@@ -9,10 +11,10 @@ const Footer = () => (
             <h5 className="title">Бидний тухай</h5>
             <ul>
               <li>
-                <a href="#">Товч танилцуулга</a>
+                <Link href="/about">Товч танилцуулга</Link>
               </li>
               <li>
-                <a href="#">Баг хамт олон</a>
+                <Link href="/team">Баг хамт олон</Link>
               </li>
               <li>
                 <a href="#">Үйл явдал</a>
@@ -47,10 +49,10 @@ const Footer = () => (
           <div className="col-lg-3 col-lg-2 col-sm-6 col-12 footer-information" data-aos="fade-up">
             <h5 className="title">Холбоо барих</h5>
             <p>
-            11 36 5555 <br /> info@erxes.io
+              11 36 5555 <br /> info@erxes.io
             </p>
             <p>
-            СБД, 1-р хороо, 5-р хороолол, Чингисийн өргөн чөлөө, Бизнес Тауэр, 16 давхарт
+              СБД, 1-р хороо, 5-р хороолол, Чингисийн өргөн чөлөө, Бизнес Тауэр, 16 давхарт
             </p>
             <ul>
               <li>
