@@ -1,14 +1,14 @@
 
 /* CSS Document */
 
-/* 
+/*
     Created on   : 26/02/2019.
     Last Update  : 07/04/2019.
     Theme Name   : Rogan - Creative Multi-Purpose HTML Template.
     Version      : 1.1.
     Author       : Creativegigs.
     Developed by : Jubayer al hasan. (me@heloshape.com)
-   
+
 */
 
 
@@ -161,7 +161,7 @@
 @import url('../vendor/tabs/tabs.css');
 
 
-/*** 
+/***
 
 ====================================================================
   Loading Transition
@@ -192,7 +192,7 @@
   animation: spinner 1s infinite linear;
   border-radius: 50%;
   border: 3px solid rgba(255, 57, 70, 0.15);
-  border-top-color: #ff3946; 
+  border-top-color: #ff3946;
   height: 170px;
   margin: 0 auto 45px auto;
   width: 170px;
@@ -739,7 +739,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   font-size: 15px;
   letter-spacing: 1px;
   display: block;
-  color: #212121; 
+  color: #212121;
   padding-top: 10px;
 }
 .theme-main-menu {
@@ -2648,7 +2648,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   padding-bottom: 35px;
 }
 .agn-contact-banner .contact-button {
-  font-size: 20px; 
+  font-size: 20px;
   line-height: 56px;
   width: 220px;
 }
@@ -4112,7 +4112,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   content: url(../images/shape/shape-19.svg);
   position: absolute;
   top:50%;
-  left:50px; 
+  left:50px;
 }
 .our-feature-sass .section-shape-three {
   position: absolute;
@@ -4747,7 +4747,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   position: relative;
   margin: -8px 15px 0 0;
 }
-.eCommerce-search {width: 300px; position: relative;} 
+.eCommerce-search {width: 300px; position: relative;}
 .eCommerce-search input {
   width: 100%;
   border: none;
@@ -5503,8 +5503,8 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 }
 .cart-list-form .table th:first-child {text-align: left;}
 .cart-list-form .table tbody td {
-  padding: 0 0 70px; 
-  border: none; 
+  padding: 0 0 70px;
+  border: none;
   vertical-align: middle;
   text-align: center;
 }
@@ -6885,7 +6885,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
-  animation: imageBgAnim 40s infinite linear alternate; 
+  animation: imageBgAnim 40s infinite linear alternate;
 }
 .project-details-creative .pd-banner .container,
 .project-details-creative .pd-banner .container-inner {position: relative;height: 100%;}
@@ -7134,7 +7134,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   padding: 50px 0 40px;
   border-bottom: 1px solid #e5e5e5;
 }
-.blog-details .user-comment-area .single-comment.comment-reply {margin-left: 100px;} 
+.blog-details .user-comment-area .single-comment.comment-reply {margin-left: 100px;}
 .blog-details .user-comment-area .single-comment .reply {
   font-family: 'CircularStdmed';
   width: 70px;
@@ -7506,7 +7506,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   pointer-events: none;
   transform: scale3d(1.01,1.01,1);
 }
-.js .slide__img-wrap, 
+.js .slide__img-wrap,
 .js .slide__title-wrap,
 .js .slide__side {opacity: 0;pointer-events: none;}
 .js .slide--current .slide__img-wrap {
@@ -8166,7 +8166,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 .theme-footer-four.light-v .bottom-footer {border-top-color: #ededed;}
 /*--------------------- Modal -------------------*/
 /*
-Modal animation 
+Modal animation
 */
 .modal .modal-dialog {transform: translate(0, 0); }
 .modal .fade-right {animation: fadeInLeft 0.5s;animation-direction: reverse; }
@@ -8977,7 +8977,7 @@ Modal animation
 .theme-footer-one.arch-footer .bottom-footer ul li a {color: #808080;}
 
 /*-----------------------------------
-            STUDIO PORTFOLIO ONE                 
+            STUDIO PORTFOLIO ONE
 --------------------------------------*/
 /*-------------- Header/Menu ------------*/
 .eCommerce-side-menu.op-page-menu-one {left: auto;right: 0;transform-origin: 100% 0%;}
@@ -9167,7 +9167,7 @@ html[lang="ru"] .op-menu-one .ct-language__dropdown li a[data-lang="ru"] {color:
 .op-about-us-one .top-text p:first-letter {
   -webkit-initial-letter: 4 1;
           initial-letter: 4 1;
-  font-size: 136px; 
+  font-size: 136px;
   vertical-align: middle;
   margin-right: 10px;
   margin-bottom: 5px;
@@ -9473,7 +9473,7 @@ html[lang="ru"] .op-menu-one .ct-language__dropdown li a[data-lang="ru"] {color:
 .op-footer-one .bottom-text ul li a:hover {color: #ff4649;}
 .op-footer-one .bottom-text  p {font-size: 18px;color: #c9c9c9;}
 /*-----------------------------------
-            STUDIO PORTFOLIO TWO                 
+            STUDIO PORTFOLIO TWO
 --------------------------------------*/
 .studio-box-container {padding: 50px; background: #efefef; z-index: 5;}
 .studio-box-container .main-page-wrapper {background: #fff; position: relative;}
@@ -9484,7 +9484,7 @@ html[lang="ru"] .op-menu-one .ct-language__dropdown li a[data-lang="ru"] {color:
   position: relative;
   padding: 200px 100px 200px;
   max-width: 1920px;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 #studio-banner-two .main-text-wrapper {position: relative; max-width: 600px;z-index: 2;}
 #studio-banner-two .main-text-wrapper h1 {
@@ -9505,7 +9505,7 @@ html[lang="ru"] .op-menu-one .ct-language__dropdown li a[data-lang="ru"] {color:
 }
 /*---------------- Action Banner Three ---------------*/
 .action-banner-three {
-  padding: 70px 0 35px; 
+  padding: 70px 0 35px;
   margin-top: 50px;
   position: relative;
   z-index: 5;

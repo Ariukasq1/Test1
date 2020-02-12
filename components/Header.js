@@ -1,6 +1,5 @@
 import Link from 'next/link';
 
-
 const Header = () => (
   <div className="theme-main-menu theme-menu-one d-align-item">
     <div className="logo"><a href="/"><img src="images/erxes-logo.svg" alt="" /></a></div>
@@ -22,7 +21,7 @@ const Header = () => (
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/">
+              <Link href="/blog">
                 <a className="nav-link">Блог</a>
               </Link>
             </li>
