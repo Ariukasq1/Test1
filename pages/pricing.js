@@ -40,7 +40,7 @@ class Pricing extends Component {
                   <li className="nav-item"><a className="nav-link" data-toggle="tab" href="#annual">Жил бүр</a></li>
                 </ul>
               </div>
-              <p>Жил бүрийг сонгоод 30%-ийг хэмнээрэй!</p>
+              <p>Жил бүрийг сонгоод 45%-ийг хэмнээрэй!</p>
             </div>
 
             <div className="tab-content">
@@ -51,13 +51,13 @@ class Pricing extends Component {
                       <li>Багын гишүүд</li>
                       <li>Үнэгүй интеграциуд</li>
                       <li>Үнэтэй интеграциуд</li>
-                      <li>Хэрэглэгчийн мэдээллийн хэмжээ</li>
+                      <li className="odd">Хэрэглэгчийн мэдээллийн хэмжээ</li>
                       <li>Боломжууд</li>
-                      <li>Аюулгүй байдал ба удирдлага</li>
+                      <li className="odd">Аюулгүй байдал ба удирдлага</li>
                     </ul>
                     <div className="pr-column single-pr-table free">
                       <div className="pr-header">
-                        <div className="price">$0 </div>
+                        <div className="price">$0.00</div>
                         <h4 className="title">Үнэгүй</h4>
                         <div class="package">3 гишүүд</div>
                       </div>
@@ -76,13 +76,12 @@ class Pricing extends Component {
                         </li>
                       </ul>
                       <div className="pr-footer">
-                        <a href="#" className="choose-button line-button-two">Choose Plan</a>
-                        <p>Get your 30 day free trial</p>
+                        <a href="#" className="choose-button line-button-two">Үнэгүй турших</a>
                       </div>
                     </div>
                     <div className="pr-column single-pr-table regular">
                       <div className="pr-header ">
-                        <div className="price">$55</div>
+                        <div className="price">$55<span>/сар бүр</span></div>
                         <h4 className="title">Баг</h4>
                         <div class="package">5 гишүүд</div>
                       </div>
@@ -101,13 +100,12 @@ class Pricing extends Component {
                         </li>
                       </ul>
                       <div className="pr-footer">
-                        <a href="#" className="choose-button line-button-two">Choose Plan</a>
-                        <p>Get your 30 day free trial</p>
+                        <a href="#" className="choose-button line-button-two">Үнэгүй турших</a>
                       </div>
                     </div>
                     <div className="pr-column single-pr-table plus">
                       <div className="pr-header">
-                        <div className="price">$220</div>
+                        <div className="price">$220<span>/сар бүр</span></div>
                         <h4 className="title">Байгууллага</h4>
                         <div class="package">Хязгааргүй гишүүд</div>
                       </div>
@@ -130,13 +128,14 @@ class Pricing extends Component {
                         </li>
                       </ul>
                       <div className="pr-footer">
-                        <a href="#" className="choose-button line-button-two">Choose Plan</a>
-                        <p>Get your 30 day free trial</p>
+                        <a href="#" className="choose-button line-button-two">Үнэгүй турших</a>
                       </div>
                     </div>
                     <div className="pr-column single-pr-table plus">
                       <div className="pr-header">
-                        <div className="price">0</div>
+                        <div className="price">
+                          <i className="icon fa fa-phone" aria-hidden="true"></i>
+                        </div>
                         <h4 className="title">АЖ АХУЙН НЭГЖ</h4>
                         <div class="package">Хязгааргүй гишүүд</div>
                       </div>
@@ -159,8 +158,7 @@ class Pricing extends Component {
                         </li>
                       </ul>
                       <div className="pr-footer">
-                        <a href="#" className="choose-button line-button-two">Choose Plan</a>
-                        <p>Get your 30 day free trial</p>
+                        <a href="#" className="choose-button line-button-two">Бидэнтэй холбогдох</a>
                       </div>
                     </div>
                   </div>
@@ -171,96 +169,117 @@ class Pricing extends Component {
                 <div className="table-wrapper">
                   <div className="inner-table clearfix">
                     <ul className="pr-list-text">
-                      <li>Full Access Library</li>
-                      <li>Multiple User</li>
-                      <li>Refund</li>
-                      <li>24/7 Support</li>
+                      <li>Багын гишүүд</li>
+                      <li>Үнэгүй интеграциуд</li>
+                      <li>Үнэтэй интеграциуд</li>
+                      <li className="odd">Хэрэглэгчийн мэдээллийн хэмжээ</li>
+                      <li>Боломжууд</li>
+                      <li className="odd">Аюулгүй байдал ба удирдлага</li>
                     </ul>
-                    <div className="pr-column">
+                    <div className="pr-column single-pr-table free">
                       <div className="pr-header">
-                        <div className="price">$6300<span>/YR</span></div>
-                        <h4 className="title">Sandwich</h4>
-                        <div className="package">Reguler</div>
+                        <div className="price">$0.00</div>
+                        <h4 className="title">Үнэгүй</h4>
+                        <div class="package">3 гишүүд</div>
                       </div>
                       <ul className="pr-body">
+                        <li>3</li>
+                        <li>5</li>
+                        <li>төлсөн хэмжээгээрээ</li>
                         <li>
-
-                          <i className="icon flaticon-cancel none"></i>
+                          <i className="icon fa fa-chain available" aria-hidden="true"></i>
                         </li>
                         <li>
-
-                          <i className="icon flaticon-cancel none"></i>
+                          <i className="icon fa fa-chain available" aria-hidden="true"></i>
                         </li>
                         <li>
-
                           <i className="icon flaticon-cancel none"></i>
-                        </li>
-                        <li>
-
-                          <i className="icon flaticon-tick available"></i>
                         </li>
                       </ul>
                       <div className="pr-footer">
-                        <a href="#" className="choose-button line-button-two">Choose Plan</a>
-                        <p>Get your 30 day free trial</p>
+                        <a href="#" className="choose-button line-button-two">Үнэгүй турших</a>
                       </div>
                     </div>
-                    <div className="pr-column">
-                      <div className="pr-header">
-                        <div className="price">$8000<span>/YR</span></div>
-                        <h4 className="title">Subway</h4>
-                        <div className="package">Premium</div>
+                    <div className="pr-column single-pr-table regular">
+                      <div className="pr-header ">
+                        <div className="price">$30<span>/сар бүр</span></div>
+                        <h4 className="title">Баг</h4>
+                        <div class="package">5 гишүүд</div>
                       </div>
                       <ul className="pr-body">
+                        <li>5-15</li>
+                        <li>10</li>
+                        <li>төлсөн хэмжээгээрээ</li>
                         <li>
-
+                          <i className="icon fa fa-chain available" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                          <i className="icon fa fa-chain available" aria-hidden="true"></i>
+                        </li>
+                        <li>
                           <i className="icon flaticon-cancel none"></i>
-                        </li>
-                        <li>
-
-                          <i className="icon flaticon-cancel none"></i>
-                        </li>
-                        <li>
-
-                          <i className="icon flaticon-tick available"></i>
-                        </li>
-                        <li>
-
-                          <i className="icon flaticon-tick available"></i>
                         </li>
                       </ul>
                       <div className="pr-footer">
-                        <a href="#" className="choose-button line-button-two">Choose Plan</a>
-                        <p>Get your 30 day free trial</p>
+                        <a href="#" className="choose-button line-button-two">Үнэгүй турших</a>
                       </div>
                     </div>
-                    <div className="pr-column">
+                    <div className="pr-column single-pr-table plus">
                       <div className="pr-header">
-                        <div className="price">$9900<span>/YR</span></div>
-                        <h4 className="title">Burger</h4>
-                        <div className="package">Corporate</div>
+                        <div className="price">$99<span>/сар бүр</span></div>
+                        <h4 className="title">Байгууллага</h4>
+                        <div class="package">Хязгааргүй гишүүд</div>
                       </div>
                       <ul className="pr-body">
                         <li>
-
-                          <i className="icon flaticon-tick available"></i>
+                          <i className="icon fa fa-chain available" aria-hidden="true"></i>
                         </li>
                         <li>
-
-                          <i className="icon flaticon-tick available"></i>
+                          <i className="icon fa fa-chain available" aria-hidden="true"></i>
+                        </li>
+                        <li>төлсөн хэмжээгээрээ</li>
+                        <li>
+                          <i className="icon fa fa-chain available" aria-hidden="true"></i>
                         </li>
                         <li>
-
-                          <i className="icon flaticon-tick available"></i>
+                          <i className="icon fa fa-chain available" aria-hidden="true"></i>
                         </li>
                         <li>
-
+                          <i className="icon flaticon-cancel none"></i>
+                        </li>
+                      </ul>
+                      <div className="pr-footer">
+                        <a href="#" className="choose-button line-button-two">Үнэгүй турших</a>
+                      </div>
+                    </div>
+                    <div className="pr-column single-pr-table plus">
+                      <div className="pr-header">
+                        <div className="price">
+                          <i className="icon fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                        <h4 className="title">АЖ АХУЙН НЭГЖ</h4>
+                        <div class="package">Хязгааргүй гишүүд</div>
+                      </div>
+                      <ul className="pr-body">
+                        <li>
+                          <i className="icon fa fa-chain available" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                          <i className="icon fa fa-chain available" aria-hidden="true"></i>
+                        </li>
+                        <li>төлсөн хэмжээгээрээ</li>
+                        <li>
+                          <i className="icon fa fa-chain available" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                          <i className="icon fa fa-chain available" aria-hidden="true"></i>
+                        </li>
+                        <li>
                           <i className="icon flaticon-tick available"></i>
                         </li>
                       </ul>
                       <div className="pr-footer">
-                        <a href="#" className="choose-button line-button-two">Choose Plan</a>
-                        <p>Get your 30 day free trial</p>
+                        <a href="#" className="choose-button line-button-two">Бидэнтэй холбогдох</a>
                       </div>
                     </div>
                   </div>

@@ -232,6 +232,7 @@ body{
 .mt-150 {margin-top: 150px;}
 .mt-200 {margin-top: 200px;}
 .mb-80 {margin-bottom: 80px;}
+.mb-120 {margin-bottom: 120px;}
 .mb-150 {margin-bottom: 150px;}
 .mb-170 {margin-bottom: 170px;}
 .mb-200 {margin-bottom: 200px;}
@@ -320,18 +321,20 @@ body .line-button-one {
 body .line-button-one:hover {box-shadow: 0px 13px 27px 0px rgba(163, 48, 53, 0.25); color: #fff;}
 body .line-button-two {
   text-transform: capitalize;
-  line-height: 48px;
+  line-height: 45px;
   border: 1px solid #E0E9EF;
   border-radius: 25px;
-  padding: 0 35px;
+  padding: 0 30px;
   min-width: 180px;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   color: #233D63;
 }
-body .line-button-two:hover,.agn-our-pricing .table-wrapper .pr-column:hover .line-button-two {
+body .line-button-two:hover, .agn-our-pricing .table-wrapper .pr-column:hover .line-button-two {
+  background: linear-gradient( -135deg, rgb(191,108,255) 0%, rgb(144,65,255) 100%) !important;
+  border-color: transparent !important;
   color: #fff;
-  box-shadow: 0px 13px 28px 0px rgba(163, 48, 53, 0.25);
+  transition: all ease 0.3s;
 }
 body .line-button-three {
   font-family: 'Lato', sans-serif;
@@ -1771,6 +1774,9 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   color: #233D63;
   border-top: 1px solid #E0E9EF;
   border-left: 1px solid #E0E9EF;
+}
+.agn-our-pricing .table-wrapper .inner-table .pr-list-text li.odd {
+  padding: 13px 0 12px 25px;
 }
 .agn-our-pricing .table-wrapper .inner-table .pr-list-text li:last-child {border-bottom: 1px solid #E0E9EF;}
 .agn-our-pricing .table-wrapper .inner-table .pr-column {
