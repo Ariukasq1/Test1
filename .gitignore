@@ -4,3 +4,4 @@ src/yarn-error.log
 src/static/admin/*.bundle.*
 src/.next/
 .DS_Store
+src/package-lock.json
