@@ -3,3 +3,4 @@
 *.yml
 .dockerignore
 Dockerfile*
+src/.next/cache

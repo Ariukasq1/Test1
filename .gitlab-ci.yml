@@ -31,6 +31,7 @@ install_dependencies:
         - src/yarn.lock
     paths:
       - src/node_modules/
+      - src/.next/cache/
     policy: pull-push
 
 test_and_build:
@@ -53,6 +54,7 @@ test_and_build:
         - src/yarn.lock
     paths:
       - src/node_modules/
+      - src/.next/cache/
     policy: pull
   artifacts:
     expire_in: 1h
