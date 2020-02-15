@@ -1,0 +1,76 @@
+variables:
+  DOCKER_DRIVER: overlay2
+
+default:
+  image: docker:19.03
+  services:
+    - docker:19.03-dind
+
+stages:
+  - install_dependencies
+  - test_and_build
+  - build_docker_images
+
+install_dependencies:
+  stage: install_dependencies
+  image: node:10.16-slim
+  before_script:
+    - cd src
+  script:
+    - yarn install
+  rules:
+    - changes:
+        - src/package.json
+        - src/yarn.lock
+        - .gitlab-ci.yml
+      if: '$CI_COMMIT_BRANCH == "master"'
+  cache:
+    key:
+      files:
+        - src/package.json
+        - src/yarn.lock
+    paths:
+      - src/node_modules/
+    policy: pull-push
+
+test_and_build:
+  stage: test_and_build
+  image: node:10.16-slim
+  before_script:
+    - cd src
+    - yarn install
+  script:
+    - yarn build
+  rules:
+    - changes:
+        - src/**/*
+        - .gitlab-ci.yml
+      if: '$CI_COMMIT_BRANCH == "master"'
+  cache:
+    key:
+      files:
+        - src/package.json
+        - src/yarn.lock
+    paths:
+      - src/node_modules/
+    policy: pull
+  artifacts:
+    expire_in: 1h
+    paths:
+      - src/.next/
+      - src/node_modules/
+
+build_docker_image:
+  stage: build_docker_images
+  before_script:
+    - docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD $DOCKER_REGISTRY
+  script:
+    - docker build -t $DOCKER_REGISTRY/erxes/$CI_PROJECT_NAME:${CI_COMMIT_REF_NAME} -f Dockerfile .
+    - docker push $DOCKER_REGISTRY/erxes/$CI_PROJECT_NAME:${CI_COMMIT_REF_NAME}
+  rules:
+    - changes:
+        - src/**/*
+        - .gitlab-ci.yml
+        - Dockerfile
+        - .dockerignore
+      if: '$CI_COMMIT_BRANCH == "master"'

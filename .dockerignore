@@ -1,8 +1,5 @@
-.env*
 .git*
-.snyk
 *.md
 *.yml
-scripts
+.dockerignore
 Dockerfile*
-public
