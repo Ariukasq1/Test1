@@ -46,6 +46,8 @@ test_and_build:
     - changes:
         - src/**/*
         - .gitlab-ci.yml
+        - Dockerfile
+        - .dockerignore
       if: '$CI_COMMIT_BRANCH == "master"'
   cache:
     key:
@@ -76,3 +78,6 @@ build_docker_image:
         - Dockerfile
         - .dockerignore
       if: '$CI_COMMIT_BRANCH == "master"'
+  needs:
+    - job: test_and_build
+      artifacts: true
