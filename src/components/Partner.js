@@ -1,6 +1,6 @@
 import React,{Component} from 'react'
-class Partner extends Component {
 
+class Partner extends Component {
   componentDidMount() {
     var logoslider = $('.partner-slider');
     if(logoslider.length) {
@@ -28,6 +28,7 @@ class Partner extends Component {
       });
     }
   }
+
   render() {
     return (
       <div className="trusted-partner">
@@ -38,27 +39,57 @@ class Partner extends Component {
           <div className="partner-slider ">
             <div className="item">
               <a href="#">
-                <img src="images/logo/envato.svg" alt="" />
+                <img src="images/logo/golomt.png" alt="" />
               </a>
             </div>
             <div className="item">
               <a href="#">
-                <img src="images/logo/envato.svg" alt="" />
+                <img src="images/logo/tavanbogd.png" alt="" />
               </a>
             </div>
             <div className="item">
               <a href="#">
-                <img src="images/logo/envato.svg" alt="" />
+                <img src="images/logo/capitron.png" alt="" />
               </a>
             </div>
             <div className="item">
               <a href="#">
-                <img src="images/logo/envato.svg" alt="" />
+                <img src="images/logo/mobicom.png" alt="" />
               </a>
             </div>
             <div className="item">
               <a href="#">
-                <img src="images/logo/envato.svg" alt="" />
+                <img src="images/logo/nomin.jpg" alt="" />
+              </a>
+            </div>
+            <div className="item">
+              <a href="#">
+                <img src="images/logo/bridge.jpg" alt="" />
+              </a>
+            </div>
+            <div className="item">
+              <a href="#">
+                <img src="images/logo/skytel.png" alt="" />
+              </a>
+            </div>
+            <div className="item">
+              <a href="#">
+                <img src="images/logo/teso.png" alt="" />
+              </a>
+            </div>
+            <div className="item">
+              <a href="#">
+                <img src="images/logo/zag.png" alt="" />
+              </a>
+            </div>
+            <div className="item">
+              <a href="#">
+                <img src="images/logo/internom.jpg" alt="" />
+              </a>
+            </div>
+            <div className="item">
+              <a href="#">
+                <img src="images/logo/prius.png" alt="" />
               </a>
             </div>
           </div>

@@ -27,7 +27,7 @@ const Pricing = () => (
           <img src="images/icon/icon26.svg" alt="" className="icon" />
         </div>
         <h2 className="main-title">
-          Эрксисийн ашиглах алтан <br /> 3 шалтгаан
+          Эрксисийг ашиглах алтан <br /> 3 шалтгаан
         </h2>
       </div>{' '}
       {/* /.theme-title-one */}
