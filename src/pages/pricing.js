@@ -29,11 +29,10 @@ class Pricing extends Component {
                   <img src="images/shape/bg-shape4.svg" alt="" class="bg-shape" />
                   <img src="images/icon/icon26.svg" alt="" class="icon" />
                 </div>
-                <h2 className="main-title">No Hidden Charges! Choose <br /> your Plan.</h2>
               </div>
             </div>
 
-            <div className="pricing-tab-menu mt-70">
+            <div className="pricing-tab-menu mt-30">
               <div className="nav-wrapper">
                 <ul className="nav nav-tabs justify-content-center">
                   <li className="nav-item"><a className="nav-link active" data-toggle="tab" href="#month">Сар бүр</a></li>

@@ -34,7 +34,7 @@ const Layout = props => (
       <script src="static/isotope.pkgd.min.js"></script>
       <script src="static/theme.js"></script>
 
-      <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap" rel="stylesheet"></link>
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"></link>
     </Head>
     <Header />
     {props.children}

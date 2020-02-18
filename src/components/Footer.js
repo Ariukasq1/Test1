@@ -38,10 +38,10 @@ const Footer = () => (
             <h5 className="title">Хөрөнгө оруулагч</h5>
             <ul>
               <li>
-                <a href="about-us-standard.html">Хөрөнгө оруулагчид</a>
+                <a href="/investors">Хөрөнгө оруулагчид</a>
               </li>
               <li>
-                <a href="project-standard.html">Төлөөлөн удирдах зөвлөл</a>
+                <a href="/directors">Төлөөлөн удирдах зөвлөл</a>
               </li>
             </ul>
           </div>{' '}
