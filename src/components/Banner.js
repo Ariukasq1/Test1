@@ -42,7 +42,7 @@ const Header = () => (
         <ul className="button-group lightgallery">
           <li>
             <a
-              href="about-us-standard.html"
+              href="#"
               className="more-button wow fadeInLeft animated"
               data-wow-delay="1.5s"
             >
@@ -67,4 +67,3 @@ const Header = () => (
   </div>
 );
 export default Header;
-

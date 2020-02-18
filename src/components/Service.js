@@ -9,8 +9,7 @@ const Service = () => (
         <h2 className="main-title">
         Эрксисийг ашиглан үйл ажиллагаагаа <br/>  нягт уялдуулаарай
         </h2>
-      </div>{' '}
-      {/* /.theme-title-one */}
+      </div>
       <div className="inner-wrapper">
         <div className="row">
           <div className="col-lg-4 single-block" data-aos="fade-up">
@@ -25,16 +24,11 @@ const Service = () => (
               <div className="hover-content" />
               <i className="flaticon-web icon-s" />
               <h5 className="title">
-                <a href="#">Хэрэглэгчтэй харилцах баг.</a>
+                <a href="#">Хэрэглэгчтэй харилцах баг</a>
               </h5>
               <p>Хэрэглэгчтэй харилцах бүх сувгаа эрксист нэгтгэснээр хэрэглэгчтэй харилцах хурдыг 80% нэмэгдүүлж, олон платформд төлөх зардлыг 62% бууруулна.</p>
-              <a href="#" className="detail-button">
-                <i className="flaticon-next-1" />
-              </a>
-            </div>{' '}
-            {/* /.service-block */}
-          </div>{' '}
-          {/* /.single-block */}
+            </div>
+          </div>
           <div className="col-lg-4 single-block" data-aos="fade-up" data-aos-delay={300}>
             <div className="service-block">
               <span className="snow-dot" />
@@ -50,13 +44,8 @@ const Service = () => (
                 <a href="#">Маркетингийн баг</a>
               </h5>
               <p>Хэрэглэгчээ зорилтот бүлгээр ангилснаар тэдэнд тохирох маркетингийн үйл ажиллагааг оновчилж, маркетингийн кампанит ажлуудаа олон улсын стандартаар бүртгэнэ, хэмжинэ.</p>
-              <a href="#" className="detail-button">
-                <i className="flaticon-next-1" />
-              </a>
-            </div>{' '}
-            {/* /.service-block */}
-          </div>{' '}
-          {/* /.single-block */}
+            </div>
+          </div>
           <div className="col-lg-4 single-block" data-aos="fade-up" data-aos-delay={500}>
             <div className="service-block">
               <span className="snow-dot" />
@@ -72,19 +61,11 @@ const Service = () => (
                 <a href="#"> Борлуулалтын баг</a>
               </h5>
               <p>Борлуулалт эхлэхээс дуусах хүртэлх алхмуудад ямар үйл явц, амжилт, уналт тохиолдолж  буйтай цаг алдалгүй танилцан, алхам тутамдаа сайжруулна.</p>
-              <a href="#" className="detail-button">
-                <i className="flaticon-next-1" />
-              </a>
-            </div>{' '}
-            {/* /.service-block */}
-          </div>{' '}
-          {/* /.single-block */}
-        </div>{' '}
-        {/* /.row */}
-      </div>{' '}
-      {/* /.inner-wrapper */}
-    </div>{' '}
-    {/* /.container */}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 );
 

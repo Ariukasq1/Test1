@@ -16,11 +16,6 @@ const Header = () => (
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/solution">
-                <a className="nav-link">Шийдэл</a>
-              </Link>
-            </li>
-            <li className="nav-item">
               <Link href="/blog">
                 <a className="nav-link">Блог</a>
               </Link>
@@ -35,18 +30,12 @@ const Header = () => (
                 <a className="nav-link">Үнийн санал</a>
               </Link>
             </li>
-
-            <li className="login-button"><a href="login-standard.html">Нэвтрэх</a></li>
-            <li className="login-button"><a href="login-standard.html">Бүртгүүлэх</a></li>
+            <li className="login-button"><a href="https://erxes.io/signin" target="_blank">Нэвтрэх</a></li>
+            <li className="login-button"><a href="https://erxes.io/create" target="_blank">Бүртгүүлэх</a></li>
           </ul>
         </div>
-      </div> {/* /.container */}
-    </nav> {/* /#mega-menu-holder */}
-    {/* <div className="header-right-widget">
-          <ul>
-            <li className="call-us"><a href="#">+880.762.009</a></li>
-          </ul>
-        </div> */}
+      </div>
+    </nav>
   </div>
 );
 

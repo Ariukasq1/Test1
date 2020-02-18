@@ -1,5 +1,6 @@
 import Header from './Header';
 import Footer from './Footer';
+import Spinner from './Spinner';
 import ScrollTop from './ScrollTop';
 import Head from 'next/head';
 import '../style/css/custom.css';
@@ -33,9 +34,8 @@ const Layout = props => (
       <script src="static/fancybox/dist/jquery.fancybox.min.js"></script>
       <script src="static/isotope.pkgd.min.js"></script>
       <script src="static/theme.js"></script>
-
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"></link>
     </Head>
+    {/*<Spinner />*/}
     <Header />
     {props.children}
     <ScrollTop />

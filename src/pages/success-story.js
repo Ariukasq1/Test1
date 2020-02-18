@@ -16,24 +16,48 @@ class SuccessStory extends Component {
         <div class="our-project pt-150">
           <ul class="isotop-menu-wrapper pb-100">
             <li class="is-checked" data-filter="*">Бүгд</li>
-            <li data-filter=".marketing">Marketing</li>
-            <li data-filter=".application">Application</li>
-            <li data-filter=".design">Design</li>
-            <li data-filter=".development">Development</li>
+            <li data-filter=".bank">Банк, санхүү</li>
+            <li data-filter=".mobile">Үүрэн телефон</li>
+            <li data-filter=".business">Бизнес</li>
+            <li data-filter=".marketing">Mаркетинг</li>
           </ul>
 
           <div id="isotop-gallery-wrapper">
             <div class="grid-sizer"></div>
-            <div class="isotop-item application development">
+              <div class="isotop-item marketing">
+                <div class="project-item">
+                  <div class="img-box"><img src="images/success-story/newmedia.png" alt=""/></div>
+                  <div class="hover-jojo">
+                    <div>
+                      <h4 class="title"><a href="/success-story-detail">НЬЮ МЕДИА ГРУПП</a></h4>
+                      <div>
+                        <p>Нью Медиа Групп нь</p>
+                        <p>мэдээллийн технологийн</p>
+                        <p>шийдлээр бизнесийг</p>
+                        <p>дэмжин хөгжүүлэгч компани.</p>
+                      </div>
+                      <ul>
+                        <li>
+                          <a href="/success-story-detail">
+                            <span>+</span>
+                          </a>
+                        </li>
+                        <li><a href="images/success-story/newmedia.png" class="zoom fancybox" data-fancybox="gallery"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="isotop-item bank">
               <div class="project-item">
                 <div class="img-box"><img src="images/success-story/golomt.png" alt=""/></div>
                 <div class="hover-jojo">
                   <div>
-                    <h4 class="title"><a href="/success-story-detail">Lonely <span>Steve</span></a></h4>
+                    <h4 class="title"><a href="/success-story-detail">Голомт банк</a></h4>
                     <div>
-                      <p>Rogan dances in the deep dark</p>
-                      <p>She loves the smell of the ocean</p>
-                      <p>And dives into the morning light</p>
+                      <p>Монголд төлбөрийн</p>
+                      <p>картын системийг анхлан</p>
+                      <p>нэвтрүүлэгч Голомт банк</p>
                     </div>
                     <ul>
                       <li>
@@ -47,16 +71,16 @@ class SuccessStory extends Component {
                 </div>
               </div>
             </div>
-            <div class="isotop-item marketing design">
+            <div class="isotop-item bank">
               <div class="project-item">
                 <div class="img-box"><img src="images/success-story/capitron.png" alt=""/></div>
                 <div class="hover-jojo">
                   <div>
-                    <h4 class="title"><a href="/success-story-detail">Lonely <span>Steve</span></a></h4>
+                    <h4 class="title"><a href="/success-story-detail">Капитрон банк</a></h4>
                     <div>
-                      <p>Rogan dances in the deep dark</p>
-                      <p>She loves the smell of the ocean</p>
-                      <p>And dives into the morning light</p>
+                      <p>100 хувийн үндэсний</p>
+                      <p>хөрөнгө оруулалтай арилжааны</p>
+                      <p>Капитрон банк</p>
                     </div>
                     <ul>
                       <li><a href="/success-story-detail"><span>+</span></a></li>
@@ -66,16 +90,16 @@ class SuccessStory extends Component {
                 </div>
               </div>
             </div>
-            <div class="isotop-item application marketing">
+            <div class="isotop-item mobile">
               <div class="project-item">
                 <div class="img-box"><img src="images/success-story/skytel.png" alt=""/></div>
                 <div class="hover-jojo">
                   <div>
-                    <h4 class="title"><a href="/success-story-detail">Lonely <span>Steve</span></a></h4>
+                    <h4 class="title"><a href="/success-story-detail">СКАЙтел</a></h4>
                     <div>
-                      <p>Rogan dances in the deep dark</p>
-                      <p>She loves the smell of the ocean</p>
-                      <p>And dives into the morning light</p>
+                      <p>Монгол даяар 3G сүлжээ</p>
+                      <p>бүхий үндэсний үүрэн холбооны</p>
+                      <p>тэргүүлэх оператор СКАЙтел</p>
                     </div>
                     <ul>
                       <li><a href="/success-story-detail"><span>+</span></a></li>
@@ -85,16 +109,16 @@ class SuccessStory extends Component {
                 </div>
               </div>
             </div>
-            <div class="isotop-item marketing design development">
+            <div class="isotop-item mobile">
               <div class="project-item">
                 <div class="img-box"><img src="images/success-story/mobicom.png" alt=""/></div>
                 <div class="hover-jojo">
                   <div>
-                    <h4 class="title"><a href="/success-story-detail">Lonely <span>Steve</span></a></h4>
+                    <h4 class="title"><a href="/success-story-detail">Мобиком</a></h4>
                     <div>
-                      <p>Rogan dances in the deep dark</p>
-                      <p>She loves the smell of the ocean</p>
-                      <p>And dives into the morning light</p>
+                      <p>Монголын анхны үүрэн</p>
+                      <p>холбооны оператор</p>
+                      <p>Мобиком Корпораци</p>
                     </div>
                     <ul>
                       <li><a href="/success-story-detail"><span>+</span></a></li>
@@ -104,16 +128,17 @@ class SuccessStory extends Component {
                 </div>
               </div>
             </div>
-            <div class="isotop-item application">
+            <div class="isotop-item business">
               <div class="project-item">
                 <div class="img-box"><img src="images/success-story/tavanbogd.png" alt=""/></div>
                 <div class="hover-jojo">
                   <div>
-                    <h4 class="title"><a href="/success-story-detail">Lonely <span>Steve</span></a></h4>
+                    <h4 class="title"><a href="/success-story-detail">Таван богд групп</a></h4>
                     <div>
-                      <p>Rogan dances in the deep dark</p>
-                      <p>She loves the smell of the ocean</p>
-                      <p>And dives into the morning light</p>
+                      <p>Өнөөдөр Таван Богд групп нь</p>
+                      <p>16 охин компани, 3 хөрөнгө оруулалттай компани</p>
+                      <p>4 бизнес нэгж, нийт 12,000 гаруй ажиллагсадтай</p>
+                      <p>ажиллаж байна</p>
                     </div>
                     <ul>
                       <li><a href="/success-story-detail"><span>+</span></a></li>
@@ -123,16 +148,16 @@ class SuccessStory extends Component {
                 </div>
               </div>
             </div>
-            <div class="isotop-item application development">
+            <div class="isotop-item business">
               <div class="project-item">
                 <div class="img-box"><img src="images/success-story/teso.png" alt=""/></div>
                 <div class="hover-jojo">
                   <div>
-                    <h4 class="title"><a href="/success-story-detail">Lonely <span>Steve</span></a></h4>
+                    <h4 class="title"><a href="/success-story-detail">ТЭСО Корпораци</a></h4>
                     <div>
-                      <p>Rogan dances in the deep dark</p>
-                      <p>She loves the smell of the ocean</p>
-                      <p>And dives into the morning light</p>
+                      <p>Хэрэглэгчидэд зөвхөн чанартай</p>
+                      <p>бүтээгдэхүүн, үйлчилгээ хүргэхийг</p>
+                      <p>эрхэм үүргээ гэж үздэг</p>
                     </div>
                     <ul>
                       <li><a href="/success-story-detail"><span>+</span></a></li>

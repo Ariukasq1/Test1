@@ -28,47 +28,26 @@ const Feature = () => (
               Маркетинг баг
                 <b className="line" />
               </h2>
-            </div>{' '}
-            <p></p>
-            {/* /.theme-title-one */}
-            <ul>
-            <li>Маркетингийнхаа санааг үнэлэх, шигших, хэмжих, архивлах боломж</li>
-            <li>10000 имэйлийг $1-оор илгээх боломж</li>
-            <li>Цахим хуудасны цэс болгонд угтах мессэж тохируулах боломж</li>
-
+            </div>
+            <ul className="mt-30">
+              <li>Маркетингийнхаа санааг үнэлэх, шигших, хэмжих, архивлах боломж</li>
+              <li>10000 имэйлийг $1-оор илгээх боломж</li>
+              <li>Цахим хуудасны цэс болгонд угтах мессэж тохируулах боломж</li>
             </ul>
-            {/* <a href="#" className="read-more">
-              Read More
-            </a> */}
-          </div>{' '}
-          {/* /.text-box */}
-        </div>{' '}
-        {/* /.container */}
+          </div>
+        </div>
         <div className="img-box">
+          <img src="images/shape/shape-15.svg" alt="" class="main-shape" data-aos="fade-right" data-aos-delay="200"/>
+          <img src="images/shape/shape-16.svg" alt="" class="bg-shape" data-aos="fade-right" data-aos-delay="400"/>
           <img
             src="images/side-1.png"
             alt=""
-            className="main-shape"
+            className="main-shape screen-one"
             data-aos="fade-right"
             data-aos-delay={200}
           />
-          {/* <img
-            src="images/shape/shape-16.svg"
-            alt=""
-            className="bg-shape"
-            data-aos="fade-right"
-            data-aos-delay={400}
-          />
-          <img
-            src="https://erxes.io/static/images/BOTMAP.png"
-            alt=""
-            className="screen-three"
-            data-aos="fade-down"
-            data-aos-delay={600}
-          /> */}
         </div>
-      </div>{' '}
-      {/* /.single-feature-block */}
+      </div>
       <div className="single-feature-block">
         <div className="container clearfix">
           <div className="text-box">
@@ -80,14 +59,8 @@ const Feature = () => (
               <h2 className="main-title">
               Борлуулалт баг <b className="line" />
               </h2>
-            </div>{' '}
-            <p></p>
-            {/* /.theme-title-one */}
-            {/* <p>
-              Lorem ipsum dolor sit amet, hendrerit omittantur mel, es vidit Ius te altera essent
-              incorrupte.
-            </p> */}
-            <ul>
+            </div>
+            <ul className="mt-30">
               <li>
               Борлуулалтаа үе шатаар нь төлөвлөн, үйл явцтай тухай бүрд танилцах боломж
               </li>
@@ -98,32 +71,25 @@ const Feature = () => (
               Ирэх саруудад ямар борлуулалтууд хийгдэх магадлалтай танилцах боломж
               </li>
             </ul>
-            {/* <a href="#" className="read-more">
-              Read More
-            </a> */}
-          </div>{' '}
-          {/* /.text-box */}
-        </div>{' '}
-        {/* /.container */}
+          </div>
+        </div>
         <div className="img-box">
-          {/* <img
-            src="images/side-2.png"
-            alt=""
-            className="main-shape"
-            data-aos="fade-left"
-            data-aos-delay={200}
-          /> */}
           <img
             src="images/side-2.png"
             alt=""
-            style={{width: '900px', marginTop: '200px'}}
+            style={{width: '900px'}}
             className="screen-one"
             data-aos="fade-down"
             data-aos-delay={400}
           />
         </div>
-      </div>{' '}
+      </div>
       <div className="single-feature-block">
+        <img src="images/shape/shape-45.svg" alt="" class="section-shape-one"/>
+        <img src="images/shape/shape-46.svg" alt="" class="section-shape-two"/>
+        <img src="images/shape/shape-58.svg" alt="" class="section-shape-three"/>
+        <img src="images/shape/shape-60.svg" alt="" class="section-shape-four"/>
+        <img src="images/shape/shape-61.svg" alt="" class="section-shape-five"/>
         <div className="container clearfix">
           <div className="text-box">
             <div className="theme-title-one hide-pr">
@@ -135,10 +101,8 @@ const Feature = () => (
               Хэрэглэгчтэй харилцах баг
                 <b className="line" />
               </h2>
-            </div>{' '}
-            <p></p>
-            {/* /.theme-title-one */}
-            <ul>
+            </div>
+            <ul className="mt-30">
               <li>
               Фэйсбүүк, твиттер, вайбер гэх мэт сошиал платформууд, имэйл, цахим хуудасны мессенжер, мобайл апп-ын чат,  утас гэх мэт хэрэглэгчтэй харилцах сувгуудыг нэг инбокст хүлээн авна.
               </li>
@@ -149,14 +113,9 @@ const Feature = () => (
               Хэрэглэгчтэй харилцах явцад илэрсэн мэдээллүүдийг бүртгэн, хэрэглэгчийн мэдээллийн сангаа улам баяжуулна.
               </li>
             </ul>
-            {/* <a href="#" className="read-more">
-              Read More
-            </a> */}
-          </div>{' '}
-          {/* /.text-box */}
-        </div>{' '}
-        {/* /.container */}
-        <div className="img-box" style={{marginTop:'300px', left:'-30px', width: '55%'}}>
+          </div>
+        </div>
+        <div className="img-box" style={{marginTop:'30px', left:'20px'}}>
           <img
             src="images/side-3.png"
             alt=""
@@ -164,46 +123,9 @@ const Feature = () => (
             data-aos="fade-right"
             data-aos-delay={200}
           />
-          {/* <img
-            src="images/shape/shape-16.svg"
-            alt=""
-            className="bg-shape"
-            data-aos="fade-right"
-            data-aos-delay={400}
-          />
-          <img
-            src="images/home/screen1.png"
-            alt=""
-            className="screen-one"
-            data-aos="fade-down"
-            data-aos-delay={600}
-          />
-          <img
-            src="images/home/screen2.png"
-            alt=""
-            className="screen-two"
-            data-aos="fade-down"
-            data-aos-delay={800}
-          />
-          <img
-            src="images/home/screen3.png"
-            alt=""
-            className="screen-three"
-            data-aos="fade-down"
-            data-aos-delay={1000}
-          />
-          <img
-            src="images/home/screen4.png"
-            alt=""
-            className="screen-four"
-            data-aos="fade-down"
-            data-aos-delay={1200}
-          /> */}
         </div>
-      </div>{' '}
-      {/* /.single-feature-block */}
-    </div>{' '}
-    {/* /.feature-wrapper */}
+      </div>
+    </div>
   </div>
 );
 

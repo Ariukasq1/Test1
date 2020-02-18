@@ -41,6 +41,7 @@
 body{
   overflow-x: hidden !important;
 }
+.loading-content{margin:0 auto;width:320px;height:400px;align-self:center;text-align:center;color:#393c40;font-size:14px}
 .ctn-preloader {
   align-items: center;
   -webkit-align-items: center;
@@ -64,8 +65,8 @@ body{
 .ctn-preloader .animation-preloader .spinner {
   animation: spinner 1s infinite linear;
   border-radius: 50%;
-  border: 3px solid rgba(255, 57, 70, 0.15);
-  border-top-color: #ff3946;
+  border: 3px solid rgba(103, 63, 189, 0.15);
+  border-top-color: #673FBD;
   height: 170px;
   margin: 0 auto 45px auto;
   width: 170px;
@@ -77,7 +78,7 @@ body{
 }
 .ctn-preloader .animation-preloader .txt-loading .letters-loading:before {
   animation: letters-loading 4s infinite;
-  color: #ff3946;
+  color: #673FBD;
   content: attr(data-text-preloader);
   left: 0;
   opacity: 0;
@@ -90,7 +91,7 @@ body{
   font-weight: 700;
   letter-spacing: 15px;
   display: inline-block;
-  color: rgba(255, 57, 70, 0.15);
+  color: rgba(103, 63, 189, .15);
   position: relative;
   font-size: 70px;
   line-height: 70px;
@@ -185,7 +186,7 @@ body{
        url('../fonts/font-awesome/fonts/fontawesome-webfont.svg') format('svg'); /* Legacy iOS */
  }
  body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
   font-weight: normal;
   color:#57667E;
   font-size: 17px;
@@ -258,7 +259,7 @@ body .solid-button-one {
 body .solid-button-one:hover {background: #fff;box-shadow: none;}
 body .solid-button-one .icon-right {vertical-align: -1px;margin-left: 5px;}
 body .solid-button-one .icon-left {vertical-align: -1px;margin-right: 5px;}
-body .video-button-one {font-size: 18px;line-height: 55px;color: #57667E;}
+body .video-button-one {font-size: 16px;line-height: 55px;color: #57667E;}
 body .video-button-one i {font-size: 50px;color: #D8D8D8;vertical-align: middle;}
 body .video-button-one .icon-right {margin-left: 10px;}
 body .video-button-one .icon-left {margin-right: 10px;}
@@ -446,7 +447,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 .arch-footer .top-footer .phone,.theme-footer-one.arch-footer .top-footer .footer-list ul li a:hover,.theme-tab-basic.theme-tab .tabs-menu li.z-active a,.theme-tab .z-content-inner ol li a:hover,.studio-feature-area .feature-block:hover .title,
 .z-tabs.mobile > ul.z-tabs-mobile > li > a > span.drp-icon,#studio-banner-two .main-text-wrapper .button-link,.studio-feature-area .feature-block .icon-s,.studio-feature-area .feature-block .detail-button,.studio-client-slider .customer-block:before,
 .studio-contact-area .contact-text .call-to-dial,.studio-footer-one .top-footer h2 a,.studio-footer-one .top-footer .footer-list ul li a:hover  {
-  color: #FF3A46;
+  color: #673FBD;
 }
 .scroll-top,.theme-footer-one .top-footer .footer-information ul li a:hover,.theme-menu-two .quote-button:hover,.theme-Ecommerce-menu .right-content .cart-action-wrapper .button-group a:hover,
 #eCommerce-carousel .inner-item-wrapper .button-group .shop-now:hover,#eCommerce-carousel .inner-item-wrapper .button-group .details-info-button:hover,.product-details-modal .main-bg-wrapper .cart-button,
@@ -464,7 +465,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 .pricing-tab-menu .nav-tabs .nav-item .nav-link.active,#arch-carousel .indicators-one li.active span,.about-arch .text-wrapper .mark-text:before,.about-arch .img-box .sq-box,body .line-button-three:hover,
 .arch-testimonial .owl-theme .owl-dots .owl-dot.active span,.arch-testimonial .owl-theme .owl-dots .owl-dot span:hover,#arch-carousel .details-info-button,.theme-tab .tabs-menu li a:before,
 .theme-tab .z-content-inner .list-item li:before,.theme-tab-solid.theme-tab .tabs-menu li.z-active a,.theme-tab .nested-tab-menu li.z-active a:before,.action-banner-three,.studio-client-slider .center .customer-block  {
-  background: #FF3A46;
+  background: #673FBD;
 }
 .theme-footer-one .top-footer .footer-information ul li a:hover,.seo-contact-banner .contact-button:hover,.theme-Ecommerce-menu .right-content .cart-action-wrapper .button-group a:hover,body .theme-button-one,
 .theme-sidebar-widget .size-filter li a:hover,.shop-details .procuct-details .product-info .cart-button,.shop-details .procuct-details .product-info .wishlist-button:hover,.faq-page .submit-faq button,
@@ -472,7 +473,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 .blog-details .user-comment-area .single-comment .reply:hover,.contact-us-section .contact-info ul li a:hover,.form-style-three .send-button:hover,body .line-button-one,body .solid-button-one,body .line-button-two:hover,
 .agn-our-pricing .table-wrapper .pr-column:hover .line-button-two,#theme-banner-two .main-wrapper .button-group .contact-button:hover,.agn-our-gallery .main-wrapper .view-gallery:hover,.theme-footer-three .social-icon li a:hover,
 .theme-footer-four .social-icon li a:hover,.pricing-tab-menu .nav-wrapper,body .line-button-three:hover,.arch-testimonial .owl-theme .owl-dots .owl-dot span,.studio-feature-area .feature-block:hover {
-  border-color: #FF3A46;
+  border-color: #673FBD;
 }
 
 /*------------------- Theme Title ------------------*/
@@ -654,8 +655,8 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 .theme-menu-one.d-align-item .navbar .dropdown-item:focus,.theme-menu-one.d-align-item .navbar .dropdown-item:hover,
 .theme-menu-one.d-align-item .navbar .dropdown-submenu.dropdown:hover>.dropdown-item,.theme-menu-one.d-align-item .navbar .navbar-toggler,
 .theme-menu-one.d-align-item .navbar .mega-dropdown-list li a:hover,
-.theme-menu-one.d-align-item .navbar .mega-dropdown-list li a:hover .icon {color: #f569f8;}
-.theme-menu-one.d-align-item .navbar .mega-dropdown-list li a:hover .svg path {fill: #f569f8;}
+.theme-menu-one.d-align-item .navbar .mega-dropdown-list li a:hover .icon {color: #5629b6;}
+.theme-menu-one.d-align-item .navbar .mega-dropdown-list li a:hover .svg path {fill: #5629b6;}
 .theme-menu-one.d-align-item .navbar-nav .nav-item .nav-link {padding-bottom: 0;}
 .theme-menu-one.d-align-item .navbar-nav .nav-item .nav-link:before {
   content: '';
@@ -663,13 +664,13 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   height: 2px;
   position: absolute;
   left:1px;
-  bottom: 5px;
+  bottom: -5px;
   z-index: -1;
-  background: #f569f8;
+  background: #5629b6;
   transition: width 0.3s ease-out;
 }
 .theme-menu-one.d-align-item .header-right-widget .call-us a {color: #bebebe; margin-left: 0;}
-.theme-menu-one.d-align-item .header-right-widget .call-us a:hover {color: #f569f8;}
+.theme-menu-one.d-align-item .header-right-widget .call-us a:hover {color: #5629b6;}
 .theme-menu-one.d-align-item .navbar-nav .nav-item .nav-link:hover:before,
 .theme-menu-one.d-align-item .navbar-nav .nav-item.active .nav-link:before {width: 100%;}
 .theme-menu-one.d-align-item #mega-menu-holder {margin-right: 125px;}
@@ -677,16 +678,16 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 .theme-menu-one.d-align-item .logo {top:45px;left:75px;width: 110px;}
 .theme-menu-one.d-align-item .navbar-nav .login-button a {
   width: 150px;
-  line-height: 50px;
-  background: #fef9da;
+  line-height: 45px;
+  background: #fda50f;
   border-radius: 3px;
   font-size: 18px;
-  color: #ead24c;
+  color: #fff;
   text-align: center;
   margin-top: -12px;
-  margin-right: 10px;
+  margin-left: 15px;
 }
-.theme-menu-one.d-align-item .navbar-nav .login-button a:hover {background: #f569f8;color: #fff;}
+.theme-menu-one.d-align-item .navbar-nav .login-button a:hover {background: #f09802;color: #fff;}
 .theme-menu-one.d-align-item .navbar-nav .login-button-two a:hover {
   background: #fff;
   color: #614ef9;
@@ -1084,7 +1085,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 }
 /*---------------------------- Theme Main Banner Four -------------------------*/
 #theme-banner-four {position: relative;}
-#theme-banner-four .main-wrapper {padding: 290px 0 260px;position: relative;z-index: 5;}
+#theme-banner-four .main-wrapper {padding: 290px 0 200px;position: relative;z-index: 5;}
 #theme-banner-four .screen-one {
   position: absolute;
     right: -340px;
@@ -1210,6 +1211,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   text-align: center;
   border-radius: 3px;
   color: #fff;
+  font-size: 15px;
   box-shadow: 0px 10px 40px 0px rgba(150,57,57,0.25);
   background: linear-gradient( -135deg, rgb(191,108,255) 0%, rgb(144,65,255) 100%);
   margin-right: 30px;
@@ -1217,7 +1219,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 #theme-banner-four .main-wrapper .button-group .more-button:hover {box-shadow: none;}
 #theme-banner-four .main-wrapper .button-group .more-button i {vertical-align: -1px;margin-left: 5px;}
 #theme-banner-four .main-wrapper .button-group .video-button:hover,
-#theme-banner-four .main-wrapper .button-group .video-button:hover i {color: #f569f8;}
+#theme-banner-four .main-wrapper .button-group .video-button:hover i {color: #5629b6;}
 /*---------------------- Theme Main Banne Five -----------------------*/
 #theme-banner-five {
   background: linear-gradient( 145deg, rgb(132,0,252) 0%, rgb(17,222,244) 100%);
@@ -2615,7 +2617,6 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 /*-------------------------- Theme Footer One -------------------*/
 .theme-footer-one {
   position: relative;
-  padding-top: 125px;
 }
 .theme-footer-one .shape-two {
   position: absolute;
@@ -2639,6 +2640,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   color: #76797e;
 }
 .theme-footer-one .top-footer .footer-information p {padding: 0 0 30px; color: #76797e;}
+.theme-footer-one .top-footer .footer-information p i {color: #ddd; padding-right: 10px;}
 .theme-footer-one .top-footer .footer-information ul li {display: inline-block;}
 .theme-footer-one .top-footer .footer-information ul li a {
   width: 40px;
@@ -2648,21 +2650,19 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   text-align: center;
   line-height: 40px;
   color: #dbdbdb;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 .theme-footer-one .top-footer .footer-information ul li a:hover {color: #fff;}
 .theme-footer-one .bottom-footer {
   border-top: 1px solid #ededed;
   margin-top: 90px;
-  padding: 35px 0;
+  padding: 50px 0;
 }
-.theme-footer-one .bottom-footer p {float: left;color: rgba(87,102,126,0.8);}
-.theme-footer-one .bottom-footer ul {float: right;}
-.theme-footer-one .bottom-footer ul li {display: inline-block;}
+.theme-footer-one .bottom-footer p {color: rgba(87,102,126,0.8);}
+.theme-footer-one .bottom-footer ul li {display: block;}
 .theme-footer-one .bottom-footer ul li a {
   line-height: 28px;
   color: rgba(87,102,126,0.8);
-  margin-left: 15px;
 }
 .theme-footer-one .shape-one {
   position: absolute;
@@ -2895,6 +2895,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   z-index: 5;
   padding: 180px 30px 25px 40px;
   margin-top: 45px;
+  height: 440px;
 }
 .our-service-sass .service-block:before {
   content: '';
@@ -2929,7 +2930,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   color: #253d5f;
   margin-bottom: 30px;
 }
-.our-service-sass .service-block p {color: #737f92;padding-bottom: 20px;}
+.our-service-sass .service-block p {color: #737f92;padding-bottom: 20px; text-align: justify;}
 .our-service-sass .service-block .detail-button {
   font-size: 40px;
   color: #cad5e5;
@@ -3804,7 +3805,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 .partner-slider a:hover,.partner-slider .center a {opacity: 1;transform: scale(1.1);}
 /*----------------------- Our Feature/SASS ---------------------*/
 .our-feature-sass {
-  background: url(../../public/images/shape/bg3.png) no-repeat top 81% right;
+  background: url(/images/shape/bg3.png) no-repeat top 0 right;
   padding: 0 0 20px;
   position: relative;
   z-index: 1;
@@ -3826,7 +3827,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   transform: rotate(-90deg);
 }
 .our-feature-sass .down-arrow:hover {color: #fff;background: #9a5be8;}
-.our-feature-sass .single-feature-block {position: relative; margin-bottom: 330px;}
+.our-feature-sass .single-feature-block {position: relative; margin-bottom: 330px; min-height: 500px;}
 .our-feature-sass .single-feature-block:last-child {margin: 0;}
 .our-feature-sass .single-feature-block  .text-box {max-width: 550px;}
 .our-feature-sass .feature-wrapper .single-feature-block:nth-child(odd) .text-box {float: right;}
@@ -3850,9 +3851,8 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 }
 .our-feature-sass .single-feature-block  .text-box ul li {
   font-size: 17px;
-  line-height: 38px;
   color: #76797e;
-  padding-left: 30px;
+  padding: 0 0 15px 30px;
   position: relative;
 }
 .our-feature-sass .single-feature-block  .text-box ul li:before {
@@ -3876,13 +3876,13 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 }
 .our-feature-sass .single-feature-block  .text-box .read-more:hover {
   color: #fff;
-  background: #f569f8;
-  border-color:#f569f8;
+  background: #5629b6;
+  border-color:#5629b6;
 }
 .our-feature-sass .feature-wrapper .single-feature-block:nth-child(odd) .img-box {
   position: absolute;
-  top:-250px;
-  left:42px;
+  top:-35px;
+  left: -52px;
   z-index: -1;
   width: 45%;
 }
@@ -3893,7 +3893,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 }
 .our-feature-sass .feature-wrapper .single-feature-block:nth-child(odd) .img-box .screen-one {
   position: absolute;
-  top:-50px;
+  top:-280px;
   left:10px;
 }
 .our-feature-sass .feature-wrapper .single-feature-block:nth-child(odd) .img-box .screen-two {
@@ -3969,7 +3969,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 }
 .our-feature-sass .section-shape-five {
   position: absolute;
-  top:62%;
+  top:40%;
   left:46%;
   animation: rotatedHalfTwo 15s alternate infinite linear;
 }
@@ -4270,13 +4270,13 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 .sass-our-pricing .single-pr-table .pr-body .feature {
   font-size: 20px;
   color: #303858;
-  padding-bottom: 15px;
+  padding-bottom: 25px;
+  text-align: center;
 }
 .sass-our-pricing .single-pr-table .pr-body ul li {
   font-size: 16px;
   position: relative;
-  padding-left: 28px;
-  line-height: 40px;
+  padding: 0 0 30px 28px;
   color: #818386;
 }
 .sass-our-pricing .single-pr-table .pr-body ul li:before {
@@ -4285,7 +4285,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   font-size: 14px;
   position: absolute;
   color: #12d859;
-  line-height: 40px;
+  line-height: 28px;
   left:0;
   top:0;
 }
@@ -5675,7 +5675,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   display: inline-block;
   font-size: 22px;
   color: #244574;
-  margin: 0 3px;
+  margin: 0 10px;
 }
 .solid-inner-banner .page-breadcrumbs li a {color: #244574;}
 /*----------------------- Shop Details ----------------------*/
@@ -6053,7 +6053,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   transition: all ease 0.3s;
 }
 .team-business .single-team-member .info-meta ul li:hover i {
-  color: #FF3A46;
+  color: #673FBD;
 }
 /*--------------------- Our Team Classic --------------------*/
 .team-classic .wrapper {position: relative;background: #353535;margin-bottom: 100px;}
@@ -6461,6 +6461,9 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 #isotop-gallery-wrapper .isotop-item .project-item:hover .hover-jojo ul li {
   opacity: 1;
   transform: translate3d(0,0,0);
+}
+#isotop-gallery-wrapper .isotop-item .project-item:hover .hover-jojo .title a:hover {
+  opacity: .8;
 }
 #isotop-gallery-wrapper .isotop-item .project-item:hover .img-box img,
 .project-with-sidebar .project-item:hover .img-box>img {
@@ -7716,7 +7719,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   top:0;
   transition: all 0.1s ease-in-out;
 }
-.signUp-page .acType-content .acType-list li>div input:checked + label:before {border-color: #FF3A46;}
+.signUp-page .acType-content .acType-list li>div input:checked + label:before {border-color: #673FBD;}
 .signUp-page .acType-content .acType-list li>div input:checked + label {color:rgba(47,52,62,1); }
 .signUp-page .acType-content {border-bottom: 1px solid #e0e0e0;padding-bottom: 65px;}
 .signUp-page .agreement-checkbox label {
@@ -8767,14 +8770,14 @@ Modal animation
 .arch-contact .form-wrapper .inner-wrapper {
   background: #fff;
   padding: 70px 40px 60px 75px;
-  border-bottom: 4px solid #FF3A46;
+  border-bottom: 4px solid #673FBD;
   box-shadow: 0px 50px 100px 0px rgba(3, 3, 3, 0.02);
 }
 .arch-contact .form-wrapper form input,
 .arch-contact .form-wrapper form textarea {
   width: 100%;
   border:none;
-  border-bottom: 1px solid #FF3A46;
+  border-bottom: 1px solid #673FBD;
   margin-bottom: 30px;
   color: #848484;
 }
