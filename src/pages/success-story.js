@@ -6,14 +6,10 @@ class SuccessStory extends Component {
     return (
       <Layout>
         <div class="solid-inner-banner">
+          <div class="banner-overlay" />
           <h2 class="page-title">Амжилтын Түүх</h2>
-          <ul class="page-breadcrumbs">
-            <li><a href="/">Нүүр хуудас</a></li>
-            <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
-            <li>Амжилтын Түүх</li>
-          </ul>
         </div>
-        <div class="our-project pt-150">
+        <div class="our-project pt-90">
           <ul class="isotop-menu-wrapper pb-100">
             <li class="is-checked" data-filter="*">Бүгд</li>
             <li data-filter=".bank">Банк, санхүү</li>
@@ -53,7 +49,7 @@ class SuccessStory extends Component {
                 <div class="img-box"><img src="images/success-story/golomt.png" alt=""/></div>
                 <div class="hover-jojo">
                   <div>
-                    <h4 class="title"><a href="/success-story-detail">Голомт банк</a></h4>
+                    <h4 class="title"><a href="#">Голомт банк</a></h4>
                     <div>
                       <p>Монголд төлбөрийн</p>
                       <p>картын системийг анхлан</p>
@@ -61,7 +57,7 @@ class SuccessStory extends Component {
                     </div>
                     <ul>
                       <li>
-                        <a href="/success-story-detail">
+                        <a href="#">
                           <span>+</span>
                         </a>
                       </li>
@@ -76,14 +72,14 @@ class SuccessStory extends Component {
                 <div class="img-box"><img src="images/success-story/capitron.png" alt=""/></div>
                 <div class="hover-jojo">
                   <div>
-                    <h4 class="title"><a href="/success-story-detail">Капитрон банк</a></h4>
+                    <h4 class="title"><a href="#">Капитрон банк</a></h4>
                     <div>
                       <p>100 хувийн үндэсний</p>
                       <p>хөрөнгө оруулалтай арилжааны</p>
                       <p>Капитрон банк</p>
                     </div>
                     <ul>
-                      <li><a href="/success-story-detail"><span>+</span></a></li>
+                      <li><a href="#"><span>+</span></a></li>
                       <li><a href="images/success-story/capitron.png" class="zoom fancybox" data-fancybox="gallery"><i class="fa fa-search" aria-hidden="true"></i></a></li>
                     </ul>
                   </div>
@@ -95,14 +91,14 @@ class SuccessStory extends Component {
                 <div class="img-box"><img src="images/success-story/skytel.png" alt=""/></div>
                 <div class="hover-jojo">
                   <div>
-                    <h4 class="title"><a href="/success-story-detail">СКАЙтел</a></h4>
+                    <h4 class="title"><a href="#">СКАЙтел</a></h4>
                     <div>
                       <p>Монгол даяар 3G сүлжээ</p>
                       <p>бүхий үндэсний үүрэн холбооны</p>
                       <p>тэргүүлэх оператор СКАЙтел</p>
                     </div>
                     <ul>
-                      <li><a href="/success-story-detail"><span>+</span></a></li>
+                      <li><a href="#"><span>+</span></a></li>
                       <li><a href="images/success-story/skytel.png" class="zoom fancybox" data-fancybox="gallery"><i class="fa fa-search" aria-hidden="true"></i></a></li>
                     </ul>
                   </div>
@@ -114,14 +110,14 @@ class SuccessStory extends Component {
                 <div class="img-box"><img src="images/success-story/mobicom.png" alt=""/></div>
                 <div class="hover-jojo">
                   <div>
-                    <h4 class="title"><a href="/success-story-detail">Мобиком</a></h4>
+                    <h4 class="title"><a href="#">Мобиком</a></h4>
                     <div>
                       <p>Монголын анхны үүрэн</p>
                       <p>холбооны оператор</p>
                       <p>Мобиком Корпораци</p>
                     </div>
                     <ul>
-                      <li><a href="/success-story-detail"><span>+</span></a></li>
+                      <li><a href="#"><span>+</span></a></li>
                       <li><a href="images/success-story/mobicom.png" class="zoom fancybox" data-fancybox="gallery"><i class="fa fa-search" aria-hidden="true"></i></a></li>
                     </ul>
                   </div>
@@ -133,7 +129,7 @@ class SuccessStory extends Component {
                 <div class="img-box"><img src="images/success-story/tavanbogd.png" alt=""/></div>
                 <div class="hover-jojo">
                   <div>
-                    <h4 class="title"><a href="/success-story-detail">Таван богд групп</a></h4>
+                    <h4 class="title"><a href="#">Таван богд групп</a></h4>
                     <div>
                       <p>Өнөөдөр Таван Богд групп нь</p>
                       <p>16 охин компани, 3 хөрөнгө оруулалттай компани</p>
@@ -141,7 +137,7 @@ class SuccessStory extends Component {
                       <p>ажиллаж байна</p>
                     </div>
                     <ul>
-                      <li><a href="/success-story-detail"><span>+</span></a></li>
+                      <li><a href="#"><span>+</span></a></li>
                       <li><a href="images/success-story/tavanbogd.png" class="zoom fancybox" data-fancybox="gallery"><i class="fa fa-search" aria-hidden="true"></i></a></li>
                     </ul>
                   </div>
@@ -153,14 +149,14 @@ class SuccessStory extends Component {
                 <div class="img-box"><img src="images/success-story/teso.png" alt=""/></div>
                 <div class="hover-jojo">
                   <div>
-                    <h4 class="title"><a href="/success-story-detail">ТЭСО Корпораци</a></h4>
+                    <h4 class="title"><a href="#">ТЭСО Корпораци</a></h4>
                     <div>
                       <p>Хэрэглэгчидэд зөвхөн чанартай</p>
                       <p>бүтээгдэхүүн, үйлчилгээ хүргэхийг</p>
                       <p>эрхэм үүргээ гэж үздэг</p>
                     </div>
                     <ul>
-                      <li><a href="/success-story-detail"><span>+</span></a></li>
+                      <li><a href="#"><span>+</span></a></li>
                       <li><a href="images/success-story/teso.png" class="zoom fancybox" data-fancybox="gallery"><i class="fa fa-search" aria-hidden="true"></i></a></li>
                     </ul>
                   </div>
@@ -169,13 +165,6 @@ class SuccessStory extends Component {
             </div>
           </div>
         </div>
-
-        <div class="agn-contact-banner">
-  				<div class="container">
-  					<h2 class="title">Do you have any projects? <br />Contact us.</h2>
-  					<a href="contact-us-agency.html" class="contact-button line-button-one">Contact Us</a>
-  				</div>
-  			</div>
       </Layout>
     )
   }

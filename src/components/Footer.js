@@ -17,19 +17,16 @@ const Footer = () => (
                   <li>
                     <Link href="/team">Баг хамт олон</Link>
                   </li>
-                  <li>
-                    <a href="#">Үйл явдал</a>
-                  </li>
                 </ul>
               </div>
               <div className="col-lg-3 col-lg-3 col-sm-6 col-12 footer-list" data-aos="fade-up">
                 <h5 className="title">Хүний нөөц</h5>
                 <ul>
                   <li>
-                    <a href="#">Хүний нөөцийн бодлого</a>
+                    <a href="/human-resource">Хүний нөөцийн бодлого</a>
                   </li>
                   <li>
-                    <a href="#">Нээлттэй ажлын байр</a>
+                    <a href="/jobs">Нээлттэй ажлын байр</a>
                   </li>
                 </ul>
               </div>

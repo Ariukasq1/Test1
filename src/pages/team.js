@@ -7,11 +7,6 @@ class Team extends Component {
       <Layout>
         <div className="solid-inner-banner">
           <h2 className="page-title">Баг хамт олон</h2>
-          <ul className="page-breadcrumbs">
-            <li><a href="/">Нүүр хуудас</a></li>
-            <li><i className="fa fa-angle-right" aria-hidden="true"></i></li>
-            <li>Баг хамт олон </li>
-          </ul>
         </div>
 
         <div class="team-standard agn-about-us our-team mt-70 pb-100">

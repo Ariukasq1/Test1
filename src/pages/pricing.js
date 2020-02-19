@@ -75,7 +75,7 @@ class Pricing extends Component {
                         </li>
                       </ul>
                       <div className="pr-footer">
-                        <a href="#" className="choose-button line-button-two">Үнэгүй турших</a>
+                        <a href="https://erxes.io/create" target="_blank" className="choose-button line-button-two">Үнэгүй турших</a>
                       </div>
                     </div>
                     <div className="pr-column single-pr-table regular">
@@ -99,7 +99,7 @@ class Pricing extends Component {
                         </li>
                       </ul>
                       <div className="pr-footer">
-                        <a href="#" className="choose-button line-button-two">Үнэгүй турших</a>
+                        <a href="https://erxes.io/create" target="_blank" className="choose-button line-button-two">Үнэгүй турших</a>
                       </div>
                     </div>
                     <div className="pr-column single-pr-table plus">
@@ -127,7 +127,7 @@ class Pricing extends Component {
                         </li>
                       </ul>
                       <div className="pr-footer">
-                        <a href="#" className="choose-button line-button-two">Үнэгүй турших</a>
+                        <a href="https://erxes.io/create" target="_blank" className="choose-button line-button-two">Үнэгүй турших</a>
                       </div>
                     </div>
                     <div className="pr-column single-pr-table plus">

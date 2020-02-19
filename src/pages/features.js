@@ -7,11 +7,6 @@ class Features extends Component {
       <Layout>
         <div className="solid-inner-banner">
           <h2 className="page-title">Боломжууд</h2>
-          <ul className="page-breadcrumbs">
-            <li><a href="/">Нүүр хуудас</a></li>
-            <li><i className="fa fa-angle-right" aria-hidden="true"></i></li>
-            <li>Боломжууд</li>
-          </ul>
         </div>
 
         <div className="our-feature-app p0 mt-70">

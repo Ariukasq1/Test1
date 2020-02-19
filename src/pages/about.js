@@ -7,11 +7,6 @@ class About extends Component {
       <Layout>
         <div className="solid-inner-banner">
           <h2 className="page-title">Бидний тухай</h2>
-          <ul className="page-breadcrumbs">
-            <li><a href="/">Нүүр</a></li>
-            <li><i className="fa fa-angle-right" aria-hidden="true"></i></li>
-            <li>Бидний тухай</li>
-          </ul>
         </div>
 
         <div class="about-us-standard pt-150 pb-100">
