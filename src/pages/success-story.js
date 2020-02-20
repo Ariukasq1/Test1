@@ -20,30 +20,6 @@ class SuccessStory extends Component {
 
           <div id="isotop-gallery-wrapper">
             <div className="grid-sizer"></div>
-              <div className="isotop-item marketing">
-                <div className="project-item">
-                  <div className="img-box"><img src="images/success-story/newmedia.png" alt=""/></div>
-                  <div className="hover-jojo">
-                    <div>
-                      <h4 className="title"><a href="/success-story-detail">НЬЮ МЕДИА ГРУПП</a></h4>
-                      <div>
-                        <p>Нью Медиа Групп нь</p>
-                        <p>мэдээллийн технологийн</p>
-                        <p>шийдлээр бизнесийг</p>
-                        <p>дэмжин хөгжүүлэгч компани.</p>
-                      </div>
-                      <ul>
-                        <li>
-                          <a href="/success-story-detail">
-                            <span>+</span>
-                          </a>
-                        </li>
-                        <li><a href="images/success-story/newmedia.png" className="zoom fancybox" data-fancybox="gallery"><i className="fa fa-search" aria-hidden="true"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
             <div className="isotop-item bank">
               <div className="project-item">
                 <div className="img-box"><img src="images/success-story/golomt.png" alt=""/></div>

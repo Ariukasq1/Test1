@@ -16,7 +16,7 @@ const Layout = props => (
   		<meta name='og:image' content="https://erxes.io/static/images/logo/icon.png" />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
   		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>эрксис - Маркетингийн цогц платформ</title>
+      <title>Эрксис - Маркетингийн цогц платформ</title>
 
       <link href="https://erxes.io/static/images/logo/icon.png" rel="shortcut icon" />
       <link href="static/owl-carousel/owl.carousel.css" type="text/css" rel="stylesheet" />

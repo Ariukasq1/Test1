@@ -8,7 +8,7 @@ const Footer = () => (
         <div className="container">
           <div className="bottom-footer">
             <div className="row">
-              <div className="col-lg-3 col-sm-6 col-12 footer-list" data-aos="fade-up">
+              <div className="col-lg-3 col-sm-6 col-12 footer-list" >
                 <h5 className="title">Бидний тухай</h5>
                 <ul>
                   <li>
@@ -19,7 +19,7 @@ const Footer = () => (
                   </li>
                 </ul>
               </div>
-              <div className="col-lg-3 col-lg-3 col-sm-6 col-12 footer-list" data-aos="fade-up">
+              <div className="col-lg-3 col-lg-3 col-sm-6 col-12 footer-list" >
                 <h5 className="title">Хүний нөөц</h5>
                 <ul>
                   <li>
@@ -30,7 +30,7 @@ const Footer = () => (
                   </li>
                 </ul>
               </div>
-              <div className="col-lg-3 col-sm-6 col-12 footer-list" data-aos="fade-up">
+              <div className="col-lg-3 col-sm-6 col-12 footer-list" >
                 <h5 className="title">Хөрөнгө оруулагч</h5>
                 <ul>
                   <li>
@@ -41,7 +41,7 @@ const Footer = () => (
                   </li>
                 </ul>
               </div>
-              <div className="col-lg-3 col-lg-2 col-sm-6 col-12 footer-information" data-aos="fade-up">
+              <div className="col-lg-3 col-lg-2 col-sm-6 col-12 footer-information" >
                 <h5 className="title">Холбоо барих</h5>
                 <p>
                   СБД, 1-р хороо, 5-р хороолол, Чингисийн өргөн чөлөө, Бизнес Тауэр, 16 давхарт
