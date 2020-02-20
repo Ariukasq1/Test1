@@ -1,12 +1,5 @@
 // js Document
 
-// Created on   : 26/02/2019.
-// Last Update  : 07/04/2019.
-// Theme Name   : Rogan - Creative Multi-Purpose HTML Template.
-// Version      : 1.1.
-// Author       : Creativegigs.
-// Developed by : Jubayer al hasan. (me@heloshape.com)
-
 
 (function ($) {
     "use strict";
@@ -192,7 +185,7 @@
             doAnimations($animatingElems);
         });
 
-        // scroll slides on mouse scroll 
+        // scroll slides on mouse scroll
         $('#eCommerce-carousel').bind('mousewheel DOMMouseScroll',function (e) {
 
             if(e.originalEvent.wheelDelta > 0 || e.originalEvent.detail < 0) {
@@ -305,7 +298,7 @@
         // --------------------------- Theme Main Banner Slider One
         var banner = $(".banner-one");
         if(banner.length) {
-            banner.camera({ //here I declared some settings, the height and the presence of the thumbnails 
+            banner.camera({ //here I declared some settings, the height and the presence of the thumbnails
                 height: '940px',
                 pagination: false,
                 navigation: false,
@@ -400,7 +393,7 @@
         }
 
 
-        // ------------------------------ Partner Logo Footer 
+        // ------------------------------ Partner Logo Footer
         var logoslider = $(".partner-slider");
         if(logoslider.length) {
             logoslider.owlCarousel({
@@ -428,7 +421,7 @@
         }
 
 
-        // -------------------------------- Customer Slider 
+        // -------------------------------- Customer Slider
         var csSlider = $(".customer-slider");
         if(csSlider.length) {
             csSlider.owlCarousel({
@@ -802,7 +795,7 @@
             });
         }
 
-        // ------------------------------- WOW Animation 
+        // ------------------------------- WOW Animation
         if($(".wow").length) {
             var wow = new WOW({
                 boxClass: 'wow',      // animated element css class (default is wow)
@@ -872,7 +865,7 @@
 
     $(window).on('scroll',function () { // makes sure the whole site is loaded
 
-        // --------------------- Viewport Animation 
+        // --------------------- Viewport Animation
         $(".hide-pr").each(function (i,el) {
             var el = $(el);
             if(el.visible(true)) {
