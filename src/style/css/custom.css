@@ -7145,7 +7145,6 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 .blog-details-fg .blog-fg-data .blog-img-gallery {padding: 50px 0 80px;}
 .blog-details-fg .blog-fg-data .blog-img-gallery img {width: 100%;}
 .blog-details-fg .blog-fg-data .video-banner-blog {
-  background: url(../../public/images/blog/34.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   height: 615px;
