@@ -49,7 +49,7 @@ class SuccessStory extends Component {
                 <div class="img-box"><img src="images/success-story/golomt.png" alt=""/></div>
                 <div class="hover-jojo">
                   <div>
-                    <h4 class="title"><a href="#">Голомт банк</a></h4>
+                    <h4 class="title"><a href="/golomt-detail">Голомт банк</a></h4>
                     <div>
                       <p>Монголд төлбөрийн</p>
                       <p>картын системийг анхлан</p>
@@ -57,7 +57,7 @@ class SuccessStory extends Component {
                     </div>
                     <ul>
                       <li>
-                        <a href="#">
+                        <a href="/golomt-detail">
                           <span>+</span>
                         </a>
                       </li>

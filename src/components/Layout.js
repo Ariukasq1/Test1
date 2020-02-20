@@ -11,12 +11,12 @@ const Layout = props => (
   <>
     <Head>
       <meta charset="UTF-8" />
-      <meta name="keywords" content="эрхэс, CRM, Хэрэглэгчидтэй харилцах, борлуулалтыг дэмжих, маркетингийн автоматжуулалт, маркетинг"/>
-  		<meta name="description" content="Хэрэглэгчидтэй харилцах, борлуулалтыг дэмжих, маркетингийн автоматжуулалтын платформ"/>
+      <meta name="keywords" content="эрхэс, эрксис, CRM, маркетинг, Хэрэглэгчидтэй харилцах, борлуулалт, хэрэглэгч, маркетингийн автоматжуулалт"/>
+  		<meta name="description" content="Маркетингийн санаануудаа үнэлэх, хэмжих, борлуулалтаа төлөвлөх хянах, хэрэглэгчтэйгээ харилцах, халамжлах үйл ажиллагааг нэг технологиос удирдаарай"/>
   		<meta name='og:image' content="https://erxes.io/static/images/logo/icon.png" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>erxes Inc Mongola</title>
+      <title>эрксис - Маркетингийн цогц платформ</title>
 
       <link href="https://erxes.io/static/images/logo/icon.png" rel="shortcut icon" />
       <link href="static/owl-carousel/owl.carousel.css" type="text/css" rel="stylesheet" />
