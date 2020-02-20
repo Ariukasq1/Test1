@@ -71,7 +71,7 @@ class Pricing extends Component {
                           <i className="icon fa fa-chain available" aria-hidden="true"></i>
                         </li>
                         <li>
-                          <i className="icon flaticon-cancel none"></i>
+                          <i className="icon flaticon-tick available"></i>
                         </li>
                       </ul>
                       <div className="pr-footer">
@@ -95,7 +95,7 @@ class Pricing extends Component {
                           <i className="icon fa fa-chain available" aria-hidden="true"></i>
                         </li>
                         <li>
-                          <i className="icon flaticon-cancel none"></i>
+                          <i className="icon flaticon-tick available"></i>
                         </li>
                       </ul>
                       <div className="pr-footer">
@@ -123,7 +123,7 @@ class Pricing extends Component {
                           <i className="icon fa fa-chain available" aria-hidden="true"></i>
                         </li>
                         <li>
-                          <i className="icon flaticon-cancel none"></i>
+                          <i className="icon flaticon-tick available"></i>
                         </li>
                       </ul>
                       <div className="pr-footer">
