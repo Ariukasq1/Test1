@@ -7,7 +7,7 @@ class Testimonial extends Component{
       agnTslider.owlCarousel({
         loop: true,
         nav: true,
-        navText: ["<i class='flaticon-back'></i>", "<i class='flaticon-next'></i>"],
+        navText: ["<i className='flaticon-back'></i>", "<i className='flaticon-next'></i>"],
         dots: false,
         autoplay: true,
         autoplayTimeout: 4000,

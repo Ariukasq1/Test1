@@ -5,27 +5,27 @@ class SuccessStoryDetail extends Component {
   render() {
     return (
       <Layout>
-        <div class="project-details project-details-creative">
-          <div class="pd-banner" style={{backgroundImage: `url(images/success-story/golomtbanner.png)`}}>
-            <div class="overlay"></div>
-            <div class="container">
-              <div class="container-inner"><h2 class="project-title-one">ГОЛОМТ БАНК</h2></div>
+        <div className="project-details project-details-creative">
+          <div className="pd-banner" style={{backgroundImage: `url(images/success-story/golomtbanner.png)`}}>
+            <div className="overlay"></div>
+            <div className="container">
+              <div className="container-inner"><h2 className="project-title-one">ГОЛОМТ БАНК</h2></div>
             </div>
           </div>
-          <div class="container">
-            <div class="container-wrapper">
-              <div class="pd-body">
-                <div class="row">
-                  <div class="col-lg-8 order-lg-last">
+          <div className="container">
+            <div className="container-wrapper">
+              <div className="pd-body">
+                <div className="row">
+                  <div className="col-lg-8 order-lg-last">
                     <div className="detail">
-                      <div class="side-block">
-                        <h5 class="block-title">Тулгамдсан асуудал: </h5>
+                      <div className="side-block">
+                        <h5 className="block-title">Тулгамдсан асуудал: </h5>
                         <p>&nbsp;&nbsp;Банк, санхүүгийн салбар нь хэрэглэгчийн мэдээллийг өндөр нууцлалтайгаар хадгалдаг салбар учраас аливаа програм хангамжийг өөрийн серверт байрлуулахаас бусад хувилбараар ашиглах боломжгүй байдаг. Иймд Голомт нэг талдаа банкны хэрэглэгч, нөгөө талдаа банкны үйлчилгээг сонирхож цахим хуудас, сошиал хуудсуудаар аялж, харилцаа үүсгэж буй хэрэглэгчдийг нэгтгэсэн хэрэглэгчийн мэдээллийн санг үүсгэх шаардлага тулгамдаж байсан. Үүлэн технологит суурилсан гадны платформуудыг сервертээ байршуулах боломжгүй учраас шаардлагатай зарим нэг функцуудыг тогтмол төлбөртэйгөөр ашиглаж байв.
                        </p><br/><br/>
                         <p>Олон хэрэглэгчтэй банкны хувьд хэрэглэгчийн мэдээлэл, үйлдэл хурдтайгаар хувьсаж, түүнийг дагаад  бодит мэдээлэл бүхий хэрэглэгчийн мэдээллийн сан бүрдүүлэх зөв технологийг бий болгох шаардлага үүсч байв. Банкны үйл ажиллагаа өдрөөс өдөрт тэлж, хэрэглэгчийн тоо тасралтгүй өсөн нэмэгдэж буй энэ үед хэрэглэгчийн мэдээллийн сангаа зөв бүрдүүлж, хэрэглэгчээ таних, халамжлах, хэрэглэгчийн санал хүсэлтэд түргэн хариу илгээх үйл явцыг удирдах нэгдсэн системийн шаардлага тулгарч байв.</p>
                       </div>
-                      <div class="side-block">
-                        <h5 class="block-title">Эрксисийг сонгосон шалтгаан:</h5>
+                      <div className="side-block">
+                        <h5 className="block-title">Эрксисийг сонгосон шалтгаан:</h5>
                         <p>
                         <ul>
                         <li>Эрксис нь Голомт банкны серверт сууж, кодыг нь  Голомт банк бүрэн эзэмшсэнээр хэрэглэгчийн мэдээллээ банк өөрөө хадгалах, хамгаалах нөхцлийг бүрдүүлсэн</li>
@@ -34,8 +34,8 @@ class SuccessStoryDetail extends Component {
                         <li>10 гаруй цахим хуудас, 20 орчим сошиал медиа хуудсуудаас ирсэн хэрэглэгчийн мессэжийг нэг инбокст хүлээж авах, хэрэглэгч Голомт банкны цахим хуудас, мобайл банкны аппликэйшнаараа мессэж бичих, видео дуудлага хийх, дэлгэцээ шэйрлэх гэх мэт боломжуудыг ашиглаж байгаа нь банкны үйлчлүүлэгчид чиглэсэн үйл ажиллагааг боловсронгуй болгосон шийдэл байсан</li>
                         </ul></p>
                       </div>
-                      <div class="side-block">
-                        <h5 class="block-title">Үр дүн:</h5>
+                      <div className="side-block">
+                        <h5 className="block-title">Үр дүн:</h5>
                         <p>&nbsp;&nbsp;Эрксисийг нэвтрүүлсэнээр Голомт банкны “Хэрэглэгчдэд үйлчлэх төв”-ийн хурд нэмэгдэж, хэдэн суваг байхаас үл шалтгаалан хүний нөөцийн хуваарилалтаа хийх боломжтой болсон. Эрксисийг ашиглах хүний тоо, холбох сувгийн тоо, хүлээж авах хэрэглэгчийн санал хүсэлтийн тооноос шалтгаалсан үнийн өөрчлөлт байхгүй учир өмнө нь гадны платформуудад төлдөг байсан тогтмол зардлаа бусад үйл ажиллагаандаа зарцуулах  боломжтой болсон
                           <br/><br/>
                           Хэрэглэгчийн нэгдсэн мэдээллийн сангаа улам баяжуулах, хэрэглэгчээ таних, халамжлах үйл ажиллагааг илүү нарийн гүйцэтгэхэд эрксис бодитой дэмжлэг үзүүлж, хэрэглэгч төвтэй банк байхад технологийн давуу тал, дэмжлэгийг бий болгож байна. Мөн имэйл илгээх, хэрэглэгчийн мэдээлэл цуглуулахад ашиглаж байсан гадны платформуудыг халж, төлбөрийг тэглэсэн. <br/><br/>
@@ -44,20 +44,20 @@ class SuccessStoryDetail extends Component {
                     </div>
                   </div>
                   </div>
-                  <div class="col-lg-4 order-lg-first">
-                    <div class="project-info">
+                  <div className="col-lg-4 order-lg-first">
+                    <div className="project-info">
                       <ul>
                         <li>
-                          <h6 class="list-title">Салбар</h6>
-                          <span class="date">Банк, санхүү</span>
+                          <h6 className="list-title">Салбар</h6>
+                          <span className="date">Банк, санхүү</span>
                         </li>
                         <li>
-                          <h6 class="list-title">Нэвтрүүлсэн огноо</h6>
-                          <span class="date">2017/12/15</span>
+                          <h6 className="list-title">Нэвтрүүлсэн огноо</h6>
+                          <span className="date">2017/12/15</span>
                         </li>
                         <li>
-                          <h6 class="list-title">Харилцагчийн төрөл</h6>
-                          <span class="date">Энтерпрайз харилцагч</span>
+                          <h6 className="list-title">Харилцагчийн төрөл</h6>
+                          <span className="date">Энтерпрайз харилцагч</span>
                         </li>
                       </ul>
                     </div>

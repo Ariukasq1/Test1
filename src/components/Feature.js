@@ -37,8 +37,8 @@ const Feature = () => (
           </div>
         </div>
         <div className="img-box">
-          <img src="images/shape/shape-15.svg" alt="" class="main-shape" data-aos="fade-right" data-aos-delay="200"/>
-          <img src="images/shape/shape-16.svg" alt="" class="bg-shape" data-aos="fade-right" data-aos-delay="400"/>
+          <img src="images/shape/shape-15.svg" alt="" className="main-shape" data-aos="fade-right" data-aos-delay="200"/>
+          <img src="images/shape/shape-16.svg" alt="" className="bg-shape" data-aos="fade-right" data-aos-delay="400"/>
           <img
             src="images/side-1.png"
             alt=""
@@ -85,11 +85,11 @@ const Feature = () => (
         </div>
       </div>
       <div className="single-feature-block">
-        <img src="images/shape/shape-45.svg" alt="" class="section-shape-one"/>
-        <img src="images/shape/shape-46.svg" alt="" class="section-shape-two"/>
-        <img src="images/shape/shape-58.svg" alt="" class="section-shape-three"/>
-        <img src="images/shape/shape-60.svg" alt="" class="section-shape-four"/>
-        <img src="images/shape/shape-61.svg" alt="" class="section-shape-five"/>
+        <img src="images/shape/shape-45.svg" alt="" className="section-shape-one"/>
+        <img src="images/shape/shape-46.svg" alt="" className="section-shape-two"/>
+        <img src="images/shape/shape-58.svg" alt="" className="section-shape-three"/>
+        <img src="images/shape/shape-60.svg" alt="" className="section-shape-four"/>
+        <img src="images/shape/shape-61.svg" alt="" className="section-shape-five"/>
         <div className="container clearfix">
           <div className="text-box">
             <div className="theme-title-one hide-pr">

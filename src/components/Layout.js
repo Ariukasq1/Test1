@@ -10,11 +10,11 @@ import '../style/fonts/font-awesome/css/font-awesome.css';
 const Layout = props => (
   <>
     <Head>
-      <meta charset="UTF-8" />
+      <meta charSet="UTF-8" />
       <meta name="keywords" content="эрхэс, эрксис, CRM, маркетинг, Хэрэглэгчидтэй харилцах, борлуулалт, хэрэглэгч, маркетингийн автоматжуулалт"/>
   		<meta name="description" content="Маркетингийн санаануудаа үнэлэх, хэмжих, борлуулалтаа төлөвлөх хянах, хэрэглэгчтэйгээ харилцах, халамжлах үйл ажиллагааг нэг технологиос удирдаарай"/>
   		<meta name='og:image' content="https://erxes.io/static/images/logo/icon.png" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
   		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>эрксис - Маркетингийн цогц платформ</title>
 

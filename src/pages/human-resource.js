@@ -9,19 +9,19 @@ class HumanResource extends Component {
           <h2 className="page-title">Хүний нөөцийн бодлого</h2>
         </div>
 
-        <div class="our-service service-minimal our-feature-app">
-  				<div class="container">
-  					<div class="demo-container-1100">
-  						<div class="row">
-  							<div class="col-lg-6 single-feature-box">
-  								<div class="service-block feature-img-box" data-aos="fade-up">
-                    <img src="images/shape/shape-45.svg" alt="" class="shape-one"/>
-    								<img src="images/shape/shape-46.svg" alt="" class="shape-two"/>
-    								<img src="images/shape/shape-47.svg" alt="" class="shape-three"/>
-    								<img src="images/shape/shape-48.svg" alt="" class="shape-four"/>
-    								<img src="images/shape/shape-49.svg" alt="" class="shape-five"/>
-  									<div class="icon-box"><i class="fa fa-check success" aria-hidden="true"></i></div>
-  									<h3 class="service-title">Хэрвээ та дараах шаардлагыг хангаж байвал <span>Эрксис баг </span>
+        <div className="our-service service-minimal our-feature-app">
+  				<div className="container">
+  					<div className="demo-container-1100">
+  						<div className="row">
+  							<div className="col-lg-6 single-feature-box">
+  								<div className="service-block feature-img-box" data-aos="fade-up">
+                    <img src="images/shape/shape-45.svg" alt="" className="shape-one"/>
+    								<img src="images/shape/shape-46.svg" alt="" className="shape-two"/>
+    								<img src="images/shape/shape-47.svg" alt="" className="shape-three"/>
+    								<img src="images/shape/shape-48.svg" alt="" className="shape-four"/>
+    								<img src="images/shape/shape-49.svg" alt="" className="shape-five"/>
+  									<div className="icon-box"><i className="fa fa-check success" aria-hidden="true"></i></div>
+  									<h3 className="service-title">Хэрвээ та дараах шаардлагыг хангаж байвал <span>Эрксис баг </span>
                     таныг хүлээж байна</h3>
   									<ul>
                       <li>Хүчтэй
@@ -42,10 +42,10 @@ class HumanResource extends Component {
                     </ul>
   								</div>
   							</div>
-  							<div class="col-lg-6 single-feature-box">
-  								<div class="service-block" data-aos="fade-up" data-aos-delay="100">
-  									<div class="icon-box"><i class="fa fa-times cancel" aria-hidden="true"></i></div>
-                    <h3 class="service-title">Харин та дараах сэтгэлгээтэй бол бидэнд <span>CV илгээх шаардлагагүй</span></h3>
+  							<div className="col-lg-6 single-feature-box">
+  								<div className="service-block" data-aos="fade-up" data-aos-delay="100">
+  									<div className="icon-box"><i className="fa fa-times cancel" aria-hidden="true"></i></div>
+                    <h3 className="service-title">Харин та дараах сэтгэлгээтэй бол бидэнд <span>CV илгээх шаардлагагүй</span></h3>
   									<ul>
                       <li>Хүчтэй
                         <q className="yellow">Үр дүн</q> + Хамгаас илүү

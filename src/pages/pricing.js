@@ -11,23 +11,23 @@ class Pricing extends Component {
 
         <div className="element-section mb-150">
           <div className="agn-our-pricing sass-our-pricing p0">
-            <div class="section-shape-one"><img src="images/shape/shape-18.svg" alt="" /></div>
-            <img src="images/shape/shape-55.svg" alt="" class="shape-one" />
-            <img src="images/shape/shape-62.svg" alt="" class="shape-two" />
-            <img src="images/shape/shape-24.svg" alt="" class="section-shape-two" data-aos="fade-right" data-aos-duration="3000" />
-            <img src="images/shape/shape-25.svg" alt="" class="section-shape-three" />
-            <div class="section-shape-four"></div>
-            <img src="images/shape/shape-1.svg" alt="" class="shape-three" />
-            <img src="images/shape/shape-60.svg" alt="" class="shape-four" />
-            <img src="images/shape/shape-57.svg" alt="" class="shape-five" />
-            <img src="images/shape/shape-26.svg" alt="" class="section-shape-five" />
-            <img src="images/shape/shape-27.svg" alt="" class="section-shape-six" data-aos="fade-left" data-aos-duration="3000" />
+            <div className="section-shape-one"><img src="images/shape/shape-18.svg" alt="" /></div>
+            <img src="images/shape/shape-55.svg" alt="" className="shape-one" />
+            <img src="images/shape/shape-62.svg" alt="" className="shape-two" />
+            <img src="images/shape/shape-24.svg" alt="" className="section-shape-two" data-aos="fade-right" data-aos-duration="3000" />
+            <img src="images/shape/shape-25.svg" alt="" className="section-shape-three" />
+            <div className="section-shape-four"></div>
+            <img src="images/shape/shape-1.svg" alt="" className="shape-three" />
+            <img src="images/shape/shape-60.svg" alt="" className="shape-four" />
+            <img src="images/shape/shape-57.svg" alt="" className="shape-five" />
+            <img src="images/shape/shape-26.svg" alt="" className="section-shape-five" />
+            <img src="images/shape/shape-27.svg" alt="" className="section-shape-six" data-aos="fade-left" data-aos-duration="3000" />
 
             <div className="container">
               <div className="theme-title-one text-center">
-                <div class="icon-box hide-pr">
-                  <img src="images/shape/bg-shape4.svg" alt="" class="bg-shape" />
-                  <img src="images/icon/icon26.svg" alt="" class="icon" />
+                <div className="icon-box hide-pr">
+                  <img src="images/shape/bg-shape4.svg" alt="" className="bg-shape" />
+                  <img src="images/icon/icon26.svg" alt="" className="icon" />
                 </div>
               </div>
             </div>
@@ -58,7 +58,7 @@ class Pricing extends Component {
                       <div className="pr-header">
                         <div className="price">$0.00</div>
                         <h4 className="title">Үнэгүй</h4>
-                        <div class="package">3 гишүүд</div>
+                        <div className="package">3 гишүүд</div>
                       </div>
                       <ul className="pr-body">
                         <li>3</li>
@@ -82,7 +82,7 @@ class Pricing extends Component {
                       <div className="pr-header ">
                         <div className="price">$55<span>/сар бүр</span></div>
                         <h4 className="title">Баг</h4>
-                        <div class="package">5 гишүүд</div>
+                        <div className="package">5 гишүүд</div>
                       </div>
                       <ul className="pr-body">
                         <li>5-15</li>
@@ -106,7 +106,7 @@ class Pricing extends Component {
                       <div className="pr-header">
                         <div className="price">$220<span>/сар бүр</span></div>
                         <h4 className="title">Байгууллага</h4>
-                        <div class="package">Хязгааргүй гишүүд</div>
+                        <div className="package">Хязгааргүй гишүүд</div>
                       </div>
                       <ul className="pr-body">
                         <li>
@@ -136,7 +136,7 @@ class Pricing extends Component {
                           <i className="icon fa fa-phone" aria-hidden="true"></i>
                         </div>
                         <h4 className="title">АЖ АХУЙН НЭГЖ</h4>
-                        <div class="package">Хязгааргүй гишүүд</div>
+                        <div className="package">Хязгааргүй гишүүд</div>
                       </div>
                       <ul className="pr-body">
                         <li>
@@ -179,7 +179,7 @@ class Pricing extends Component {
                       <div className="pr-header">
                         <div className="price">$0.00</div>
                         <h4 className="title">Үнэгүй</h4>
-                        <div class="package">3 гишүүд</div>
+                        <div className="package">3 гишүүд</div>
                       </div>
                       <ul className="pr-body">
                         <li>3</li>
@@ -203,7 +203,7 @@ class Pricing extends Component {
                       <div className="pr-header ">
                         <div className="price">$30<span>/сар бүр</span></div>
                         <h4 className="title">Баг</h4>
-                        <div class="package">5 гишүүд</div>
+                        <div className="package">5 гишүүд</div>
                       </div>
                       <ul className="pr-body">
                         <li>5-15</li>
@@ -227,7 +227,7 @@ class Pricing extends Component {
                       <div className="pr-header">
                         <div className="price">$99<span>/сар бүр</span></div>
                         <h4 className="title">Байгууллага</h4>
-                        <div class="package">Хязгааргүй гишүүд</div>
+                        <div className="package">Хязгааргүй гишүүд</div>
                       </div>
                       <ul className="pr-body">
                         <li>
@@ -257,7 +257,7 @@ class Pricing extends Component {
                           <i className="icon fa fa-phone" aria-hidden="true"></i>
                         </div>
                         <h4 className="title">АЖ АХУЙН НЭГЖ</h4>
-                        <div class="package">Хязгааргүй гишүүд</div>
+                        <div className="package">Хязгааргүй гишүүд</div>
                       </div>
                       <ul className="pr-body">
                         <li>

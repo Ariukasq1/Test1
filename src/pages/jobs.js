@@ -9,21 +9,21 @@ class HumanResource extends Component {
           <h2 className="page-title">Нээлттэй ажлын байр</h2>
         </div>
 
-        <div class="faq-page faq-tab-wrapper pt-150 pb-200">
-  				<div class="container">
-  					<div class="row">
-  						<div class="col-lg-12">
-  				      <div class="faq-panel">
-  								<div class="panel-group theme-accordion" id="accordion">
-  								  <div class="panel">
-  								    <div class="panel-heading active-panel">
-  								      <h6 class="panel-title">
+        <div className="faq-page faq-tab-wrapper pt-150 pb-200">
+  				<div className="container">
+  					<div className="row">
+  						<div className="col-lg-12">
+  				      <div className="faq-panel">
+  								<div className="panel-group theme-accordion" id="accordion">
+  								  <div className="panel">
+  								    <div className="panel-heading active-panel">
+  								      <h6 className="panel-title">
   								        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
   								        Хөгжүүлэгч <span><i className="fa fa-calendar" aria-hidden="true"></i> 2020-03-20</span></a>
   								      </h6>
   								    </div>
-  								    <div id="collapse1" class="panel-collapse collapse show">
-  								      <div class="panel-body">
+  								    <div id="collapse1" className="panel-collapse collapse show">
+  								      <div className="panel-body">
                           <div className="panel-row pt-30">
                             <h4>Гүйцэтгэх үндсэн үүрэг</h4>
                             <ul>
@@ -45,20 +45,20 @@ class HumanResource extends Component {
                               <li>Бэлэн болсон Photoshop дизайныг HTML, CSS, Javascript болгох чадвартай</li>
                               <li>Багаар болон бие дааж ажиллах чадвартай</li>
                             </ul>
-                            <div className="pt-30"><button class="line-button-one">Анкет бөглөх</button></div>
+                            <div className="pt-30"><button className="line-button-one">Анкет бөглөх</button></div>
                           </div>
                         </div>
   								    </div>
   								  </div>
-  								  <div class="panel">
-  								    <div class="panel-heading">
-  								      <h6 class="panel-title">
+  								  <div className="panel">
+  								    <div className="panel-heading">
+  								      <h6 className="panel-title">
   								        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
   								        Төслийн менежер <span><i className="fa fa-calendar" aria-hidden="true"></i> 2020-03-20</span></a>
   								      </h6>
   								    </div>
-  								    <div id="collapse2" class="panel-collapse collapse">
-                        <div class="panel-body">
+  								    <div id="collapse2" className="panel-collapse collapse">
+                        <div className="panel-body">
                           <div className="panel-row">
                             <h4>Гүйцэтгэх үндсэн үүрэг</h4>
                             <ul>
@@ -80,7 +80,7 @@ class HumanResource extends Component {
                               <li>Гадаад зах зээлийн одоогийн болон хөгжлийн чиг хандлагын талаарх мэдлэгтэй</li>
                               <li>Дотоодын болон гадаадын эдийн засгийн өсөлт, үр нөлөөг судлан дүн шинжилгээ хийх чадвартай</li>
                             </ul>
-                            <div className="pt-30"><button class="line-button-one">Анкет бөглөх</button></div>
+                            <div className="pt-30"><button className="line-button-one">Анкет бөглөх</button></div>
                           </div>
                         </div>
   								    </div>

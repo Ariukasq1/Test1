@@ -5,13 +5,13 @@ class SuccessStory extends Component {
   render() {
     return (
       <Layout>
-        <div class="solid-inner-banner">
-          <div class="banner-overlay" />
-          <h2 class="page-title">Амжилтын Түүх</h2>
+        <div className="solid-inner-banner">
+          <div className="banner-overlay" />
+          <h2 className="page-title">Амжилтын Түүх</h2>
         </div>
-        <div class="our-project pt-90">
-          <ul class="isotop-menu-wrapper pb-100">
-            <li class="is-checked" data-filter="*">Бүгд</li>
+        <div className="our-project pt-90">
+          <ul className="isotop-menu-wrapper pb-100">
+            <li className="is-checked" data-filter="*">Бүгд</li>
             <li data-filter=".bank">Банк, санхүү</li>
             <li data-filter=".mobile">Үүрэн телефон</li>
             <li data-filter=".business">Бизнес</li>
@@ -19,13 +19,13 @@ class SuccessStory extends Component {
           </ul>
 
           <div id="isotop-gallery-wrapper">
-            <div class="grid-sizer"></div>
-              <div class="isotop-item marketing">
-                <div class="project-item">
-                  <div class="img-box"><img src="images/success-story/newmedia.png" alt=""/></div>
-                  <div class="hover-jojo">
+            <div className="grid-sizer"></div>
+              <div className="isotop-item marketing">
+                <div className="project-item">
+                  <div className="img-box"><img src="images/success-story/newmedia.png" alt=""/></div>
+                  <div className="hover-jojo">
                     <div>
-                      <h4 class="title"><a href="/success-story-detail">НЬЮ МЕДИА ГРУПП</a></h4>
+                      <h4 className="title"><a href="/success-story-detail">НЬЮ МЕДИА ГРУПП</a></h4>
                       <div>
                         <p>Нью Медиа Групп нь</p>
                         <p>мэдээллийн технологийн</p>
@@ -38,18 +38,18 @@ class SuccessStory extends Component {
                             <span>+</span>
                           </a>
                         </li>
-                        <li><a href="images/success-story/newmedia.png" class="zoom fancybox" data-fancybox="gallery"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                        <li><a href="images/success-story/newmedia.png" className="zoom fancybox" data-fancybox="gallery"><i className="fa fa-search" aria-hidden="true"></i></a></li>
                       </ul>
                     </div>
                   </div>
                 </div>
               </div>
-            <div class="isotop-item bank">
-              <div class="project-item">
-                <div class="img-box"><img src="images/success-story/golomt.png" alt=""/></div>
-                <div class="hover-jojo">
+            <div className="isotop-item bank">
+              <div className="project-item">
+                <div className="img-box"><img src="images/success-story/golomt.png" alt=""/></div>
+                <div className="hover-jojo">
                   <div>
-                    <h4 class="title"><a href="/golomt-detail">Голомт банк</a></h4>
+                    <h4 className="title"><a href="/golomt-detail">Голомт банк</a></h4>
                     <div>
                       <p>Монголд төлбөрийн</p>
                       <p>картын системийг анхлан</p>
@@ -61,18 +61,18 @@ class SuccessStory extends Component {
                           <span>+</span>
                         </a>
                       </li>
-                      <li><a href="images/success-story/golomt.png" class="zoom fancybox" data-fancybox="gallery"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                      <li><a href="images/success-story/golomt.png" className="zoom fancybox" data-fancybox="gallery"><i className="fa fa-search" aria-hidden="true"></i></a></li>
                     </ul>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="isotop-item bank">
-              <div class="project-item">
-                <div class="img-box"><img src="images/success-story/capitron.png" alt=""/></div>
-                <div class="hover-jojo">
+            <div className="isotop-item bank">
+              <div className="project-item">
+                <div className="img-box"><img src="images/success-story/capitron.png" alt=""/></div>
+                <div className="hover-jojo">
                   <div>
-                    <h4 class="title"><a href="#">Капитрон банк</a></h4>
+                    <h4 className="title"><a href="#">Капитрон банк</a></h4>
                     <div>
                       <p>100 хувийн үндэсний</p>
                       <p>хөрөнгө оруулалтай арилжааны</p>
@@ -80,18 +80,18 @@ class SuccessStory extends Component {
                     </div>
                     <ul>
                       <li><a href="#"><span>+</span></a></li>
-                      <li><a href="images/success-story/capitron.png" class="zoom fancybox" data-fancybox="gallery"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                      <li><a href="images/success-story/capitron.png" className="zoom fancybox" data-fancybox="gallery"><i className="fa fa-search" aria-hidden="true"></i></a></li>
                     </ul>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="isotop-item mobile">
-              <div class="project-item">
-                <div class="img-box"><img src="images/success-story/skytel.png" alt=""/></div>
-                <div class="hover-jojo">
+            <div className="isotop-item mobile">
+              <div className="project-item">
+                <div className="img-box"><img src="images/success-story/skytel.png" alt=""/></div>
+                <div className="hover-jojo">
                   <div>
-                    <h4 class="title"><a href="#">СКАЙтел</a></h4>
+                    <h4 className="title"><a href="#">СКАЙтел</a></h4>
                     <div>
                       <p>Монгол даяар 3G сүлжээ</p>
                       <p>бүхий үндэсний үүрэн холбооны</p>
@@ -99,18 +99,18 @@ class SuccessStory extends Component {
                     </div>
                     <ul>
                       <li><a href="#"><span>+</span></a></li>
-                      <li><a href="images/success-story/skytel.png" class="zoom fancybox" data-fancybox="gallery"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                      <li><a href="images/success-story/skytel.png" className="zoom fancybox" data-fancybox="gallery"><i className="fa fa-search" aria-hidden="true"></i></a></li>
                     </ul>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="isotop-item mobile">
-              <div class="project-item">
-                <div class="img-box"><img src="images/success-story/mobicom.png" alt=""/></div>
-                <div class="hover-jojo">
+            <div className="isotop-item mobile">
+              <div className="project-item">
+                <div className="img-box"><img src="images/success-story/mobicom.png" alt=""/></div>
+                <div className="hover-jojo">
                   <div>
-                    <h4 class="title"><a href="#">Мобиком</a></h4>
+                    <h4 className="title"><a href="#">Мобиком</a></h4>
                     <div>
                       <p>Монголын анхны үүрэн</p>
                       <p>холбооны оператор</p>
@@ -118,18 +118,18 @@ class SuccessStory extends Component {
                     </div>
                     <ul>
                       <li><a href="#"><span>+</span></a></li>
-                      <li><a href="images/success-story/mobicom.png" class="zoom fancybox" data-fancybox="gallery"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                      <li><a href="images/success-story/mobicom.png" className="zoom fancybox" data-fancybox="gallery"><i className="fa fa-search" aria-hidden="true"></i></a></li>
                     </ul>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="isotop-item business">
-              <div class="project-item">
-                <div class="img-box"><img src="images/success-story/tavanbogd.png" alt=""/></div>
-                <div class="hover-jojo">
+            <div className="isotop-item business">
+              <div className="project-item">
+                <div className="img-box"><img src="images/success-story/tavanbogd.png" alt=""/></div>
+                <div className="hover-jojo">
                   <div>
-                    <h4 class="title"><a href="#">Таван богд групп</a></h4>
+                    <h4 className="title"><a href="#">Таван богд групп</a></h4>
                     <div>
                       <p>Өнөөдөр Таван Богд групп нь</p>
                       <p>16 охин компани, 3 хөрөнгө оруулалттай компани</p>
@@ -138,18 +138,18 @@ class SuccessStory extends Component {
                     </div>
                     <ul>
                       <li><a href="#"><span>+</span></a></li>
-                      <li><a href="images/success-story/tavanbogd.png" class="zoom fancybox" data-fancybox="gallery"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                      <li><a href="images/success-story/tavanbogd.png" className="zoom fancybox" data-fancybox="gallery"><i className="fa fa-search" aria-hidden="true"></i></a></li>
                     </ul>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="isotop-item business">
-              <div class="project-item">
-                <div class="img-box"><img src="images/success-story/teso.png" alt=""/></div>
-                <div class="hover-jojo">
+            <div className="isotop-item business">
+              <div className="project-item">
+                <div className="img-box"><img src="images/success-story/teso.png" alt=""/></div>
+                <div className="hover-jojo">
                   <div>
-                    <h4 class="title"><a href="#">ТЭСО Корпораци</a></h4>
+                    <h4 className="title"><a href="#">ТЭСО Корпораци</a></h4>
                     <div>
                       <p>Хэрэглэгчидэд зөвхөн чанартай</p>
                       <p>бүтээгдэхүүн, үйлчилгээ хүргэхийг</p>
@@ -157,7 +157,7 @@ class SuccessStory extends Component {
                     </div>
                     <ul>
                       <li><a href="#"><span>+</span></a></li>
-                      <li><a href="images/success-story/teso.png" class="zoom fancybox" data-fancybox="gallery"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                      <li><a href="images/success-story/teso.png" className="zoom fancybox" data-fancybox="gallery"><i className="fa fa-search" aria-hidden="true"></i></a></li>
                     </ul>
                   </div>
                 </div>
