@@ -1,15 +1,5 @@
 /* Responsive CSS Document */
 
-/* 
-    Created on   : 26/02/2019.
-    Last Update  : 07/04/2019.
-    Theme Name   : Rogan - Creative Multi-Purpose HTML Template.
-    Version      : 1.1.
-    Author       : Creativegigs.
-    Developed by : Jubayer al hasan. (me@heloshape.com)
-   
-*/
-
 @media (min-width: 992px) {
   .container {padding-right: 0;padding-left: 0;}
 }
@@ -52,7 +42,8 @@
   .theme-menu-one.d-align-item .logo {left: 15px;}
   .theme-menu-one.d-align-item #mega-menu-holder {margin-right: 0;}
   #theme-banner-three .main-title span, #theme-banner-three .main-title span b {line-height: initial;}
-  .our-feature-sass .feature-wrapper .single-feature-block .img-box {display: none;}
+  .our-feature-sass .feature-wrapper .single-feature-block .img-box, #theme-banner-four .screen-one, #theme-banner-four .screen-two {display: none;}
+  .sass-our-pricing .single-pr-table .pr-body .feature { padding-top: 25px;}
   .our-feature-sass .single-feature-block .text-box {max-width: 100%;}
   .our-feature-sass .single-feature-block {margin-bottom: 150px;}
   #theme-banner-five .mobile-screen-one {right: -10%;}
@@ -154,7 +145,7 @@
   .agn-our-pricing .table-wrapper .inner-table {padding-left: 0;}
   .agn-our-pricing .table-wrapper .pr-column .pr-body li .pr-text {display: block;}
   .agn-our-pricing .table-wrapper .pr-column .pr-header .price {font-size: 35px;}
-  .agn-our-pricing .table-wrapper .pr-column .pr-header .title {font-size: 28px;}
+  .agn-our-pricing .table-wrapper .pr-column .pr-footer .line-button-two {padding: 0;}
   .agn-testimonial .main-content {float: none;}
   .top-footer .row [class*="col-"] {margin-bottom: 40px;}
   .theme-footer-one .bottom-footer {margin-top: 30px;}
@@ -341,7 +332,7 @@
   .studio-footer-one {padding: 100px 0 30px;}
   .studio-footer-one .top-footer h2 {font-size: 35px;padding-bottom: 50px;}
   .studio-footer-one .bottom-footer {padding-top:0;}
-} 
+}
 /*(max-width: 991px)*/
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -377,12 +368,12 @@
 }
 /*(min-width: 768px) and (max-width: 991px)*/
 
-@media (min-width: 650px) and (max-width: 991px) { 
+@media (min-width: 650px) and (max-width: 991px) {
   #isotop-gallery-wrapper .grid-sizer, #isotop-gallery-wrapper .isotop-item,.project-ms-full-width #isotop-gallery-wrapper .grid-sizer, .project-ms-full-width #isotop-gallery-wrapper .isotop-item,
   .project-ms-grid #isotop-gallery-wrapper .grid-sizer, .project-ms-grid #isotop-gallery-wrapper .isotop-item,.blog-filer .masnory-blog-wrapper .grid-sizer, .blog-filer .masnory-blog-wrapper .isotop-item,
   .masnory-blog-wrapper .grid-sizer, .masnory-blog-wrapper .isotop-item {width: 50%;}
 }
-@media (max-width: 649px) { 
+@media (max-width: 649px) {
   #isotop-gallery-wrapper .grid-sizer, #isotop-gallery-wrapper .isotop-item,.project-ms-full-width #isotop-gallery-wrapper .grid-sizer, .project-ms-full-width #isotop-gallery-wrapper .isotop-item,
   .project-ms-grid #isotop-gallery-wrapper .grid-sizer, .project-ms-grid #isotop-gallery-wrapper .isotop-item,.blog-filer .masnory-blog-wrapper .grid-sizer, .blog-filer .masnory-blog-wrapper .isotop-item,
   .masnory-blog-wrapper .grid-sizer, .masnory-blog-wrapper .isotop-item {width: 100%;}

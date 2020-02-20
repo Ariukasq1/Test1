@@ -6263,6 +6263,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 .our-service .service-block .read-more {font-size: 38px;line-height: 20px;}
 .our-service .service-block i {
   font-size: 80px;
+  position: relative;
 }
 .our-service .service-block i.cancel { color: #EA475D}
 .our-service .service-block i.success {color: #3CCC38}
