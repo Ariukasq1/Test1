@@ -17,6 +17,9 @@ const Footer = () => (
                   <li>
                     <Link href="/team">Баг хамт олон</Link>
                   </li>
+                  <li>
+                    <Link href="/swag">Үнэгүй футболка авах</Link>
+                  </li>
                 </ul>
               </div>
               <div className="col-lg-3 col-lg-3 col-sm-6 col-12 footer-list" >

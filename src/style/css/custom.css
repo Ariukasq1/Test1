@@ -223,6 +223,9 @@ body{
 .pt-50 {padding-top: 50px !important;}
 .pt-90 {padding-top: 90px;}
 .pt-150 {padding-top: 150px;}
+.pt-200 {padding-top: 200px;}
+.pt-250 {padding-top: 250px;}
+.pl-100 {padding-left: 100px;}
 .pb-30 {padding-bottom: 30px !important;}
 .pb-70 {padding-bottom: 70px;}
 .pb-100 {padding-bottom: 100px;}
@@ -234,7 +237,8 @@ body{
 .mt-100 {margin-top: 100px;}
 .mt-150 {margin-top: 150px;}
 .mt-200 {margin-top: 200px;}
-.mb-80 {margin-bottom: 80px;}
+.mb-20 {margin-bottom: 20px !important;}
+.mb-80 {margin-bottom: 80px !important;}
 .mb-120 {margin-bottom: 120px;}
 .mb-150 {margin-bottom: 150px;}
 .mb-170 {margin-bottom: 170px;}
@@ -1562,7 +1566,10 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 /*------------------------ Theme Counter -------------------*/
 .agn-counter-section {
   position: relative;
-  margin: 250px 0 185px;
+}
+.agn-counter-section .flex {
+  display: flex;
+  justify-content: center;
 }
 .agn-counter-section .shape-one {
   position: absolute;
@@ -6258,7 +6265,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   margin-top: 65px;
 }
 /*----------------------- Our Service Minimal ----------------------*/
-.our-service .service-block .service-title { position: relative;font-size: 30px;line-height: 45px; margin-bottom: 40px; min-height: 135px; font-weight: 500;}
+.our-service .service-block .service-title { position: relative;font-size: 30px;line-height: 45px; margin-bottom: 40px;font-weight: 500;}
 .our-service .service-block .service-title a {color: #3e3e3e;}
 .our-service .service-block .read-more {font-size: 38px;line-height: 20px;}
 .our-service .service-block i {
@@ -6271,6 +6278,10 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   list-style: decimal;
   padding-left: 20px;
   position: relative;
+}
+.our-service .service-block .theme-list-item {
+  list-style-type: none;
+  padding: 0;
 }
 .our-service .service-block ul li {
   text-align: justify;
@@ -6289,11 +6300,14 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 .service-minimal .row {margin: 0 -110px;}
 .service-minimal .row [class*="col-"] {padding: 0 110px;}
 .service-minimal .service-block .icon-box {height: 80px;margin-bottom: 50px;text-align: center;}
+.service-minimal .service-block .icon-box .icon { height: 100%; }
 .service-minimal .service-block p {
-  font-size: 17px;
+  font-size: 18px;
   line-height: 32px;
   color: #798598;
-  padding: 35px 0;
+}
+.service-minimal .service-block q {
+  color: #0f82ff;
 }
 .service-minimal .service-block .read-more {color: #cfd5df;}
 .service-minimal .service-block {margin-bottom: 140px;}
@@ -8007,19 +8021,17 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 .theme-counter-three .single-counter-box p {font-size: 20px;}
 /*-------------------- List Item -------------------*/
 .theme-list-item li {
-  font-family: 'Rubik', sans-serif;
   line-height: 44px;
-  color: #777777;
   position: relative;
-  padding-left: 22px;
+  padding-left: 28px !important;
 }
 .theme-list-item li i,.theme-list-item li span {
-  position: absolute;
+  position: absolute !important;
   line-height: 44px;
   left:0;
   top:0;
-  color: #313131;
-  font-size: 15px;
+  color: #43c549 !important;
+  font-size: 16px !important;
 }
 /*----------------------- Footer -------------------*/
 /*Footer Two*/
