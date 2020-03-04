@@ -74,7 +74,7 @@ class Swag extends Component {
                     <ul class="theme-list-item">
                       <li><i class="color-style fa fa-check" aria-hidden="true"></i>Эхний 4 алхмыг бүрэн гүйцэтгэсэн эсэхээ шалгаарай! Бид хүсэлт тус бүртэй нэг бүрчлэн танилцах ба бүх шаардлагыг хангасан тохиолдолд та бэлгээ авах боломжтой.</li>
                       <li><i class="color-style fa fa-check" aria-hidden="true"></i>Илгээмжийг дэлхийн аль ч оронд үнэгүй явуулна</li>
-                      <li><i class="color-style fa fa-check" aria-hidden="true"></i>Энэхүү хөтөлбөр нь одоогоор туршилтын шатандаа байгаа бөгөөд ирээдүйд илгээмж явуулах хүрээ, футболкны хэмжээ өөрчлөгдөх боломжтой.</li>
+                      <li><i class="color-style fa fa-check" aria-hidden="true"></i>Энэхүү хөтөлбөр нь одоогоор туршилтын шатандаа байгаа бөгөөд ирээдүйд илгээмж явуулах хүрээ, бэлгийн төрөл өөрчлөгдөж магадгүй.</li>
                     </ul>
   								</div>
   							</div>
