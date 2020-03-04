@@ -8021,7 +8021,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 .theme-counter-three .single-counter-box p {font-size: 20px;}
 /*-------------------- List Item -------------------*/
 .theme-list-item li {
-  line-height: 44px;
+  line-height: 35px;
   position: relative;
   padding-left: 28px !important;
 }
