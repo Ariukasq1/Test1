@@ -15,11 +15,11 @@ const Header = () => (
                 <a className="nav-link">Амжилтын түүх</a>
               </Link>
             </li>
-            {/*<li className="nav-item">
+            <li className="nav-item">
               <Link href="/blog">
                 <a className="nav-link">Блог</a>
               </Link>
-            </li>*/}
+            </li>
             <li className="nav-item">
               <Link href="/features">
                 <a className="nav-link">Боломжууд</a>

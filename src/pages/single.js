@@ -1,45 +1,107 @@
-import Head from 'next/head';
 import Layout from '../components/Layout';
-import React, { Component } from 'react';
-import axios from 'axios';
-import { useRouter } from 'next/router';
+import React, { Component } from "react";
+import WPAPI from 'wpapi'
+import Disqus from "disqus-react"
+import Share from "../components/Share";
+import Error from 'next/error';
+import { getData } from "../utils";
+import Config from "../config";
+import moment from "moment";
+
+const wp = new WPAPI({ endpoint: Config.apiUrl });
+
 export default class extends Component {
-  static async getInitialProps( context ) {
-    const slug = context.query.slug
+  static async getInitialProps(context) {
+    const slug = context.query.slug;
 
-    const response = await axios.get(`https://erxes.io/blog_wp/wp-json/wp/v2/posts?slug=${slug}`);
+    let apiMethod = wp.posts();
 
-    return {
-      post: response.data[0]
-    }
+    const post = await apiMethod
+    .slug(slug)
+    .embed()
+    .then(data => {
+      return data[0];
+    });
+
+    return { post };
   }
 
-  
-  render(){
+  render() {
     const { post } = this.props;
+
+    if (!post.title) {
+      return <Error statusCode={404} />;
+    }
+
+    let url = '';
+
+    const embeddedData = post._embedded;
+
+    if (process.browser) {
+      url = window.location.href
+    }
+
+    const disqusShortname = "erxes";
+    const disqusConfig = {
+      url,
+      identifier: post.id,
+      title: post.title.rendered
+    }
+
     return (
       <Layout>
-        <Head>
-          <title>{post.title.rendered}</title>
-          <meta name="description" content="Description text" />
-          <meta charSet="utf-8" />
-          <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-          <meta property="og:title" content={post.title.rendered} />
-          <meta
-            property="og:image"
-            content="https://davidwalsh.name/wp-content/themes/klass/img/facebooklogo.png"
-          />
-          <meta property="og:site_name" content="David Walsh Blog" />
-          <meta property="og:description" content={post.excerpt.rendered} />
-        </Head>
-        <h1>{post.title.rendered}</h1>
+        <div className="single">
+          <div className="our-blog blog-details blog-details-fg">
+            <div className="blog-hero-banner">
+              <img src={getData(post._embedded, 'image')} />
+              <div className="blog-custom-container">
+                <a href="#" className="date">{moment(post.date).format('L')}</a>
+                <Disqus.CommentCount shortname={disqusShortname} config={disqusConfig}>
+                    Cэтгэгдэл
+                </Disqus.CommentCount>
+                <h2 className="blog-title">{post.title.rendered}</h2>
+              </div>
+            </div>
+            <div className="blog-fg-data">
+              <div className="post-data">
+                <div className="blog-custom-container">
+                  <div className="custom-container-bg">
+                    <div className="pt-50">
+                      <div dangerouslySetInnerHTML={{ __html: post.content.rendered }} />
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-        <article
-          className="entry-content"
-          dangerouslySetInnerHTML={{
-            __html: post.content.rendered
-          }}
-        />
+              <div className="blog-custom-container">
+                <div className="custom-container-bg">
+                  <div className="post-tag-area d-md-flex justify-content-between align-items-center pt-50">
+                    <ul className="tags">
+                      <li>Ангилал: </li>
+                      <li><a href="#">Adventure,</a></li>
+                      <li><a href="#">Landscape,</a></li>
+                      <li><a href="#">Nature</a></li>
+                    </ul>
+                    <ul className="share-icon">
+                      <Share title={post.title} path={url} vertical={true} />
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="comment-form-area mt-30">
+                <div className="blog-custom-container">
+                  <div className="custom-container-bg">
+                    <Disqus.DiscussionEmbed
+                      shortname={disqusShortname}
+                      config={disqusConfig}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </Layout>
     );
   }

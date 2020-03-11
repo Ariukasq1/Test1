@@ -35,7 +35,6 @@ const Layout = props => (
       <script src="static/isotope.pkgd.min.js"></script>
       <script src="static/theme.js"></script>
     </Head>
-    <Spinner />
     <Header />
     {props.children}
     <ScrollTop />
