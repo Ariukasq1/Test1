@@ -6212,7 +6212,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 .theme-counter-two .single-counter-box .text p {font-size: 18px;color: #a4a7ac;margin-top: -8px;}
 /*--------------------- Video Action Banner One ----------------------*/
 .video-action-banner-one {
-  background-image: url(../../public/images/home/12.jpg);
+  background-image: url(/images/cover1.jpg);
   background-size: 120%;
   background-repeat: no-repeat;
   animation: imageBgAnim 50s infinite linear alternate;
@@ -6479,7 +6479,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   color: #fff;
   text-transform: uppercase;
   margin-bottom: 25px;
-}
+}icon/icon47.svg
 .our-project .project-item .title span {text-decoration: underline;}
 #isotop-gallery-wrapper .isotop-item .hover-jojo .title a {
   opacity: 0;
@@ -6498,7 +6498,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
 }
-#isotop-gallery-wrapper .isotop-item .hover-jojo div div>p:nth-child(2) {
+#isotop-gallery-wrappicon/icon47.svger .isotop-item .hover-jojo div div>p:nth-child(2) {
   -webkit-transition-delay: 0.15s;
   transition-delay: 0.15s;
 }

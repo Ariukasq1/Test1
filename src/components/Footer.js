@@ -12,13 +12,13 @@ const Footer = () => (
                 <h5 className="title">Бидний тухай</h5>
                 <ul>
                   <li>
-                    <Link href="/about">Товч танилцуулга</Link>
+                    <a href="/about">Товч танилцуулга</a>
                   </li>
                   <li>
-                    <Link href="/team">Баг хамт олон</Link>
+                    <a href="/team">Баг хамт олон</a>
                   </li>
                   <li>
-                    <Link href="/swag">Үнэгүй футболка авах</Link>
+                    <a href="/swag">Үнэгүй футболка авах</a>
                   </li>
                 </ul>
               </div>

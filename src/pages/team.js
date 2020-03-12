@@ -8,7 +8,6 @@ class Team extends Component {
         <div className="solid-inner-banner">
           <h2 className="page-title">Баг хамт олон</h2>
         </div>
-
         <div className="team-standard agn-about-us our-team mt-70 pb-100">
           <img src="images/shape/shape-61.svg" alt="" className="shape-one"/>
   				<img src="images/shape/shape-64.svg" alt="" className="shape-two" data-aos="fade-left"/>
@@ -84,6 +83,41 @@ class Team extends Component {
   										<li><a href="https://twitter.com/Batchimegbb" target="_blank"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
   										<li><a href="https://github.com/Batchimegb" target="_blank"><i className="fa fa-github" aria-hidden="true"></i></a></li>
                       <li><a href="https://www.linkedin.com/in/batchimeg-bat-erdene-a47263170/" target="_blank"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
+  									</ul>
+  								</div>
+  							</div>
+  						</div>
+              <div className="col-lg-3 col-md-6 col-12">
+  							<div className="single-team-member">
+  								<div className="wrapper">
+  									<div ><img src="images/team/oyun.jpg" alt="" /></div>
+  									<div className="info-meta">
+  										<h6 className="name">Сандагдоржийн <br /> Оюун-Эрдэнэ</h6>
+  										<span>Санхүүгийн ахлах менежер</span>
+  									</div>
+  								</div>
+  								<div className="hover-content">
+  									<ul>
+  										<li><a href="https://twitter.com/#" target="_blank"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
+  										<li><a href="https://www.linkedin.com/" target="_blank"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
+  									</ul>
+  								</div>
+  							</div>
+  						</div>
+              <div className="col-lg-3 col-md-6 col-12">
+  							<div className="single-team-member">
+  								<div className="wrapper">
+                    <div ><img src="images/team/indra.png" alt="" /></div>
+  									<div className="info-meta">
+  										<h6 className="name">Ганзоригийн <br /> Индра</h6>
+  										<span>Бүтээгдэхүүн маркетингийн ахлах менежер</span>
+  									</div>
+  								</div>
+  								<div className="hover-content">
+  									<ul>
+  										<li><a href="https://twitter.com/IndraGanzorig" target="_blank"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
+                      <li><a href="https://github.com/indraganzorig" target="_blank"><i className="fa fa-github" aria-hidden="true"></i></a></li>
+                      <li><a href="https://www.linkedin.com/in/indraganzorig/" target="_blank"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
   									</ul>
   								</div>
   							</div>
@@ -188,7 +222,6 @@ class Team extends Component {
   								</div>
   								<div className="hover-content">
   									<ul>
-  										<li><a href="#" target="_blank"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
   										<li><a href="https://github.com/munkhorgil" target="_blank"><i className="fa fa-github" aria-hidden="true"></i></a></li>
                       <li><a href="https://www.linkedin.com/in/munkhorgil/" target="_blank"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
   									</ul>
@@ -249,6 +282,23 @@ class Team extends Component {
   								</div>
   							</div>
   						</div>
+              <div className="col-lg-3 col-md-6 col-12">
+  							<div className="single-team-member">
+  								<div className="wrapper">
+  									<div ><img src="images/team/batchimega.png" alt="" /></div>
+  									<div className="info-meta">
+  										<h6 className="name">Амарбаатарын<br />  Батчимэг</h6>
+  										<span>Веб инженер</span>
+  									</div>
+  								</div>
+  								<div className="hover-content">
+  									<ul>
+  										<li><a href="https://github.com/batchimeg-a" target="_blank"><i className="fa fa-github" aria-hidden="true"></i></a></li>
+                      <li><a href="https://www.linkedin.com/in/amarbaatar-batchimeg-940b7866/" target="_blank"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
+  									</ul>
+  								</div>
+  							</div>
+  						</div>
   						<div className="col-lg-3 col-md-6 col-12">
   							<div className="single-team-member">
   								<div className="wrapper">
@@ -303,6 +353,24 @@ class Team extends Component {
   							</div>
   						</div>
               <div className="col-lg-3 col-md-6 col-12">
+  							<div className="single-team-member">
+  								<div className="wrapper">
+  									<div ><img src="images/team/batnasan.jpg" alt="" /></div>
+  									<div className="info-meta">
+  										<h6 className="name">Бямбасүрэнгийн<br />  Батнасан</h6>
+  										<span>Систем админ</span>
+  									</div>
+  								</div>
+  								<div className="hover-content">
+  									<ul>
+                      <li><a href="https://twitter.com/batnasan06" target="_blank"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
+                      <li><a href="https://github.com/batnasan" target="_blank"><i className="fa fa-github" aria-hidden="true"></i></a></li>
+                      <li><a href="https://www.linkedin.com/in/batnasan/" target="_blank"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
+  									</ul>
+  								</div>
+  							</div>
+  						</div>
+              <div className="col-lg-3 col-md-6 col-12">
                 <div className="single-team-member">
                   <div className="wrapper">
                     <div ><img src="images/team/shinebayar.jpg" alt="" /></div>
@@ -339,22 +407,74 @@ class Team extends Component {
   							</div>
   						</div>
               <div className="col-lg-3 col-md-6 col-12">
-  							<div className="single-team-member">
-  								<div className="wrapper">
-  									<div ><img src="images/team/bayarmagnai.jpg" alt="" /></div>
-  									<div className="info-meta">
-  										<h6 className="name">Бямбадоржийн<br />  Баярмагнай</h6>
-  										<span>График дизайнер</span>
-  									</div>
-  								</div>
-  								<div className="hover-content">
-  									<ul>
-  										<li><a href="https://twitter.com/magi_byam" target="_blank"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
-                      <li><a href="https://www.linkedin.com/in/bayarmagnai-byambadorj-001734170/" target="_blank"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
-  									</ul>
-  								</div>
-  							</div>
-  						</div>
+                <div className="single-team-member">
+                  <div className="wrapper">
+                    <div ><img src="images/team/tsendkhuu.png" alt="" /></div>
+                    <div className="info-meta">
+                      <h6 className="name">Одсүрэнгийн<br />  Цэндхүү</h6>
+                      <span>Бүтээгдэхүүний менежер</span>
+                    </div>
+                  </div>
+                  <div className="hover-content">
+                    <ul>
+                      <li><a href="https://twitter.com/tsendkhuu" target="_blank"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
+                      <li><a href="https://github.com/tsendkhuu" target="_blank"><i className="fa fa-github" aria-hidden="true"></i></a></li>
+                      <li><a href="https://www.linkedin.com/in/tsendkhuu/" target="_blank"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 col-12">
+                <div className="single-team-member">
+                  <div className="wrapper">
+                    <div ><img src="images/team/munkhjargal.jpg" alt="" /></div>
+                    <div className="info-meta">
+                      <h6 className="name">Ганхуягийн<br />  Мөнхжаргал</h6>
+                      <span>Бүтээгдэхүүний менежер</span>
+                    </div>
+                  </div>
+                  <div className="hover-content">
+                    <ul>
+                      <li><a href="https://github.com/MujiGMJ" target="_blank"><i className="fa fa-github" aria-hidden="true"></i></a></li>
+                      <li><a href="https://www.linkedin.com/in/munkhjargal-gankhhuyag-289024110/" target="_blank"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 col-12">
+                <div className="single-team-member">
+                  <div className="wrapper">
+                    <div ><img src="images/team/tuguldur.png" alt="" /></div>
+                    <div className="info-meta">
+                      <h6 className="name">Сэлэнгийн<br /> Төгөлдөр</h6>
+                      <span>Харилцагчийн менежер</span>
+                    </div>
+                  </div>
+                  <div className="hover-content">
+                    <ul>
+                      <li><a href="https://twitter.com/#" target="_blank"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
+                      <li><a href="https://www.linkedin.com/#" target="_blank"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 col-12">
+                <div className="single-team-member">
+                  <div className="wrapper">
+                    <div ><img src="images/team/khulan.png" alt="" /></div>
+                    <div className="info-meta">
+                      <h6 className="name">Цэрэнцоогийн<br />  Хулан</h6>
+                      <span>Харилцагчийн менежер</span>
+                    </div>
+                  </div>
+                  <div className="hover-content">
+                    <ul>
+                      <li><a href="https://twitter.com/#" target="_blank"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
+                      <li><a href="https://www.linkedin.com/in/khulan-tserentsoo-93333a176/" target="_blank"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
   					</div>
   				</div>
   			</div>
