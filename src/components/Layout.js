@@ -1,6 +1,5 @@
 import Header from './Header';
 import Footer from './Footer';
-import Spinner from './Spinner';
 import ScrollTop from './ScrollTop';
 import Head from 'next/head';
 import '../style/css/custom.css';
@@ -35,7 +34,6 @@ const Layout = props => (
       <script src="static/isotope.pkgd.min.js"></script>
       <script src="static/theme.js"></script>
     </Head>
-    <Spinner />
     <Header />
     {props.children}
     <ScrollTop />
