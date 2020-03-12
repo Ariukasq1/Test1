@@ -18,6 +18,12 @@ class Blog extends Component {
     return { posts };
   }
 
+  renderCategory = (categories) => {
+    return categories.map(cat => {
+      return `isotop-item ${cat.name}`
+    })
+  }
+
   render() {
     const { posts } = this.props;
 
@@ -31,44 +37,34 @@ class Blog extends Component {
 
           <ul className="isotop-menu-wrapper blog-filter-nav clearfix">
             <li className="is-checked" data-filter="*"><span>Бүгд</span></li>
-            <li data-filter=".marketing"><span>Маркетинг</span></li>
-            <li data-filter=".technology"><span>Технологи</span></li>
-            <li data-filter=".sales"><span>Борлуулалт</span></li>
-            <li data-filter=".advice"><span>Зөвлөмж</span></li>
-            <li data-filter=".new"><span>Шинэчлэл</span></li>
+            <li data-filter=".Маркетинг"><span>Маркетинг</span></li>
+            <li data-filter=".Технологи"><span>Технологи</span></li>
+            <li data-filter=".Борлуулалт"><span>Борлуулалт</span></li>
+            <li data-filter=".Зөвлөмж"><span>Зөвлөмж</span></li>
+            <li data-filter=".Шинэчлэл"><span>Шинэчлэл</span></li>
           </ul>
 
           <div className="masnory-blog-wrapper">
             <div className="grid-sizer"></div>
-            {posts.map(post=> (
-              <div key={post.slug} className="isotop-item economy marketing travel">
-                <div className="single-blog-post">
-                  <div className="img-holder"><img src={getData(post._embedded, 'image')} alt="" /></div>
-                  <div className="post-data">
-                    <a href="#" className="date">{moment(post.date).format('L')}</a>
-                    <h5 className="blog-title-one title">
-                      <Link href={prefixer("/blog/" + post.slug)}>
-                        <a>{post.title.rendered}</a>
-                      </Link>
-                    </h5>
-                    <div dangerouslySetInnerHTML={{ __html: (post.excerpt.rendered) }} />
-                    <Link href={prefixer("/blog/" + post.slug)}><a className="read-more"><i className="flaticon-next-1"></i></a></Link>
+            {posts.map(post=> {
+              return (
+                <div key={post.slug} className={this.renderCategory(getData(post._embedded, 'categories'))}>
+                  <div className="single-blog-post">
+                    <div className="img-holder"><img src={getData(post._embedded, 'image')} alt="" /></div>
+                    <div className="post-data blog-home">
+                      <span className="date">{moment(post.date).format('L')}</span>
+                      <h5 className="blog-title-one title">
+                        <Link href={prefixer("/blog/" + post.slug)}>
+                          <a>{post.title.rendered}</a>
+                        </Link>
+                      </h5>
+                      <div dangerouslySetInnerHTML={{ __html: (post.excerpt.rendered).slice(0,150) }} />
+                      <Link href={prefixer("/blog/" + post.slug)}><a className="read-more"><i className="flaticon-next-1"></i></a></Link>
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
-          </div>
-          <div className="theme-pagination-one text-center pt-15">
-            <ul>
-              <li><a href="#"><i className="flaticon-back-1"></i></a></li>
-              <li className="active"><a href="#">1</a></li>
-              <li><a href="#">2</a></li>
-              <li><a href="#">3</a></li>
-              <li><a href="#">4</a></li>
-              <li>....</li>
-              <li><a href="#">Last</a></li>
-              <li><a href="#"><i className="flaticon-next-1"></i></a></li>
-            </ul>
+              )
+            })}
           </div>
         </div>
       </Layout>

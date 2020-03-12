@@ -78,9 +78,9 @@ export default class extends Component {
                   <div className="post-tag-area d-md-flex justify-content-between align-items-center pt-50">
                     <ul className="tags">
                       <li>Ангилал: </li>
-                      <li><a href="#">Adventure,</a></li>
-                      <li><a href="#">Landscape,</a></li>
-                      <li><a href="#">Nature</a></li>
+                      {getData(post._embedded, 'categories').map(cat => (
+                        <li key={cat.id}><a href="#">{cat.name},</a></li>
+                      ))}
                     </ul>
                     <ul className="share-icon">
                       <Share title={post.title} path={url} vertical={true} />
