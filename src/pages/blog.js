@@ -5,6 +5,7 @@ import Config from "../config";
 import { prefixer, getData } from "../utils"
 import Link from "next/link";
 import moment from "moment";
+import Disqus from "disqus-react";
 
 const wp = new WPAPI({ endpoint: Config.apiUrl });
 
@@ -19,9 +20,9 @@ class Blog extends Component {
   }
 
   renderCategory = (categories) => {
-    return categories.map(cat => {
-      return `isotop-item ${cat.name}`
-    })
+    const cat = categories.map(cat => cat.name);
+
+    return `isotop-item ${(cat).join(' ')}`;
   }
 
   render() {
@@ -47,12 +48,27 @@ class Blog extends Component {
           <div className="masnory-blog-wrapper">
             <div className="grid-sizer"></div>
             {posts.map(post=> {
+              let url = '';
+              if (process.browser) { url = window.location.href }
+
+              const disqusShortname = "erxes";
+              const disqusConfig = {
+                url,
+                identifier: post.id,
+                title: post.title.rendered
+              }
+
               return (
                 <div key={post.slug} className={this.renderCategory(getData(post._embedded, 'categories'))}>
                   <div className="single-blog-post">
                     <div className="img-holder"><img src={getData(post._embedded, 'image')} alt="" /></div>
                     <div className="post-data blog-home">
                       <span className="date">{moment(post.date).format('L')}</span>
+                      <span className="date">
+                        <Disqus.CommentCount shortname={disqusShortname} config={disqusConfig}>
+                          Cэтгэгдэл
+                        </Disqus.CommentCount>
+                      </span>
                       <h5 className="blog-title-one title">
                         <Link href={prefixer("/blog/" + post.slug)}>
                           <a>{post.title.rendered}</a>

@@ -6913,7 +6913,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   transform: translate(-50% , -50%);
 }
 .our-blog .single-blog-post:hover .img-holder .video-button {color: #fff;}
-.our-blog .post-data .date {font-size: 15px;color: #b5b5b5;text-transform: capitalize;}
+.our-blog .post-data .date {font-size: 15px;color: #b5b5b5;text-transform: capitalize; margin-right: 5px;}
 .our-blog .post-data .blog-title-one {
 
   font-size: 24px;
