@@ -27,5 +27,5 @@ export const prefixer = (url) => {
 		return url;
 	}
 
-	return `/blog${url}`;
+	return `/${url}`;
 }
