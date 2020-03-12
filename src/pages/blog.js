@@ -2,7 +2,7 @@ import WPAPI from 'wpapi';
 import React, {Component} from 'react';
 import Layout from '../components/Layout';
 import Config from "../config";
-import { prefixer, getData } from "../utils"
+import { getData } from "../utils"
 import Link from "next/link";
 import moment from "moment";
 import Disqus from "disqus-react";
@@ -70,12 +70,12 @@ class Blog extends Component {
                         </Disqus.CommentCount>
                       </span>
                       <h5 className="blog-title-one title">
-                        <Link href={prefixer("/blog/" + post.slug)}>
+                        <Link href={"blog/" + post.slug}>
                           <a>{post.title.rendered}</a>
                         </Link>
                       </h5>
                       <div dangerouslySetInnerHTML={{ __html: (post.excerpt.rendered).slice(0,150) }} />
-                      <Link href={prefixer("/blog/" + post.slug)}><a className="read-more"><i className="flaticon-next-1"></i></a></Link>
+                      <Link href={"blog/" + post.slug}><a className="read-more"><i className="flaticon-next-1"></i></a></Link>
                     </div>
                   </div>
                 </div>
