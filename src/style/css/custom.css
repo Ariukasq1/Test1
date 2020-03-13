@@ -7134,12 +7134,12 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   padding: 25px;
 }
 .blog-details .comment-form-area form ::placeholder {color: #989ca2;;opacity: 1;}
-.blog-details .comment-form-area form :-ms-input-placeholder {color: #989ca2;;}
-.blog-details .comment-form-area form ::-ms-input-placeholder {color: #989ca2;;}
+.blog-details .comment-form-area form :-ms-input-placeholder {color: #989ca2;}
+.blog-details .comment-form-area form ::-ms-input-placeholder {color: #989ca2;}
 .blog-details .blog-hero-banner {
   padding: 300px 0 220px;
   position: relative;
-  background: #000;
+  background: #fff;
 }
 .blog-details .blog-hero-banner > img {
   position: absolute;
@@ -7157,16 +7157,16 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   margin: 0 auto;
   position: relative;
 }
-.blog-details .blog-hero-banner .date {font-size: 20px;color: #fff;margin-bottom: 30px;}
+.blog-details .blog-hero-banner .date {font-size: 20px;color: #444;margin-bottom: 30px;}
 .blog-details .blog-hero-banner .disqus-comment-count {
   font-size: 20px;
-  color: #fff;
+  color: #444;
   padding-left: 20px;
 }
 .blog-details .blog-hero-banner .blog-title {
   font-size: 48px;
   line-height: 55px;
-  color: #fff;
+  color: #444;
   width: 100%;
 }
 .blog-details-fg .blog-fg-data .post-data {padding: 0;}

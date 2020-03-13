@@ -55,12 +55,7 @@ const Footer = () => (
                 </p>
                 <ul>
                   <li>
-                    <a href="https://github.com/erxes" target="_blank">
-                      <i className="fa fa-github" aria-hidden="true" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.facebook.com/erxesHQ" target="_blank">
+                    <a href="https://www.facebook.com/erxesMongoliaHQ" target="_blank">
                       <i className="fa fa-facebook" aria-hidden="true" />
                     </a>
                   </li>

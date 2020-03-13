@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Header = () => (
   <div className="theme-main-menu theme-menu-one d-align-item">
-    <div className="logo"><a href="/"><img src="images/erxes-logo.svg" alt="" /></a></div>
+    <div className="logo"><a href="/"><img src="/images/erxes-logo.svg" alt="" /></a></div>
     <nav id="mega-menu-holder" className="navbar navbar-expand-lg">
       <div className="ml-auto nav-container">
         <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
