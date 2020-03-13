@@ -452,8 +452,9 @@ class Team extends Component {
                   </div>
                   <div className="hover-content">
                     <ul>
-                      <li><a href="https://twitter.com/#" target="_blank"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
-                      <li><a href="https://www.linkedin.com/#" target="_blank"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                      <li><a href="https://twitter.com/xypmact" target="_blank"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
+                      <li><a href="https://github.com/xypmact" target="_blank"><i className="fa fa-github" aria-hidden="true"></i></a></li>
+                      <li><a href="https://www.linkedin.com/in/xypmact/" target="_blank"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
                     </ul>
                   </div>
                 </div>
