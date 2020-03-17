@@ -13,6 +13,7 @@ class Blog extends Component {
   static async getInitialProps() {
     const posts = await wp
       .posts()
+      .category(2)
       .perPage(40)
       .embed();
 
