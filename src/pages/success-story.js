@@ -1,8 +1,58 @@
+import WPAPI from 'wpapi';
 import React, { Component } from 'react';
 import Layout from '../components/Layout';
+import Config from "../config";
+import { getData } from "../utils"
+
+const wp = new WPAPI({ endpoint: Config.apiUrl });
 
 class SuccessStory extends Component {
+  static async getInitialProps() {
+    const categories = await wp
+      .categories()
+      .parent(8)
+      .embed();
+
+    const posts = await wp
+      .posts()
+      .category(8)
+      .perPage(40)
+      .embed();
+
+    return { categories, posts };
+	}
+
+  renderCategory = (categories) => {
+    const cat = categories.map(cat => cat.slug);
+
+    return (cat).join(' ');
+  }
+
+  renderContent = (post) => {
+    const hasContent = post.content.rendered.length > 0 ? "success-story/" + post.slug : "#";
+
+    return (
+      <div key={post.id} className={`isotop-item ${this.renderCategory(getData(post._embedded, 'categories'))}`}>
+        <div className="project-item">
+          <div className="img-box"><img src={getData(post._embedded, 'image')} alt=""/></div>
+          <div className="hover-jojo">
+            <div>
+              <h4 className="title"><a href={hasContent}>{post.title.rendered}</a></h4>
+              <div dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }}/>
+              <ul>
+                <li><a href={hasContent}><span>+</span></a></li>
+                <li><a href={getData(post._embedded, 'image')} className="zoom fancybox" data-fancybox="gallery"><i className="fa fa-search" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   render() {
+    const { posts, categories } = this.props;
+
     return (
       <Layout>
         <div className="solid-inner-banner">
@@ -12,133 +62,14 @@ class SuccessStory extends Component {
         <div className="our-project pt-90">
           <ul className="isotop-menu-wrapper pb-100">
             <li className="is-checked" data-filter="*">Бүгд</li>
-            <li data-filter=".bank">Банк, санхүү</li>
-            <li data-filter=".mobile">Үүрэн телефон</li>
-            <li data-filter=".business">Бизнес</li>
-            <li data-filter=".marketing">Mаркетинг</li>
+            {categories.map(category => (
+              <li key={category.id} data-filter={`.${category.slug}`}>{category.name}</li>
+            ))}
           </ul>
 
           <div id="isotop-gallery-wrapper">
             <div className="grid-sizer"></div>
-            <div className="isotop-item bank">
-              <div className="project-item">
-                <div className="img-box"><img src="images/success-story/golomt.png" alt=""/></div>
-                <div className="hover-jojo">
-                  <div>
-                    <h4 className="title"><a href="/golomt-detail">Голомт банк</a></h4>
-                    <div>
-                      <p>Монголд төлбөрийн</p>
-                      <p>картын системийг анхлан</p>
-                      <p>нэвтрүүлэгч Голомт банк</p>
-                    </div>
-                    <ul>
-                      <li>
-                        <a href="/golomt-detail">
-                          <span>+</span>
-                        </a>
-                      </li>
-                      <li><a href="images/success-story/golomt.png" className="zoom fancybox" data-fancybox="gallery"><i className="fa fa-search" aria-hidden="true"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="isotop-item bank">
-              <div className="project-item">
-                <div className="img-box"><img src="images/success-story/capitron.png" alt=""/></div>
-                <div className="hover-jojo">
-                  <div>
-                    <h4 className="title"><a href="#">Капитрон банк</a></h4>
-                    <div>
-                      <p>100 хувийн үндэсний</p>
-                      <p>хөрөнгө оруулалтай арилжааны</p>
-                      <p>Капитрон банк</p>
-                    </div>
-                    <ul>
-                      <li><a href="#"><span>+</span></a></li>
-                      <li><a href="images/success-story/capitron.png" className="zoom fancybox" data-fancybox="gallery"><i className="fa fa-search" aria-hidden="true"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="isotop-item mobile">
-              <div className="project-item">
-                <div className="img-box"><img src="images/success-story/skytel.png" alt=""/></div>
-                <div className="hover-jojo">
-                  <div>
-                    <h4 className="title"><a href="#">СКАЙтел</a></h4>
-                    <div>
-                      <p>Монгол даяар 3G сүлжээ</p>
-                      <p>бүхий үндэсний үүрэн холбооны</p>
-                      <p>тэргүүлэх оператор СКАЙтел</p>
-                    </div>
-                    <ul>
-                      <li><a href="#"><span>+</span></a></li>
-                      <li><a href="images/success-story/skytel.png" className="zoom fancybox" data-fancybox="gallery"><i className="fa fa-search" aria-hidden="true"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="isotop-item mobile">
-              <div className="project-item">
-                <div className="img-box"><img src="images/success-story/mobicom.png" alt=""/></div>
-                <div className="hover-jojo">
-                  <div>
-                    <h4 className="title"><a href="#">Мобиком</a></h4>
-                    <div>
-                      <p>Монголын анхны үүрэн</p>
-                      <p>холбооны оператор</p>
-                      <p>Мобиком Корпораци</p>
-                    </div>
-                    <ul>
-                      <li><a href="#"><span>+</span></a></li>
-                      <li><a href="images/success-story/mobicom.png" className="zoom fancybox" data-fancybox="gallery"><i className="fa fa-search" aria-hidden="true"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="isotop-item business">
-              <div className="project-item">
-                <div className="img-box"><img src="images/success-story/tavanbogd.png" alt=""/></div>
-                <div className="hover-jojo">
-                  <div>
-                    <h4 className="title"><a href="#">Таван богд групп</a></h4>
-                    <div>
-                      <p>Өнөөдөр Таван Богд групп нь</p>
-                      <p>16 охин компани, 3 хөрөнгө оруулалттай компани</p>
-                      <p>4 бизнес нэгж, нийт 12,000 гаруй ажиллагсадтай</p>
-                      <p>ажиллаж байна</p>
-                    </div>
-                    <ul>
-                      <li><a href="#"><span>+</span></a></li>
-                      <li><a href="images/success-story/tavanbogd.png" className="zoom fancybox" data-fancybox="gallery"><i className="fa fa-search" aria-hidden="true"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="isotop-item business">
-              <div className="project-item">
-                <div className="img-box"><img src="images/success-story/teso.png" alt=""/></div>
-                <div className="hover-jojo">
-                  <div>
-                    <h4 className="title"><a href="#">ТЭСО Корпораци</a></h4>
-                    <div>
-                      <p>Хэрэглэгчидэд зөвхөн чанартай</p>
-                      <p>бүтээгдэхүүн, үйлчилгээ хүргэхийг</p>
-                      <p>эрхэм үүргээ гэж үздэг</p>
-                    </div>
-                    <ul>
-                      <li><a href="#"><span>+</span></a></li>
-                      <li><a href="images/success-story/teso.png" className="zoom fancybox" data-fancybox="gallery"><i className="fa fa-search" aria-hidden="true"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
+            {posts.map(post => this.renderContent(post))}
           </div>
         </div>
       </Layout>

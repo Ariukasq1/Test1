@@ -28,7 +28,7 @@ class Blog extends Component {
 
   render() {
     const { posts } = this.props;
-
+    console.log(posts);
     return (
       <Layout>
         <div className="our-blog blog-filer mb-150">

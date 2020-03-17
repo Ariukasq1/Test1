@@ -6474,6 +6474,9 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   top:50%;
   transform: translateY(-50%);
 }
+#isotop-gallery-wrapper .isotop-item .hover-jojo>div p {
+  width: 280px;
+}
 .our-project .project-item .title a {
   font-size: 30px;
   color: #fff;
@@ -6793,9 +6796,17 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   bottom: 0;
   border-radius: 3px;
 }
-.project-details .side-block p {padding-right: 50px;}
+.project-details .side-block p {padding: 0 50px 40px 0;}
 .project-details .side-block {padding-bottom: 45px;}
-.project-details .side-block ul { padding-left: 50px; list-style: inside;}
+.project-details .side-block h5 {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #3e3e3e;
+  position: relative;
+  margin-bottom: 25px;
+  padding-bottom: 0;
+}
+.project-details .side-block ul { padding-left: 50px; list-style: inside; padding-bottom: 45px;}
 .pd-footer .theme-pager {
   font-size: 24px;
   color: #3e3e3e;
@@ -6808,7 +6819,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   vertical-align: -6px;
   color: #979797;
 }
-.project-details .pd-body p {font-size: 15px;line-height: 30px;color: #a4a7ac; text-align: justify;}
+.project-details .pd-body p, .project-details .side-block ul {font-size: 15px;line-height: 30px;color: #a4a7ac; text-align: justify;}
 .project-details-agency .pd-img-box {margin: 68px 0 90px;}
 .project-details-agency .pd-body .sub-heading {
 
@@ -6850,7 +6861,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   right: 0;
   left: 0;
   top: 0;
-  background: rgba(255,255,255,.3);
+  background: rgba(255,255,255,.5);
 }
 .project-details-creative .pd-banner .container,
 .project-details-creative .pd-banner .container-inner {position: relative;height: 100%;}
