@@ -37,7 +37,7 @@ class Swag extends Component {
                     <div className="theme-title-one">
                       <h2 className="main-title">Үнэгүй футболка аваарай!</h2>
                     </div>
-                    <p>Шуудангаар эрхэс болон MIPTU-н логотой үнэгүй футболка авмаар байвал Github дээр хэдхэн үйлдлийг хийгээрэй.</p> <br/>
+                    <p>Шуудангаар эрхэс болон MITPU-н логотой үнэгүй футболка авмаар байвал Github дээр хэдхэн үйлдлийг хийгээрэй.</p> <br/>
                     <p>Бид Эрхэсийг дэмжигчиддээ зориулан нэгэн илгээмжийг бэлдсэн байгаа. Эрхэст хувь нэмрээ оруулсан бүх хүнд талархлаа илэрхийлж футболка болон стикертэй шууданг хүн бүрт илгээх болно.</p>
                   </div>
                 </div>
@@ -58,7 +58,7 @@ class Swag extends Component {
                   <div className="icon-box mb-20"><img className="icon" src="images/icon/icon33.svg" alt=""/></div>
   									<h2 className="service-title"><a href="#">Бэлгээ яаж авах вэ?</a></h2>
   									<ul>
-                      <li><a href="https://github.com/erxes/erxes" target="_blank">Эрхэсийн Repository</a>-г Follow, Star, Fork хийх.</li>
+                      <li><a href="https://github.com/erxes/erxes" target="_blank">erxes Repository</a>-г Follow, Star, Fork хийх.</li>
                       <li><a href="https://github.com/erxes/erxes/issues/new/choose" target="_blank">Github</a> дээр 3 “Issue” үүсгэх.</li>
                       <li><a href="https://github.com/erxes/erxes" target="_blank">Github</a> дээр 1 Pull Request явуулах</li>
                       <li>Swag авах хүсэлтээ доор буй анкетаар илгээх</li>

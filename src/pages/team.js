@@ -259,7 +259,7 @@ class Team extends Component {
   									<ul>
   										<li><a href="https://twitter.com/anuvjin1" target="_blank"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
   										<li><a href="https://github.com/Anu-Ujin" target="_blank"><i className="fa fa-github" aria-hidden="true"></i></a></li>
-                      <li><a href="https://www.linkedin.com/in/anu-ujin-bat-ulzii-4080a714b/" target="_blank"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                      <li><a href="https://www.linkedin.com/in/anu-ujin/" target="_blank"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
   									</ul>
   								</div>
   							</div>
