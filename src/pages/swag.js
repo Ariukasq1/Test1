@@ -2,25 +2,6 @@ import React, {Component} from 'react';
 import Layout from '../components/Layout';
 
 class Swag extends Component {
-  componentDidMount() {
-    window.erxesSettings = {
-      forms: [{
-        brand_id: "m7DmKt",
-        form_id: "moR3aE",
-      }],
-    };
-
-    (() => {
-      const script = document.createElement('script');
-      script.src =
-        'https://w.office.erxes.io/build/formWidget.bundle.js';
-      script.async = true;
-
-      const entry = document.getElementsByTagName('script')[0];
-      entry.parentNode.insertBefore(script, entry);
-    })();
-  }
-
   render() {
     return (
       <Layout>
@@ -88,7 +69,7 @@ class Swag extends Component {
     				<img src="images/shape/shape-61.svg" alt="" className="shape-three"/>
     				<div className="container">
   						<div className="flex">
-  						   <div data-erxes-embed="moR3aE" style={{width:'900px'}}></div>
+  						   <div data-erxes-embed="moR3aE" style={{width:'900px', height:'600px'}}></div>
   						</div>
     				</div>
     			</div>
