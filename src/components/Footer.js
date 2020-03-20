@@ -20,6 +20,9 @@ const Footer = () => (
                   <li>
                     <a href="/swag">Үнэгүй футболка авах</a>
                   </li>
+                  <li>
+                    <a href="/training">Сургалтын цаг авах</a>
+                  </li>
                 </ul>
               </div>
               <div className="col-lg-3 col-lg-3 col-sm-6 col-12 footer-list" >
