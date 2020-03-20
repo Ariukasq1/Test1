@@ -38,7 +38,7 @@ class Training extends Component {
         						</div>
                   </div>
                   <br /><br />
-                  <div data-erxes-embed="3QPxQs" style={{width:'900px', height:'600px'}}></div>
+                  <div data-erxes-embed="3QPxQs" style={{width:'900px', height:'650px'}}></div>
                 </div>
               </div>
             </div>

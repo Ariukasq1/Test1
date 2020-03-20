@@ -69,7 +69,7 @@ class Swag extends Component {
     				<img src="images/shape/shape-61.svg" alt="" className="shape-three"/>
     				<div className="container">
   						<div className="flex">
-  						   <div data-erxes-embed="moR3aE" style={{width:'900px', height:'600px'}}></div>
+  						   <div data-erxes-embed="moR3aE" style={{width:'900px', height:'800px'}}></div>
   						</div>
     				</div>
     			</div>

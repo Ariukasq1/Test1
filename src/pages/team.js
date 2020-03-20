@@ -37,7 +37,7 @@ class Team extends Component {
               <div className="col-lg-3 col-md-6 col-12">
   							<div className="single-team-member">
   								<div className="wrapper">
-  									<div ><img src="images/team/naran.jpg" alt="" /></div>
+  									<div ><img src="images/team/naran.png" alt="" /></div>
   									<div className="info-meta">
   										<h6 className="name">Батжаргалын<br />  Наран</h6>
   										<span>Үйл ажиллагаа хариуцсан захирал</span>
