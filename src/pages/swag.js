@@ -34,7 +34,7 @@ class Swag extends Component {
   				<div className="container pt-150">
   					<div className="demo-container-1100">
   						<div className="row service-minimal">
-  							<div className="col-lg-6">
+  							<div className="col-lg-4">
   								<div className="service-block mb-80" data-aos="fade-up">
                   <div className="icon-box mb-20"><img className="icon" src="images/icon/icon33.svg" alt=""/></div>
   									<h2 className="service-title"><a href="#">Бэлгээ яаж авах вэ?</a></h2>
@@ -48,7 +48,7 @@ class Swag extends Component {
                     <div>Бэлгээ аваад футболкаа өмсөж, стикерээ ашигласан зургаа бидэнтэй <q>@erxesHQ</q> tag ашиглан цахим хуудсандаа хуваалцаарай!</div>
   								</div>
   							</div>
-  							<div className="col-lg-6">
+  							<div className="col-lg-4">
   								<div className="service-block mb-80" data-aos="fade-up" data-aos-delay="100">
   									<div className="icon-box mb-20"><img className="icon" src="images/icon/icon30.svg" alt=""/></div>
   									<h2 className="service-title"><a href="#">Нөхцөл:</a></h2>
@@ -59,6 +59,10 @@ class Swag extends Component {
                     </ul>
   								</div>
   							</div>
+                <div className="col-lg-4">
+  						   <div data-erxes-embed="moR3aE"></div>
+                </div>
+                <div className="clearfix"></div>
   						</div>
   					</div>
   				</div>
@@ -67,11 +71,6 @@ class Swag extends Component {
     				<img src="images/shape/shape-55.svg" alt="" className="shape-one"/>
     				<img src="images/shape/shape-59.svg" alt="" className="shape-two"/>
     				<img src="images/shape/shape-61.svg" alt="" className="shape-three"/>
-    				<div className="container">
-  						<div className="flex">
-  						   <div data-erxes-embed="moR3aE" style={{width:'900px', height:'800px'}}></div>
-  						</div>
-    				</div>
     			</div>
   			</div>
       </Layout>
