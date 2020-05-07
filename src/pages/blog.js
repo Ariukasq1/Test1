@@ -1,5 +1,5 @@
 import WPAPI from 'wpapi';
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import Layout from '../components/Layout';
 import Config from "../config";
 import { getData } from "../utils"
@@ -28,13 +28,13 @@ class Blog extends Component {
 
   render() {
     const { posts } = this.props;
-    console.log(posts);
+
     return (
       <Layout>
         <div className="our-blog blog-filer mb-150">
           <div className="blog-filter-title">
             <p className="upper-title">Блог</p>
-            <h2 className="main-title">Бидний тухай мэдээ, мэдээлэл<br/> бүрийг эндээс</h2>
+            <h2 className="main-title">Бидний тухай мэдээ, мэдээлэл<br /> бүрийг эндээс</h2>
           </div>
 
           <ul className="isotop-menu-wrapper blog-filter-nav clearfix">
@@ -48,7 +48,7 @@ class Blog extends Component {
 
           <div className="masnory-blog-wrapper">
             <div className="grid-sizer"></div>
-            {posts.map(post=> {
+            {posts.map(post => {
               let url = '';
               if (process.browser) { url = window.location.href }
 
@@ -75,7 +75,7 @@ class Blog extends Component {
                           <a>{post.title.rendered}</a>
                         </Link>
                       </h5>
-                      <div dangerouslySetInnerHTML={{ __html: (post.excerpt.rendered).slice(0,150) }} />
+                      <div dangerouslySetInnerHTML={{ __html: (post.excerpt.rendered).slice(0, 150) }} />
                       <Link href={"blog/" + post.slug}><a className="read-more"><i className="flaticon-next-1"></i></a></Link>
                     </div>
                   </div>

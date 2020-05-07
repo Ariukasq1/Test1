@@ -20,7 +20,7 @@ class SuccessStory extends Component {
       .embed();
 
     return { categories, posts };
-	}
+  }
 
   renderCategory = (categories) => {
     const cat = categories.map(cat => cat.slug);
@@ -29,22 +29,15 @@ class SuccessStory extends Component {
   }
 
   renderContent = (post) => {
-    const hasContent = post.content.rendered.length > 0 ? "success-story/" + post.slug : "#";
+    const url = post.content.rendered.length > 0 ? "success-story/" + post.slug : "#";
 
     return (
       <div key={post.id} className={`isotop-item ${this.renderCategory(getData(post._embedded, 'categories'))}`}>
         <div className="project-item">
-          <div className="img-box"><img src={getData(post._embedded, 'image')} alt=""/></div>
-          <div className="hover-jojo">
-            <div>
-              <h4 className="title"><a href={hasContent}>{post.title.rendered}</a></h4>
-              <div dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }}/>
-              <ul>
-                <li><a href={hasContent}><span>+</span></a></li>
-                <li><a href={getData(post._embedded, 'image')} className="zoom fancybox" data-fancybox="gallery"><i className="fa fa-search" aria-hidden="true"></i></a></li>
-              </ul>
-            </div>
-          </div>
+          <a href={url}>
+            <div className="img-box"><img src={getData(post._embedded, 'image')} alt="" /></div>
+            <div className="hover-jojo" />
+          </a>
         </div>
       </div>
     );
