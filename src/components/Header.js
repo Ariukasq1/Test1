@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 const Header = () => (
   <div className="theme-main-menu theme-menu-one d-align-item">
     <div className="logo"><a href="/"><img src="/images/erxes-logo.svg" alt="" /></a></div>
