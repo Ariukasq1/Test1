@@ -9,7 +9,7 @@ import '../style/fonts/font-awesome/css/font-awesome.css';
 
 const Layout = (props) => (
   <>
-    <HtmlHead />
+    <HtmlHead forms={props.forms} />
     <Header />
     {props.children}
     <ScrollTop />

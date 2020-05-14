@@ -1,12 +1,19 @@
 import Head from 'next/head';
 
 const HtmlHead = (props) => {
-  const { erxesSettings = {}, sources = [] } = props;
-  const scripts = [];
+  const { forms = [] } = props;
 
-  for (const s of sources) {
-    scripts.push(<script src={s} async={true} key={s}></script>);
+  const formWidgetSource = 'https://w.office.erxes.io/build/formWidget.bundle.js';
+  const settings = {
+    messenger: { brand_id: '5fkS4v' },
+    forms: []
+  };
+
+  for (const form of forms) {
+    settings.forms.push({ brand_id: form.brand_id, form_id: form.form_id });
   }
+
+  const erxesSettings = `window.erxesSettings = ${JSON.stringify(settings)}`;
 
   return (
     <Head>
@@ -42,7 +49,8 @@ const HtmlHead = (props) => {
         rel='stylesheet'
       />
       <script dangerouslySetInnerHTML={{ __html: `${erxesSettings}` }}></script>
-      {scripts}
+      <script src='https://w.office.erxes.io/build/messengerWidget.bundle.js' async={true} key={Math.random().toString()}></script>
+      {forms.length > 0 ? <script src={formWidgetSource} async={true} key={Math.random().toString()}></script> : null}
       <script src='static/jquery.2.2.3.min.js'></script>
       <script src='static/popper.js/popper.min.js'></script>
       <script src='static/bootstrap/js/bootstrap.min.js'></script>

@@ -1,36 +1,12 @@
 import React, { Component } from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import ScrollTop from '../components/ScrollTop';
-import HtmlHead from '../components/HtmlHead';
-
-import '../style/css/custom.css';
-import '../style/css/responsive.css';
-import '../style/fonts/font-awesome/css/font-awesome.css';
+import Layout from '../components/Layout';
 
 class Swag extends Component {
   render() {
-    const erxesSettings = `window.erxesSettings = {
-      messenger: {
-        brand_id: '5fkS4v',
-      },
-      forms: [
-        {
-          brand_id: '5fkS4v',
-          form_id: 'PpxMir',
-        },
-      ],
-    }`;
-
-    const sources = [
-      'https://w.office.erxes.io/build/messengerWidget.bundle.js',
-      'https://w.office.erxes.io/build/formWidget.bundle.js',
-    ];
+    const forms = [{ brand_id: '5fkS4v', form_id: 'PpxMir' }];
 
     return (
-      <>
-        <HtmlHead sources={sources} erxesSettings={erxesSettings} />
-        <Header />
+      <Layout forms={forms}>
         <div className='our-service pt-200 pb-100'>
           <div className='agn-about-us pt-250 pb-100'>
             <img src='images/shape/shape-61.svg' alt='' className='shape-one' />
@@ -194,11 +170,14 @@ class Swag extends Component {
               alt=''
               className='shape-three'
             />
+            <div className='container'>
+              <div className='flex'>
+                <div data-erxes-embed='PpxMir' style={{ width: '600px', height: '800px' }}></div>
+              </div>
+            </div>
           </div>
         </div>
-        <ScrollTop />
-        <Footer />
-      </>
+      </Layout>
     );
   } // end render()
 } // end component
