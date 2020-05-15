@@ -3,7 +3,7 @@ import Layout from '../components/Layout';
 
 class Swag extends Component {
   render() {
-    const forms = [{ brand_id: '5fkS4v', form_id: 'PpxMir' }];
+    const forms = [{ brand_id: 'm7DmKt', form_id: 'moR3aE' }];
 
     return (
       <Layout forms={forms}>
@@ -172,7 +172,7 @@ class Swag extends Component {
             />
             <div className='container'>
               <div className='flex'>
-                <div data-erxes-embed='PpxMir' style={{ width: '600px', height: '800px' }}></div>
+                <div data-erxes-embed='moR3aE' style={{ width: '600px' }}></div>
               </div>
             </div>
           </div>
