@@ -5,7 +5,7 @@ const HtmlHead = (props) => {
 
   const formWidgetSource = 'https://w.office.erxes.io/build/formWidget.bundle.js';
   const settings = {
-    messenger: { brand_id: '5fkS4v' },
+    messenger: { brand_id: 'm7DmKt' },
     forms: []
   };
 

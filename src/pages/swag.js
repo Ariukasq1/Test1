@@ -2,11 +2,16 @@ import React, { Component } from 'react';
 import Layout from '../components/Layout';
 
 class Swag extends Component {
-  render() {
-    const forms = [{ brand_id: 'm7DmKt', form_id: 'moR3aE' }];
+  constructor() {
+    super();
 
+    this.formCode = 'moR3aE';
+    this.forms = [{ brand_id: 'm7DmKt', form_id: this.formCode }];
+  }
+
+  render() {
     return (
-      <Layout forms={forms}>
+      <Layout forms={this.forms}>
         <div className='our-service pt-200 pb-100'>
           <div className='agn-about-us pt-250 pb-100'>
             <img src='images/shape/shape-61.svg' alt='' className='shape-one' />
