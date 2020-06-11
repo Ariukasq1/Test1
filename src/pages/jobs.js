@@ -20,7 +20,7 @@ class HumanResource extends Component {
 
   render() {
     const { posts } = this.props;
-    console.log(posts);
+
     return (
       <Layout>
         <div className="solid-inner-banner">
