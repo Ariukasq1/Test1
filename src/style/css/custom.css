@@ -4497,6 +4497,15 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   line-height: 30px;
   padding: 0 90px 38px 65px;
 }
+.jobs .faq-panel .panel .panel-body p {
+  padding: 20px 0;
+  line-height: unset;
+  font-size: 15px;
+  color: #666;
+}
+.jobs .faq-panel .panel .panel-body h4 {
+  padding: 20px 0 10px 0;
+}
 .sass-faq-section .down-button {
   display: block;
   width: 50px;
