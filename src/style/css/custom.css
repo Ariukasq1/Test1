@@ -3,40 +3,16 @@
 @import url('../vendor/bootstrap/css/bootstrap.min.css');
 @import url('../vendor/mega-menu/assets/css/menu.css');
 @import url('../fonts/font-awesome/css/font-awesome.min.css');
-/*----owl-carousel css----*/
-/* @import url('../vendor/owl-carousel/owl.carousel.css'); */
 @import url('../vendor/owl-carousel/owl.theme.css');
 @import url('../vendor/owl-carousel/animate.css');
-/*-------- AOS css ------*/
 @import url('../vendor/aos-next/dist/aos.css');
-/*----------- Fancybox css -------*/
 @import url('../vendor/fancybox/dist/jquery.fancybox.min.css');
-/*------------- Map -------------*/
 @import url('../vendor/sanzzy-map/dist/snazzy-info-window.min.css');
-/*----Flaticon-------*/
 @import url('../fonts/icon/font/flaticon.css');
-/*---------------- Custom Animation -------------*/
 @import url('custom-animation.css');
-/*---------------- Animated Headline -------------*/
 @import url('../vendor/animated-headline-master/style.css');
-/*---------------- Modal -------------*/
 @import url('../vendor/iziModal-master/iziModal.css');
-/*--------- Jquery ui ---------*/
-/* @import url('../vendor/jquery-ui/jquery-ui.min.css'); */
-/*--------- Select js ---------*/
 @import url('../vendor/selectize.js/selectize.css');
-/*--------- Tabs ---------*/
-/* @import url('../vendor/tabs/tabs.css'); */
-
-
- /***
-
-====================================================================
-  Loading Transition
-====================================================================
-
- ***/
-/* Preloader */
 
 body{
   overflow-x: hidden !important;
@@ -350,7 +326,7 @@ body .line-button-two {
   color: #233D63;
 }
 body .line-button-two:hover, .agn-our-pricing .table-wrapper .pr-column:hover .line-button-two {
-  background: linear-gradient( -135deg, rgb(191,108,255) 0%, rgb(144,65,255) 100%) !important;
+  background: linear-gradient( -135deg,rgb(101, 105, 223) 0%, rgb(144,65,255) 100%) !important;
   border-color: transparent !important;
   color: #fff;
   transition: all ease 0.3s;
@@ -516,7 +492,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 }
 .theme-title-one .main-title {
   font-size: 48px;
-  line-height: 60px;
+  line-height: 40px;
   color: #233D63;
 }
 .theme-title-one.studio-title .main-title {
@@ -653,6 +629,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   z-index: 3;
 }
 .theme-menu-one .logo a {display: block;}
+.theme-menu-one .navbar-nav .nav-item {display: flex;align-items: center;}
 .theme-menu-one .navbar-nav .nav-item .nav-link {color: #64697A;font-size: 18px;}
 .theme-menu-one .navbar-nav .nav-item:first-child .nav-link {margin-left: 0;}
 .theme-menu-one .header-right-widget {
@@ -694,11 +671,14 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 .theme-menu-one.d-align-item .header-right-widget {right: auto; left: 15%;}
 .theme-menu-one.d-align-item .logo {top:45px;left:75px;width: 110px;}
 .theme-menu-one.d-align-item .navbar-nav .login-button a {
-  width: 150px;
-  line-height: 45px;
+  line-height: 35px;
   background: #fda50f;
   border-radius: 3px;
-  font-size: 18px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 0 20px;
+  font-weight: 500;
   color: #fff;
   text-align: center;
   margin-top: -12px;
@@ -814,11 +794,11 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   animation: menu_sticky  0.60s ease-in-out;
 }
 .theme-menu-one.d-align-item.fixed .logo {width: 110px;}
-.theme-menu-one.fixed.d-align-item .logo {top:5px;}
+.theme-menu-one.fixed.d-align-item .logo {top:15px;}
 .theme-menu-one.fixed .navbar-nav .nav-item .nav-link,
 .theme-menu-two.fixed .navbar-nav .nav-item .nav-link {padding-bottom: 20px;}
 
-.theme-menu-one.fixed,.theme-menu-two.fixed {padding: 20px 0 0;}
+.theme-menu-one.fixed,.theme-menu-two.fixed {padding: 25px 0;}
 .theme-main-menu.theme-menu-three.fixed {padding: 20px 0 5px;}
 .theme-menu-one.fixed .logo,.theme-menu-three.fixed .logo {width: 70px;}
 .theme-menu-one.fixed .header-right-widget {top:7px;}
@@ -828,7 +808,6 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 .theme-main-menu.theme-menu-three.fixed {background: rgba(29,31,66,0.98); border-bottom: 1px solid rgba(255,255,255,0.03);}
 .theme-menu-three.fixed .header-right-widget {top:14px;}
 .theme-menu-one.d-align-item.fixed .navbar-nav .nav-item .nav-link {padding-bottom: 0;}
-.theme-menu-one.d-align-item.fixed  {padding-bottom: 12px;}
 /*---------------------------- Theme Main Banner One -------------------------*/
 #theme-banner-one {
   background: url(../../public/images/shape/1.png) no-repeat top right;
@@ -1233,7 +1212,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   color: #fff;
   font-size: 15px;
   box-shadow: 0px 10px 40px 0px rgba(150,57,57,0.25);
-  background: linear-gradient( -135deg, rgb(191,108,255) 0%, rgb(144,65,255) 100%);
+  background: linear-gradient( -135deg,rgb(101, 105, 223) 0%, rgb(144,65,255) 100%);
   margin-right: 30px;
 }
 #theme-banner-four .main-wrapper .button-group .more-button:hover {box-shadow: none;}
@@ -1729,7 +1708,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 }
 .agn-our-gallery .owl-theme .owl-nav [class*=owl-]:hover {color: #233D63;}
 /*-------------------- Our Pricing/ Agency -----------------*/
-.pricing-tab-menu {text-align: center;}
+.pricing-tab-menu {text-align: center; margin-top: 80px;}
 .pricing-tab-menu .nav-wrapper {
   display: inline-block;
   border-width: 2px;
@@ -1992,7 +1971,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   right: 0;
   bottom: 0;
   left:0;
-  background: linear-gradient( -135deg, rgb(191,108,255) 0%, rgb(144,65,255) 100%);
+  background: linear-gradient( -135deg,rgb(101, 105, 223) 0%, rgb(144,65,255) 100%);
   z-index: -1;
   border-radius: 25px;
   transform: scaleX(0);
@@ -2946,7 +2925,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   content: '';
   width: 273px;
   height: 273px;
-  background: #d858f5;
+  background: #8158db;
   border-radius: 50%;
   position: absolute;
   top:-148px;
@@ -2986,7 +2965,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   left:0;
   right: 0;
   bottom: 0;
-  background: #9a5be8;
+  background: #676adf;
   z-index: -3;
   opacity: 0;
   transition: all 0.3s linear;
@@ -2998,7 +2977,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   content: '';
   width: 493px;
   height: 493px;
-  background: #c647fe;
+  background: #8467df;
   border-radius: 50%;
   position: absolute;
   top:-250px;
@@ -3011,19 +2990,6 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   opacity: 1;
   transform: translate(0% , 0%);
   transition: all 0.9s linear;
-}
-.our-service-sass .service-block .hover-content:after {
-  content: '';
-  width: 602px;
-  height: 602px;
-  background: #a461e8;
-  border-radius: 50%;
-  position: absolute;
-  top:-196px;
-  left:-180px;
-  z-index: -1;
-  transform: translate(-50% , -50%);
-  opacity: 0;
 }
 .our-service-sass .service-block:hover .hover-content:after {
   opacity: 1;
@@ -3871,7 +3837,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   display: block;
   transform: rotate(-90deg);
 }
-.our-feature-sass .down-arrow:hover {color: #fff;background: #9a5be8;}
+.our-feature-sass .down-arrow:hover {color: #fff;background: #676adf;}
 .our-feature-sass .single-feature-block {position: relative; margin-bottom: 330px; min-height: 500px;}
 .our-feature-sass .single-feature-block:last-child {margin: 0;}
 .our-feature-sass .single-feature-block  .text-box {max-width: 550px;}
@@ -4239,7 +4205,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 /*--------------------- Our Pricing/SASS ---------------------*/
 .sass-our-pricing {
   position: relative;
-  padding: 260px 0 245px;
+  padding: 0 0 100px;
 }
 .sass-our-pricing .section-shape-one {
   position: absolute;
@@ -4305,28 +4271,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   text-transform: uppercase;
   padding-bottom: 7px;
 }
-.sass-our-pricing .single-pr-table .pr-header .package {
-  font-size: 18px;
-  color: #696d80;
-  padding-top: 20px;
-  text-transform: inherit;
-  width: 400px;
-  margin: 0 auto;
-}
-.sass-our-pricing .single-pr-table .pr-body .feature {
-  font-size: 20px;
-  color: #303858;
-  padding-bottom: 25px;
-  text-align: center;
-}
-.sass-our-pricing .single-pr-table .pr-body ul li {
-  font-size: 16px;
-  position: relative;
-  width: 100%;
-  padding: 0 0 20px 25px;
-  color: #818386;
-  line-height: inherit;
-}
+
 .sass-our-pricing .single-pr-table .pr-body .row {
   margin: 10px 0 20px;
 }
@@ -4358,7 +4303,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   top:0;
   left:0;
   border-radius: 30px;
-  background: linear-gradient( -135deg, rgb(191,108,255) 0%, rgb(144,65,255) 100%);
+  background: linear-gradient( -135deg,rgb(101, 105, 223) 0%, rgb(144,65,255) 100%);
   transform: scale(0,1);
   z-index: -1;
 }
@@ -4370,10 +4315,10 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   color: #818386;
   margin-top: 32px;
 }
-.sass-our-pricing .single-pr-table .trial-button:hover {color: rgb(191,108,255);}
+.sass-our-pricing .single-pr-table .trial-button:hover {color:rgb(101, 105, 223);}
 .sass-our-pricing .single-pr-table .pr-footer {padding-bottom: 70px;}
-.sass-our-pricing .pricing-tab-menu .nav-wrapper {border:none;padding: 2px; background: linear-gradient( -135deg, rgb(191,108,255) 0%, rgb(144,65,255) 100%);}
-.sass-our-pricing .pricing-tab-menu .nav-tabs .nav-item .nav-link {color: #9546ff;background: #fff;}
+.sass-our-pricing .pricing-tab-menu .nav-wrapper {border:none;padding: 2px; background: linear-gradient( -135deg,rgb(101, 105, 223) 0%, rgb(144,65,255) 100%);}
+.sass-our-pricing .pricing-tab-menu .nav-tabs .nav-item .nav-link {color: #6569df;background: #fff;}
 .sass-our-pricing .pricing-tab-menu .nav-tabs .nav-item .nav-link.active {background: transparent; color: #fff;}
 /*-------------------------- FAQ Section/SASS ---------------------*/
 .sass-faq-section {position: relative;padding: 150px 0;}
@@ -5742,20 +5687,155 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 }
 .checkout-toggle-area form button {font-size: 15px;}
 .checkout-toggle-area form p {padding-top: 30px;}
+.sass-our-pricing .row [class*="col-"] {
+  border-left: 1px solid #e0e9ef;
+  padding: 0 50px;
+}
+.sass-our-pricing .row [class*="col-"]:last-child {border-right: 1px solid #e0e9ef;}
+.sass-our-pricing .single-pr-table .pr-header {
+  text-align: center;
+  padding-top: 20px;
+  min-height: 180px;
+}
+.sass-our-pricing .single-pr-table .pr-header .btn a {
+  background: #6569df;
+  color: #fff;
+  padding: 0 15px;
+  font-size: 15px;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+.sass-our-pricing .single-pr-table .pr-header .price {font-size: 44px; margin-bottom: 15px;}
+.sass-our-pricing .single-pr-table.free .pr-header .price {color: #ffcc6f;}
+.sass-our-pricing .single-pr-table.regular .pr-header .price {color: #06df9e;}
+.sass-our-pricing .single-pr-table.plus .pr-header .price {color: #ff6262;}
+.sass-our-pricing .single-pr-table .pr-header .price span {font-size: 20px;}
+
+.sass-our-pricing .single-pr-table .pr-header .title {
+  font-size: 19px;
+  color: #303858;
+  text-transform: uppercase;
+  padding-bottom: 7px;
+  font-weight: 500;
+}
+.sass-our-pricing .single-pr-table .pr-header .package {font-size: 16px;color: #696d80;margin-top: 10px;padding-bottom: 20px;}
+.sass-our-pricing .single-pr-table .pr-body {
+  border-top: 1px dashed #d8dde1;
+  padding: 40px 0 30px;
+  min-height: 330px;
+}
+.sass-our-pricing .single-pr-table .pr-body .feature {
+  font-family: 'CircularStdmed';
+  font-size: 20px;
+  color: #303858;
+  padding-bottom: 15px;
+}
+.sass-our-pricing .single-pr-table .pr-body ul li {
+  font-size: 16px;
+  position: relative;
+  padding: 5px 0 10px 28px;
+  color: #818386;
+}
+.sass-our-pricing .single-pr-table .pr-body ul li:before {
+  content: "\f107";
+  font-family: Flaticon;
+  font-size: 14px;
+  position: absolute;
+  color: #12d859;
+  line-height: 40px;
+  left:0;
+  top:0;
+}
+.sass-our-pricing .single-pr-table .upgrade-button {
+  display: block;
+  text-align: center;
+  border: 1px solid #f2f2f2;
+  border-radius: 25px;
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #233d63;
+  position: relative;
+}
+.sass-our-pricing .single-pr-table.regular .upgrade-button {
+   color: #06df9e;
+   border-color: #06df9e;;
+ }
+ .sass-our-pricing .single-pr-table.regular:hover .upgrade-button {
+  background: #06df9e;
+ }
+ .sass-our-pricing .single-pr-table.free .upgrade-button {
+  color: #fda50f;
+  border-color: #fda50f;;
+}
+.sass-our-pricing .single-pr-table.free:hover .upgrade-button {
+  background: #fda50f;
+}
+.sass-our-pricing .single-pr-table.plus .btn1 {
+  color: #ff6262;
+  border-color: #ff6262;;
+}
+.sass-our-pricing .single-pr-table.plus:hover .btn1 {
+  background: #ff6262;
+}
+.sass-our-pricing .single-pr-table .upgrade-button:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left:0;
+  border-radius: 30px;
+  background: linear-gradient( -135deg, rgb(191,108,255) 0%, rgb(144,65,255) 100%);
+  transform: scale(0,1);
+  z-index: -1;
+}
+.sass-our-pricing .single-pr-table {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sass-our-pricing .single-pr-table:hover .upgrade-button {border-color: transparent;color: #fff;}
+.sass-our-pricing .single-pr-table:hover .upgrade-button:before {transform: scale(1);}
+.sass-our-pricing .single-pr-table .trial-button {
+  display: block;
+  text-align: center;
+  color: #818386;
+  margin-top: 32px;
+}
+.sass-our-pricing .single-pr-table .trial-button:hover {color: rgb(191,108,255);}
+.sass-our-pricing .single-pr-table .pr-footer {padding-bottom: 70px;}
+.sass-our-pricing .pricing-tab-menu .nav-wrapper {border:none;padding: 2px; }
+.sass-our-pricing .pricing-tab-menu .nav-tabs .nav-item .nav-link {color: #6569df;background: #fff;}
+.sass-our-pricing .pricing-tab-menu .nav-tabs .nav-item .nav-link.active {background: transparent; color: #fff;}
 /*--------------------- Theme Solid Inner Banner -----------------*/
 .solid-inner-banner {
-  background: #fafcff;
-  /* background: url('/images/cover.jpg'); */
+  /* background: #fafcff; */
+  background: url('/images/cover.jpg');
   /* background: #5629B6 url('/images/stars.png') center top repeat; */
   text-align: center;
-  padding: 200px 0 0;
+  padding: 150px 0 0;
+}
+.solid-inner-banner:after {
+  content: '';
+  background: rgba(255,255,255,.8);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 .solid-inner-banner.white-bg {background: #fff;}
 .solid-inner-banner .page-title {
   font-family: 'Open Sans', sans-serif;
-  font-size: 60px;
+  font-size: 50px;
   color: #313131;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
+  padding-top: 20px;
+  position: relative;
+  z-index: 2;
 }
 .solid-inner-banner .page-breadcrumbs {
   background: #fff;
