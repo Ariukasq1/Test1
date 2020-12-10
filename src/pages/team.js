@@ -8,7 +8,7 @@ class Team extends Component {
         <div className="single-team-member">
           <div className="wrapper">
             <div>
-              <img src={`images/team/${image}`} alt="" />
+              <img src={image} alt="" />
             </div>
             <div className="info-meta">
               <h6 className="name">
@@ -84,7 +84,7 @@ class Team extends Component {
               {this.renderMember(
                 "Баттулгын <br /> Бат-Амар",
                 "Технологи хариуцсан захирал",
-                "bat-amar.jpg",
+                "images/team/bat-amar.jpg",
                 "",
                 "https://twitter.com/b_batamar",
                 "https://github.com/batamar",
@@ -93,7 +93,7 @@ class Team extends Component {
               {this.renderMember(
                 "Батжаргалын <br /> Наран",
                 "Үйл ажиллагаа хариуцсан захирал",
-                "naran.png",
+                "images/team/naran.png",
                 "",
                 "https://twitter.com/NaranBNayantai",
                 "https://github.com/batamar",
@@ -102,7 +102,7 @@ class Team extends Component {
               {this.renderMember(
                 "Амартайваны <br /> Мэнд-Орших",
                 "Үйл ажиллагаа хариуцсан захирал",
-                "mend-orshikh.jpg",
+                "images/team/mend-orshikh.jpg",
                 "https://www.facebook.com/MendOrshikh/",
                 "https://twitter.com/MendOrshikh",
                 "https://github.com/mendorshikh",
@@ -111,7 +111,7 @@ class Team extends Component {
               {this.renderMember(
                 "Ганзоригийн <br /> Индра",
                 "Бүтээгдэхүүн маркетингийн ахлах менежер",
-                "indra.png",
+                "images/team/indra.png",
                 "",
                 "https://twitter.com/IndraGanzorig",
                 "https://github.com/indraganzorig",
@@ -120,16 +120,52 @@ class Team extends Component {
               {this.renderMember(
                 "Амаржаргалын <br /> Удвал",
                 "Харилцагчийн ахлах менежер",
-                "udval.jpg",
+                "images/team/udval.jpg",
                 "",
                 "",
                 "",
                 "https://www.linkedin.com/in/udval-amarjargal-9bbaaba4/"
               )}
               {this.renderMember(
+                "Дэвид <br /> Картузински",
+                "Хөгжүүлэгчдийн ахлах төлөөлөгч",
+                "https://erxes.io/static/images/team/square/david.png",
+                "",
+                "",
+                "",
+                "https://www.linkedin.com/in/#/"
+              )}
+              {this.renderMember(
+                "Эрдэнийн Энхдэлгэр",
+                "Санхүүгийн ахлах менежер",
+                "https://erxes.io/static/images/team/square/enkhdelger.jpg",
+                "",
+                "",
+                "",
+                "https://www.linkedin.com/in/#/"
+              )}
+              {this.renderMember(
+                "Энхтөрийн Түвшинтөгс",
+                "Бүтээгдэхүүний ахлах менежер",
+                "https://erxes.io/static/images/team/square/tuvshintugs.jpg",
+                "",
+                "",
+                "",
+                "https://www.linkedin.com/in/#/"
+              )}
+              {this.renderMember(
+                "Даваанямын Халиунаа",
+                "Үйл ажиллагааны ахлах менежер",
+                "https://erxes.io/static/images/team/square/khaliunaa.jpg",
+                "",
+                "",
+                "",
+                "https://www.linkedin.com/in/#/"
+              )}
+              {this.renderMember(
                 "Баярсайханы <br /> Ганзориг",
                 "UX хөгжүүлэгч",
-                "ganzorig.jpg",
+                "images/team/ganzorig.jpg",
                 "",
                 "https://twitter.com/ganzorig_bs",
                 "https://github.com/ganzorig",
@@ -138,11 +174,20 @@ class Team extends Component {
               {this.renderMember(
                 "Энхбатын <br /> Мөнгөншагай",
                 "Систем хөгжүүлэгч",
-                "mungunshagai.jpg",
+                "images/team/mungunshagai.jpg",
                 "",
                 "https://twitter.com/mungunshagai",
                 "https://github.com/mungunshagai",
                 "https://www.linkedin.com/in/mungunshagai/"
+              )}
+              {this.renderMember(
+                "Самбуугийн Буянтогтох",
+                "Систем хөгжүүлэгч",
+                "https://erxes.io/static/images/team/square/buynaa.jpg",
+                "",
+                "https://twitter.com/#",
+                "https://github.com/#",
+                "https://www.linkedin.com/in/#/"
               )}
               <div className="col-lg-3 col-md-6 col-12">
                 <div className="single-team-member">
@@ -294,6 +339,15 @@ class Team extends Component {
                   </div>
                 </div>
               </div>
+              {this.renderMember(
+                "Баатархүүгийн Мягмарсүрэн",
+                "Систем хөгжүүлэгч",
+                "https://erxes.io/static/images/team/square/miigaa.jpg",
+                "",
+                "",
+                "",
+                "https://www.linkedin.com/in/#/"
+              )}
               <div className="col-lg-3 col-md-6 col-12">
                 <div className="single-team-member">
                   <div className="wrapper">
@@ -332,6 +386,15 @@ class Team extends Component {
                   </div>
                 </div>
               </div>
+              {this.renderMember(
+                "Даваасамбуугийн Мөнх-Хишиг",
+                "Харилцагчийн менежер",
+                "https://erxes.io/static/images/team/square/mo.jpg",
+                "",
+                "",
+                "",
+                "https://www.linkedin.com/in/#/"
+              )}
               <div className="col-lg-3 col-md-6 col-12">
                 <div className="single-team-member">
                   <div className="wrapper">
@@ -529,6 +592,15 @@ class Team extends Component {
                   </div>
                 </div>
               </div>
+              {this.renderMember(
+                "Амгалангийн Мягмарсүрэн",
+                "Систем админ",
+                "https://erxes.io/static/images/team/square/myagmarsuren.jpg",
+                "",
+                "",
+                "",
+                "https://www.linkedin.com/in/#/"
+              )}
             </div>
           </div>
         </div>
