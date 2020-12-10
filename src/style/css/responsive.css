@@ -388,7 +388,9 @@
   .project-details .project-title-one,.our-service .service-block .service-title,.theme-action-banner-two .title {font-size: 40px;line-height: 50px;}
   .project-details .project-title-two {width: 100%;}
   .theme-title-three p {font-size: 20px;line-height: 35px;}
-  .agn-what-we-do .theme-title-one {padding-bottom: 0;}
+  .invest.sass-contact-banner p { padding: 1em; }
+  iframe { width: 100%; }
+  .agn-what-we-do .theme-title-one {padding-bottom: 20px;}
   .agn-counter-section {margin: 150px 0 100px;}
   .agn-counter-section .main-wrapper .theme-title-one {padding-bottom: 35px;}
   .agn-counter-section .main-wrapper {padding-bottom: 85px;}
@@ -438,8 +440,11 @@
   .product-filter-area .large-filter-content {padding-bottom: 30px;}
   .cart-list-form .table tbody td {padding-left: 15px;padding-right: 15px;}
   .cart-section .cart-footer .cart-total-section {padding-right: 0;}
-  .solid-inner-banner .page-title {font-size: 45px;padding-bottom: 100px;}
-  .solid-inner-banner,.breadcrumbs-two,.breadcrumbs-three,.breadcrumbs-four {padding-top: 170px;}
+  .rogan-hero-section a.solid-button-one { margin-bottom: 20px; }
+  .agn-about-us.invest { margin-top: 70px; }
+  .text-wrapper { padding: 0 20px; }
+  .solid-inner-banner .page-title {font-size: 45px;padding-bottom: 100px;padding: 20px;}
+  .solid-inner-banner,.breadcrumbs-two,.breadcrumbs-three,.breadcrumbs-four {padding-top: 100px;}
   .video-action-banner-one .video-button {width: 100px;height: 100px;}
   .video-action-banner-one .overlay {padding: 130px 0;}
   .our-team .theme-title-one {padding-bottom: 100px;}

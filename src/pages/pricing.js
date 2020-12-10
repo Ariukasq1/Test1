@@ -243,7 +243,10 @@ class Pricing extends Component {
                             <div>
                               <div className="pr-header">
                                 <div className="btn">
-                                  <a href="#" className="upgrade-button">
+                                  <a
+                                    data-erxes-modal="4uBFnr"
+                                    className="upgrade-button"
+                                  >
                                     Үнийн санал асуух
                                   </a>
                                 </div>
@@ -284,7 +287,10 @@ class Pricing extends Component {
                             </div>
 
                             <div className="pr-footer">
-                              <a href="#" className="upgrade-button btn1">
+                              <a
+                                data-erxes-modal="4uBFnr"
+                                className="upgrade-button btn1"
+                              >
                                 Борлуулалтын Багтай Холбогдох
                               </a>
                             </div>
@@ -426,7 +432,10 @@ class Pricing extends Component {
                             <div>
                               <div className="pr-header">
                                 <div className="btn">
-                                  <a href="#" className="upgrade-button">
+                                  <a
+                                    data-erxes-modal="4uBFnr"
+                                    className="upgrade-button"
+                                  >
                                     Үнийн санал асуух
                                   </a>
                                 </div>
@@ -467,7 +476,10 @@ class Pricing extends Component {
                               </div>
                             </div>
                             <div className="pr-footer">
-                              <a href="#" className="upgrade-button btn1">
+                              <a
+                                data-erxes-modal="4uBFnr"
+                                className="upgrade-button btn1"
+                              >
                                 Борлуулалтын Багтай Холбогдох
                               </a>
                             </div>
