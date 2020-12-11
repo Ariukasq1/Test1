@@ -67,11 +67,13 @@ test_and_build:
 
 build_docker_image:
   stage: build_docker_images
+  image:
+    name: gcr.io/kaniko-project/executor:debug
+    entrypoint: ['']
   before_script:
-    - docker login -u $DOCKER_USERNAME_ESCAPED -p $DOCKER_PASSWORD $DOCKER_REGISTRY
+    - echo "{\"auths\":{\"$DOCKER_REGISTRY\":{\"username\":\"$DOCKER_USERNAME_ESCAPED\",\"password\":\"$DOCKER_PASSWORD\"}}}" > /kaniko/.docker/config.json
   script:
-    - docker build -t $DOCKER_REGISTRY/erxes/$CI_PROJECT_NAME:${CI_COMMIT_REF_NAME} -f Dockerfile .
-    - docker push $DOCKER_REGISTRY/erxes/$CI_PROJECT_NAME:${CI_COMMIT_REF_NAME}
+    - /kaniko/executor --context $CI_PROJECT_DIR --dockerfile $CI_PROJECT_DIR/Dockerfile --destination $DOCKER_REGISTRY/erxes/$CI_PROJECT_NAME:${CI_COMMIT_REF_NAME}
   rules:
     - changes:
         - src/**/*
