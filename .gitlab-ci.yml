@@ -1,5 +1,6 @@
 variables:
   DOCKER_DRIVER: overlay2
+  DOCKER_USERNAME_ESCAPED: $DOCKER_USERNAME
 
 default:
   image: docker:19.03.5
@@ -67,7 +68,7 @@ test_and_build:
 build_docker_image:
   stage: build_docker_images
   before_script:
-    - docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD $DOCKER_REGISTRY
+    - docker login -u $DOCKER_USERNAME_ESCAPED -p $DOCKER_PASSWORD $DOCKER_REGISTRY
   script:
     - docker build -t $DOCKER_REGISTRY/erxes/$CI_PROJECT_NAME:${CI_COMMIT_REF_NAME} -f Dockerfile .
     - docker push $DOCKER_REGISTRY/erxes/$CI_PROJECT_NAME:${CI_COMMIT_REF_NAME}
