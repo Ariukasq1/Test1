@@ -572,6 +572,11 @@
   }
   .theme-menu-one.d-align-item .navbar-nav .nav-item .nav-link {
     padding-bottom: 15px;
+    width: 100%;
+  }
+
+  .theme-menu-one.d-align-item .navbar-nav .login-button:last-child {
+    padding: 10px 0 20px;
   }
   .our-feature-sass .down-arrow {
     margin-bottom: 170px;
