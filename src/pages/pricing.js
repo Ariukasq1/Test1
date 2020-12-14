@@ -4,7 +4,14 @@ import Layout from "../components/Layout";
 class Pricing extends Component {
   render() {
     return (
-      <Layout>
+      <Layout
+        forms={[
+          {
+            brand_id: "m7DmKt",
+            form_id: "4uBFnr",
+          },
+        ]}
+      >
         <div className="solid-inner-banner mb-150">
           <h2 className="page-title">Үнийн санал</h2>
         </div>
