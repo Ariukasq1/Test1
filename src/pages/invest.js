@@ -17,7 +17,7 @@ class Invest extends Component {
             Хөрөнгө оруулах
           </a>
           <a
-            href="https://bit.ly/3qCOzji"
+            href="https://bit.ly/2K3fHaF"
             className="theme-btn line-button-one wow fadeInRight animated"
             data-wow-delay="1.5s"
             target="_blank"
@@ -273,7 +273,7 @@ class Invest extends Component {
             <p className="quote mb-20">Баялгыг хамтдаа бүтээе!</p>
             <div className="rogan-hero-section invest">
               <iframe
-                src="https://slides.com/mendorshikh/deck/embed"
+                src="https://slides.com/mendorshikh/cso-mn-guideline/embed"
                 width="800"
                 height="450"
                 scrolling="no"
