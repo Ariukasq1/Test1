@@ -186,7 +186,7 @@ class Invest extends Component {
           <div className="demo-container-900 invest mt-70">
             <h3>Хөрөнгө оруулалтаар компанийн үр ашгийг хэн хүртдэг вэ?</h3>
             <div className="row">
-              <img src="/images/chart1.png" alt="chart" />
+              <img src="/images/chart.png" alt="chart" />
             </div>
           </div>
         </div>

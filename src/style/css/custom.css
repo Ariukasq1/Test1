@@ -2755,7 +2755,6 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   right: 0;
   height: 569px;
   width: 41%;
-  background: url(../../public/images/home/8.jpg) no-repeat left top;
   box-shadow: 0px 50px 100px 0px rgba(89, 102, 138, 0.1);
 }
 
@@ -6535,7 +6534,6 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 /*--------------------- Video Action Banner Two ----------------------*/
 .theme-action-banner-two {
   position: relative;
-  background: url(../../public/images/home/13.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   text-align: center;
@@ -7669,7 +7667,6 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   z-index: -1;
   width: 40%;
   height: 100%;
-  background: url(../../public/images/home/404.png) no-repeat;
   background-size: cover;
 }
 .error-content .inner-wrapper {
@@ -9090,7 +9087,6 @@ Modal animation
 .arch-service .single-block p {font-size: 18px;}
 /*------------------- ARCH Testimonial ----------------*/
 .arch-testimonial {
-  background: url(../../public/images/home/19.jpg) no-repeat center;
   background-size: cover;
   padding: 125px 15px 100px;
   margin: 180px 65px 180px;
@@ -9162,7 +9158,6 @@ Modal animation
 .arch-blog .blog-post .read-more {line-height: 43px;min-width: 150px;}
 /*--------------------- ARCH Contact --------------------*/
 .arch-contact {
-  background: url(../../public/images/home/20.jpg) no-repeat center;
   background-size: cover;
   height: 650px;
   margin: 180px 65px 180px;
