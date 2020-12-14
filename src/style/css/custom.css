@@ -14,7 +14,7 @@
 @import url('../vendor/iziModal-master/iziModal.css');
 @import url('../vendor/selectize.js/selectize.css');
 
-body{
+html,body{
   overflow-x: hidden !important;
 }
 blockquote {
