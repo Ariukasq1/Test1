@@ -1503,6 +1503,27 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   position: relative;
   padding-left: 85px;
 }
+.agn-about-us .img-box .fairmint-invest-widget {
+  display: none !important;
+}
+.fairmint-widget-frame {
+  z-index: 1 !important;
+  top: 700px !important;
+  left: 25% !important;
+  min-width: 20% !important;
+  padding-top: 0 !important;
+  right: auto !important;
+  overflow: hidden !important;
+  position: absolute !important;
+  visibility: visible !important;
+}
+.fairmint-widget-frame > iframe #document > html > body {
+  overflow: hidden;
+}
+.fairmint-widget-frame .fairmint-cafe-widget-card-footer {
+  display: none;
+}
+
 .agn-about-us .img-box .main-img {border-radius: 5px;}
 .agn-about-us .img-box:before {
   content: '';

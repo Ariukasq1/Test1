@@ -49,6 +49,14 @@
     right: 0;
   }
 }
+@media only screen and (max-width: 1200px) {
+  .fairmint-widget-frame {
+    top: 11% !important;
+    left: 16% !important;
+    right: auto !important;
+    width: 30% !important;
+  }
+}
 @media (min-width: 1200px) and (max-width: 1366px) {
   .op-banner-one .main-title {
     font-size: 85px;
@@ -73,6 +81,12 @@
   .our-project-portfo #isotop-gallery-wrapper .isotop-item,
   .our-project-portfo #isotop-gallery-wrapper .grid-sizer {
     width: 33.33333%;
+  }
+}
+@media only screen and (max-width: 1650px) and (min-width: 1190px) {
+  .fairmint-widget-frame {
+    left: 13% !important;
+    min-width: 25% !important;
   }
 }
 @media (max-width: 1199px) {
@@ -205,6 +219,19 @@
   }
   #arch-carousel .details-info-button {
     right: 600px;
+  }
+}
+@media only screen and (max-width: 1100px) and (min-width: 700px) {
+  .fairmint-widget-frame {
+    top: 15% !important;
+    width: 60% !important;
+  }
+  .invest-content {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .agn-what-we-do.pt-250.invest {
+    margin-top: 45%;
   }
 }
 @media (min-width: 992px) and (max-width: 1550px) {
@@ -1638,6 +1665,17 @@
   }
   #theme-banner-four .main-wrapper .button-group {
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .fairmint-widget-frame {
+    top: 13% !important;
+    width: 90% !important;
+    left: 20px !important;
+  }
+  .agn-what-we-do.pt-250.invest {
+    margin-top: 45%;
   }
 }
 /*(max-width: 767px)*/

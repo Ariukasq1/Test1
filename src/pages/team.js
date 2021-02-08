@@ -83,7 +83,7 @@ class Team extends Component {
             <div className="row">
               {this.renderMember(
                 "Баттулгын <br /> Бат-Амар",
-                "Технологи хариуцсан захирал",
+                "Технологи хариуцсан захирал, Хамтран үүсгэн байгуулагч",
                 "images/team/bat-amar.jpg",
                 "",
                 "https://twitter.com/b_batamar",
@@ -92,7 +92,7 @@ class Team extends Component {
               )}
               {this.renderMember(
                 "Батжаргалын <br /> Наран",
-                "Үйл ажиллагаа хариуцсан захирал",
+                "Үйл ажиллагаа хариуцсан захирал, Хамтран үүсгэн байгуулагч",
                 "images/team/naran.png",
                 "",
                 "https://twitter.com/NaranBNayantai",
@@ -101,7 +101,7 @@ class Team extends Component {
               )}
               {this.renderMember(
                 "Амартайваны <br /> Мэнд-Орших",
-                "Үйл ажиллагаа хариуцсан захирал",
+                "Гүйцэтгэх захирал, Хамтран үүсгэн байгуулагч",
                 "images/team/mend-orshikh.jpg",
                 "https://www.facebook.com/MendOrshikh/",
                 "https://twitter.com/MendOrshikh",

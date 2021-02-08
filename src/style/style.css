@@ -1,58 +1,192 @@
 body {
-  font-family: 'CircularStd-book';
+  font-family: "CircularStd-book";
   font-weight: normal;
-  color:#57667E;
+  color: #57667e;
   font-size: 17px;
   position: relative;
-  top:0 !important;
- }
- .font-lato {font-family: 'Lato', sans-serif; font-weight: normal;}
- .font-k2d {font-family: 'K2D', sans-serif !important;}
- .main-page-wrapper {overflow-x:hidden;}
- h1,h2,h3,h4,h5,h6,p,ul { margin:0;padding: 0;}
- .h1,h1,.h2,h2,.h3,h3,.h4,h4,.h5,h5,.h6,h6 {color: #233D63; font-weight: normal;}
- .h1,h1 {font-size: 60px;}
- .h2,h2 {font-size: 48px;}
- .h3,h3 {font-size: 40px;}
- .h4,h4 {font-size: 30px;}
- .h5,h5 {font-size: 22px;}
- .h6,h6 {font-size: 18px;}
- p {line-height: 28px;}
- ul {list-style-type: none;}
- body a {text-decoration: none; display: inline-block;}
- a:hover,a:focus,a:visited {text-decoration: none; outline: none;}
- img {max-width: 100%; display: block;}
- button {border:none;outline: none;box-shadow: none;display: block; padding: 0;cursor: pointer;background: transparent;}
- button:focus {outline: none;}
- input,textarea {outline: none; box-shadow: none;transition: all 0.3s ease-in-out;}
+  top: 0 !important;
+}
+.font-lato {
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+}
+.font-k2d {
+  font-family: "K2D", sans-serif !important;
+}
+.main-page-wrapper {
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+.h1,
+h1,
+.h2,
+h2,
+.h3,
+h3,
+.h4,
+h4,
+.h5,
+h5,
+.h6,
+h6 {
+  color: #233d63;
+  font-weight: normal;
+}
+.h1,
+h1 {
+  font-size: 60px;
+}
+.h2,
+h2 {
+  font-size: 48px;
+}
+.h3,
+h3 {
+  font-size: 40px;
+}
+.h4,
+h4 {
+  font-size: 30px;
+}
+.h5,
+h5 {
+  font-size: 22px;
+}
+.h6,
+h6 {
+  font-size: 18px;
+}
+p {
+  line-height: 28px;
+}
+ul {
+  list-style-type: none;
+}
+body a {
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover,
+a:focus,
+a:visited {
+  text-decoration: none;
+  outline: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+button {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  display: block;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+}
+button:focus {
+  outline: none;
+}
+input,
+textarea {
+  outline: none;
+  box-shadow: none;
+  transition: all 0.3s ease-in-out;
+}
 
- /*----------- Prefix -----------*/
-.full-width-container {padding-left: 60px;padding-right: 60px;}
-.demo-container-900 {max-width: 900px;margin: 0 auto;}
-.demo-container-1100 {max-width: 1100px;margin: 0 auto;}
-.p0 {padding: 0 !important;}
-.pt-15 {padding-top: 15px;}
-.pt-50 {padding-top: 50px;}
-.pt-90 {padding-top: 90px;}
-.pt-150 {padding-top: 150px;}
-.pb-30 {padding-bottom: 30px;}
-.pb-70 {padding-bottom: 70px;}
-.pb-100 {padding-bottom: 100px;}
-.pb-150 {padding-bottom: 150px;}
-.pb-200 {padding-bottom: 200px;}
-.mt-70 {margin-top: 70px;}
-.mt-95 {margin-top: 95px;}
-.mt-150 {margin-top: 150px;}
-.mt-200 {margin-top: 200px;}
-.mb-80 {margin-bottom: 80px;}
-.mb-150 {margin-bottom: 150px;}
-.mb-170 {margin-bottom: 170px;}
-.mb-200 {margin-bottom: 200px;}
-.m0 {margin: 0 !important;}
-.row.gutter-80 {margin: 0 -40px;}
-.row.gutter-80 [class*="col-"] {padding: 0 40px;}
-.row.gutter-50 {margin: 0 -25px;}
-.row.gutter-50 [class*="col-"] {padding: 0 25px;}
+/*----------- Prefix -----------*/
+.full-width-container {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.demo-container-900 {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.demo-container-1100 {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.p0 {
+  padding: 0 !important;
+}
+.pt-15 {
+  padding-top: 15px;
+}
+.pt-50 {
+  padding-top: 50px;
+}
+.pt-90 {
+  padding-top: 90px;
+}
+.pt-150 {
+  padding-top: 150px;
+}
+.pb-30 {
+  padding-bottom: 30px;
+}
+.pb-70 {
+  padding-bottom: 70px;
+}
+.pb-100 {
+  padding-bottom: 100px;
+}
+.pb-150 {
+  padding-bottom: 150px;
+}
+.pb-200 {
+  padding-bottom: 200px;
+}
+.mt-70 {
+  margin-top: 70px;
+}
+.mt-95 {
+  margin-top: 95px;
+}
+.mt-150 {
+  margin-top: 150px;
+}
+.mt-200 {
+  margin-top: 200px;
+}
+.mb-80 {
+  margin-bottom: 80px;
+}
+.mb-150 {
+  margin-bottom: 150px;
+}
+.mb-170 {
+  margin-bottom: 170px;
+}
+.mb-200 {
+  margin-bottom: 200px;
+}
+.m0 {
+  margin: 0 !important;
+}
+.row.gutter-80 {
+  margin: 0 -40px;
+}
+.row.gutter-80 [class*="col-"] {
+  padding: 0 40px;
+}
+.row.gutter-50 {
+  margin: 0 -25px;
+}
+.row.gutter-50 [class*="col-"] {
+  padding: 0 25px;
+}
 /*----------------- Theme button ------------------*/
 body .solid-button-one {
   min-width: 188px;
@@ -66,37 +200,63 @@ body .solid-button-one {
   text-transform: capitalize;
   box-shadow: 0px 13px 27px 0px rgba(163, 48, 53, 0.25);
 }
-body .solid-button-one:hover {background: #fff;box-shadow: none;}
-body .solid-button-one .icon-right {vertical-align: -1px;margin-left: 5px;}
-body .solid-button-one .icon-left {vertical-align: -1px;margin-right: 5px;}
-body .video-button-one {font-size: 18px;line-height: 55px;color: #57667E;}
-body .video-button-one i {font-size: 50px;color: #D8D8D8;vertical-align: middle;}
-body .video-button-one .icon-right {margin-left: 10px;}
-body .video-button-one .icon-left {margin-right: 10px;}
+body .solid-button-one:hover {
+  background: #fff;
+  box-shadow: none;
+}
+body .solid-button-one .icon-right {
+  vertical-align: -1px;
+  margin-left: 5px;
+}
+body .solid-button-one .icon-left {
+  vertical-align: -1px;
+  margin-right: 5px;
+}
+body .video-button-one {
+  font-size: 18px;
+  line-height: 55px;
+  color: #57667e;
+}
+body .video-button-one i {
+  font-size: 50px;
+  color: #d8d8d8;
+  vertical-align: middle;
+}
+body .video-button-one .icon-right {
+  margin-left: 10px;
+}
+body .video-button-one .icon-left {
+  margin-right: 10px;
+}
 body .theme-button-one {
-  font-family: 'CircularStdmed';
+  font-family: "CircularStdmed";
   width: 220px;
   line-height: 56px;
   text-align: center;
-  font-size:19px;
+  font-size: 19px;
   border-width: 2px;
   border-style: solid;
   border-radius: 30px;
   position: relative;
 }
 body .theme-button-one:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 100%;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   border-radius: 30px;
   z-index: -1;
-  transform: scale(0,1);
+  transform: scale(0, 1);
 }
-body .theme-button-one:hover {color: #fff; border-color: #fff;}
-body .theme-button-one:hover:before {transform: scale(1,1);}
+body .theme-button-one:hover {
+  color: #fff;
+  border-color: #fff;
+}
+body .theme-button-one:hover:before {
+  transform: scale(1, 1);
+}
 body .theme-button-two {
   text-transform: capitalize;
   text-align: center;
@@ -108,18 +268,26 @@ body .theme-button-two {
   z-index: 1;
 }
 body .theme-button-two:before {
-  content: '';
+  content: "";
   position: absolute;
-  top:4px;
+  top: 4px;
   right: 4px;
   bottom: 4px;
   left: 4px;
   border: 1px solid #fff;
   opacity: 0;
 }
-body .theme-button-two:hover:before {opacity: 1;}
-body .theme-button-two .icon-right {vertical-align: -1px;margin-left: 5px;}
-body .theme-button-two .icon-left {vertical-align: -1px;margin-right: 5px;}
+body .theme-button-two:hover:before {
+  opacity: 1;
+}
+body .theme-button-two .icon-right {
+  vertical-align: -1px;
+  margin-left: 5px;
+}
+body .theme-button-two .icon-left {
+  vertical-align: -1px;
+  margin-right: 5px;
+}
 body .line-button-one {
   text-transform: capitalize;
   line-height: 48px;
@@ -130,24 +298,28 @@ body .line-button-one {
   padding: 0 35px;
   min-width: 180px;
 }
-body .line-button-one:hover {box-shadow: 0px 13px 27px 0px rgba(163, 48, 53, 0.25); color: #fff;}
+body .line-button-one:hover {
+  box-shadow: 0px 13px 27px 0px rgba(163, 48, 53, 0.25);
+  color: #fff;
+}
 body .line-button-two {
   text-transform: capitalize;
   line-height: 48px;
-  border: 1px solid #E0E9EF;
+  border: 1px solid #e0e9ef;
   border-radius: 25px;
   padding: 0 35px;
   min-width: 180px;
   text-align: center;
   font-size: 18px;
-  color: #233D63;
+  color: #233d63;
 }
-body .line-button-two:hover,.agn-our-pricing .table-wrapper .pr-column:hover .line-button-two {
+body .line-button-two:hover,
+.agn-our-pricing .table-wrapper .pr-column:hover .line-button-two {
   color: #fff;
   box-shadow: 0px 13px 28px 0px rgba(163, 48, 53, 0.25);
 }
 body .line-button-three {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 14px;
@@ -157,14 +329,16 @@ body .line-button-three {
   text-align: center;
   color: #141414;
 }
-body .line-button-three:hover {color: #fff;}
+body .line-button-three:hover {
+  color: #fff;
+}
 body .white-shdw-button {
   text-transform: capitalize;
   line-height: 55px;
   display: inline-block;
   text-align: center;
   font-size: 18px;
-  box-shadow: 0px 10px 25px 0px rgba(123,147,171,0.15);
+  box-shadow: 0px 10px 25px 0px rgba(123, 147, 171, 0.15);
   border-radius: 3px;
   padding: 0 33px;
   background: #fff;
@@ -174,9 +348,12 @@ body .white-shdw-button .icon {
   vertical-align: middle;
   margin-left: 10px;
 }
-body .white-shdw-button:hover {color: #fff;box-shadow: 0px 13px 28px 0px rgba(163, 48, 53, 0.25);}
+body .white-shdw-button:hover {
+  color: #fff;
+  box-shadow: 0px 13px 28px 0px rgba(163, 48, 53, 0.25);
+}
 body .dark-button-one {
-  font-family: 'CircularStdmed';
+  font-family: "CircularStdmed";
   line-height: 50px;
   padding: 0 40px;
   font-size: 16px;
@@ -185,121 +362,506 @@ body .dark-button-one {
   background: #3b3b3b;
 }
 /*--------------------- Transition --------------------*/
-.tran3s,h2 a,h3 a,h4 a,h5 a,h6 a,.svg path,body .video-button-one,body .video-button-one i,body .line-button-two,body .line-button-three,
-.agn-what-we-do .single-block .more-button,.agn-our-gallery .main-wrapper .img-box .hover-content,.owl-theme .owl-nav [class*=owl-],.theme-footer-three .social-icon li a,
-.theme-menu-one .logo,.theme-main-menu .header-right-widget,.agn-our-gallery .main-wrapper .view-gallery,.sass-contact-banner .subscribe-button,.language-switcher .dropdown-menu ul li a,
-.theme-footer-one .top-footer .footer-list ul li a,.theme-footer-one .top-footer .footer-information ul li a,.theme-footer-one .bottom-footer ul li a,.panel .panel-heading .panel-title a:before,
-.theme-menu-two .quote-button,.theme-menu-two .logo,.seo-what-we-do .single-block .wrapper,.seo-our-goal .text-wrapper .request-button,.our-service-seo .single-block .more-button,
-.our-service-seo .single-block p,.seo-our-pricing .single-pr-table .pr-footer .plan-button:before,.seo-our-pricing .single-pr-table .pr-footer .plan-button,.navbar-nav .nav-item .nav-link,
-.seo-our-pricing .single-pr-table .pr-footer .trial-button,.seo-contact-banner .contact-button,.theme-menu-three .header-right-widget .social-icon li a,.nav-tabs .nav-link,.theme-footer-four .social-icon li a,
-.about-me-portfo .inner-content .button-group li a,.our-service-portfo .service-block .read-more,.isotop-menu-wrapper li,.our-project-portfo .text-content .gallery-button,.btn,
-.portfo-footer form .input-group label,.portfo-footer form button,.portfo-footer .copyright-text .social-icon li a,.theme-menu-one .header-right-widget .call-us a,.theme-menu-one .navbar-nav .login-button a,
-.our-service-sass .service-block .icon-s,.our-service-sass .service-block p,#theme-banner-four .main-wrapper .button-group .more-button,.checkout-toggle-area p button,.theme-footer-four .footer-list ul li a,
-.our-service-sass .service-block .detail-button,.our-feature-sass .down-arrow,.our-feature-sass .single-feature-block  .text-box .read-more,.sass-our-pricing .single-pr-table .upgrade-button:before,
-.sass-our-pricing .single-pr-table .upgrade-button,.sass-our-pricing .single-pr-table .trial-button,.sass-faq-section .sub-heading a,.sass-faq-section .down-button,.eCommerce-side-menu .main-menu-list>ul>li>a,
-.theme-menu-one.d-align-item .navbar-nav .login-button-two a,.our-service-app .main-content .more-button,.our-service-app .main-content .down-arrow,.our-feature-app .text-wrapper .explore-button,
-.theme-Ecommerce-menu .right-content .cart-action-wrapper .button-group a,.theme-Ecommerce-menu .right-content .user-profile-action .dropdown-menu ul li a,#eCommerce-carousel .color-tab ul li a,
-.eCommerce-side-menu .main-menu-list>ul .sub-menu a,#eCommerce-carousel .inner-item-wrapper .button-group .shop-now,#eCommerce-carousel .inner-item-wrapper .button-group .details-info-button,
-.eCommerce-hero-section .social-share li a,.eCommerce-hero-section .carousel-indicators li,.product-details-modal .main-bg-wrapper .close-button,.product-details-modal .main-bg-wrapper .next,
-.product-details-modal .main-bg-wrapper .prev,.theme-sidebar-widget .list-item li a,.theme-sidebar-widget .size-filter li a,.theme-sidebar-widget .color-filter li a,.shop-demo-filter .selectize-dropdown .option,
-.product-showcase .single-product-case,.product-showcase .single-product-case .info .name,.product-showcase .single-product-case .info .cart-button:before,.theme-sidebar-widget .sidebar-search button,
-.product-showcase .single-product-case .info .cart-button:after,.product-showcase .single-product-case .info .cart-button span,.theme-pagination-one ul li a,.theme-sidebar-widget .list-item li .sub-menu a,
-.cart-list-form .table .product-info .product-name,.cart-list-form .table .remove-product,.dark-button-one,.checkout-form .checkbox-list li label:before,.page-breadcrumbs li a,.theme-footer-four .bottom-footer ul li a,
-.theme-sidebar-widget .sidebar-popular-product .info a,.shop-details .procuct-details .product-info .cart-button,.shop-details .procuct-details .product-info .wishlist-button,.navbar .mega-dropdown-list li a .icon,
-.shop-details .product-review-tab .nav-tabs li a:before,.faq-page .faq-search-form button,.faq-page .submit-faq button,.our-team .single-team-member .info-meta,.our-blog .post-data .date,
-.our-team .single-team-member .hover-content ul li a,.our-team .single-team-member .hover-content,body .theme-button-one,body .theme-button-one:before,.our-service .service-block .read-more,
-.service-standard .service-block:before,.theme-action-banner-two .banner-button,#isotop-gallery-wrapper .isotop-item .hover-jojo ul li,.gallery-sidebar .sidebar-list li a,.our-blog .post-data .read-more,
-#isotop-gallery-wrapper .isotop-item .hover-jojo ul li a,#isotop-gallery-wrapper .isotop-item .hover-jojo,.our-project .project-item .hover-valina,.gallery-sidebar .sidebar-icon ul li a,.theme-footer-two ul li a,
-.project-with-sidebar .project-item .img-box a,.project-minimal-style .share-icon li a,.project-details .share-icon li a,.pd-footer .theme-pager,.pd-footer .theme-pager span,body .theme-button-two:before,
-.our-blog .img-holder .video-button,.theme-sidebar-widget .keywords-tag li a,.blog-details .post-tag-area .tags li a,.blog-details .post-tag-area .share-icon li a,.blog-details .user-comment-area .single-comment .reply,
-.blog-details-fg .blog-fg-data .video-banner-blog .video-button,#contact-form .form-group .help-block,.contact-us-section .contact-info ul li a,.form-style-three .send-button,.faq-tab-wrapper-four .faq-panel .panel .panel-heading .panel-title a i,
-.contact-address-two .address-block a,body .line-button-one,body .solid-button-one,body .white-shdw-button,#theme-banner-two .main-wrapper .button-group .contact-button,#theme-banner-two .main-wrapper .button-group .more-button,
-.shrt-menu .top-header .infoList li a,.shrt-menu .top-header .right-widget .user-profile-action .dropdown-menu ul li a,.shrt-menu .menu-social-icon li a,.shrt-menu .main-header .cart-action-wrapper .button-group a,#arch-carousel .indicators-one li i,
-#arch-carousel .indicators-one li span,.arch-footer .top-footer .footer-list ul li a,.theme-tab .tabs-menu li a,.studio-feature-area .feature-block .title,.studio-feature-area .feature-block,.studio-project-holder,.studio-client-slider .customer-block p,
-.studio-client-slider .customer-block .name,.studio-client-slider .customer-block .customer-info span,.studio-client-slider .customer-block:before,.studio-client-slider .customer-block,.studio-footer-one .top-footer .footer-list ul li a,
-.studio-footer-one .bottom-footer ul li a   {
-  transition: all .3s ease-in-out;
+.tran3s,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a,
+.svg path,
+body .video-button-one,
+body .video-button-one i,
+body .line-button-two,
+body .line-button-three,
+.agn-what-we-do .single-block .more-button,
+.agn-our-gallery .main-wrapper .img-box .hover-content,
+.owl-theme .owl-nav [class*="owl-"],
+.theme-footer-three .social-icon li a,
+.theme-menu-one .logo,
+.theme-main-menu .header-right-widget,
+.agn-our-gallery .main-wrapper .view-gallery,
+.sass-contact-banner .subscribe-button,
+.language-switcher .dropdown-menu ul li a,
+.theme-footer-one .top-footer .footer-list ul li a,
+.theme-footer-one .top-footer .footer-information ul li a,
+.theme-footer-one .bottom-footer ul li a,
+.panel .panel-heading .panel-title a:before,
+.theme-menu-two .quote-button,
+.theme-menu-two .logo,
+.seo-what-we-do .single-block .wrapper,
+.seo-our-goal .text-wrapper .request-button,
+.our-service-seo .single-block .more-button,
+.our-service-seo .single-block p,
+.seo-our-pricing .single-pr-table .pr-footer .plan-button:before,
+.seo-our-pricing .single-pr-table .pr-footer .plan-button,
+.navbar-nav .nav-item .nav-link,
+.seo-our-pricing .single-pr-table .pr-footer .trial-button,
+.seo-contact-banner .contact-button,
+.theme-menu-three .header-right-widget .social-icon li a,
+.nav-tabs .nav-link,
+.theme-footer-four .social-icon li a,
+.about-me-portfo .inner-content .button-group li a,
+.our-service-portfo .service-block .read-more,
+.isotop-menu-wrapper li,
+.our-project-portfo .text-content .gallery-button,
+.btn,
+.portfo-footer form .input-group label,
+.portfo-footer form button,
+.portfo-footer .copyright-text .social-icon li a,
+.theme-menu-one .header-right-widget .call-us a,
+.theme-menu-one .navbar-nav .login-button a,
+.our-service-sass .service-block .icon-s,
+.our-service-sass .service-block p,
+#theme-banner-four .main-wrapper .button-group .more-button,
+.checkout-toggle-area p button,
+.theme-footer-four .footer-list ul li a,
+.our-service-sass .service-block .detail-button,
+.our-feature-sass .down-arrow,
+.our-feature-sass .single-feature-block .text-box .read-more,
+.sass-our-pricing .single-pr-table .upgrade-button:before,
+.sass-our-pricing .single-pr-table .upgrade-button,
+.sass-our-pricing .single-pr-table .trial-button,
+.sass-faq-section .sub-heading a,
+.sass-faq-section .down-button,
+.eCommerce-side-menu .main-menu-list > ul > li > a,
+.theme-menu-one.d-align-item .navbar-nav .login-button-two a,
+.our-service-app .main-content .more-button,
+.our-service-app .main-content .down-arrow,
+.our-feature-app .text-wrapper .explore-button,
+.theme-Ecommerce-menu .right-content .cart-action-wrapper .button-group a,
+.theme-Ecommerce-menu
+  .right-content
+  .user-profile-action
+  .dropdown-menu
+  ul
+  li
+  a,
+#eCommerce-carousel .color-tab ul li a,
+.eCommerce-side-menu .main-menu-list > ul .sub-menu a,
+#eCommerce-carousel .inner-item-wrapper .button-group .shop-now,
+#eCommerce-carousel .inner-item-wrapper .button-group .details-info-button,
+.eCommerce-hero-section .social-share li a,
+.eCommerce-hero-section .carousel-indicators li,
+.product-details-modal .main-bg-wrapper .close-button,
+.product-details-modal .main-bg-wrapper .next,
+.product-details-modal .main-bg-wrapper .prev,
+.theme-sidebar-widget .list-item li a,
+.theme-sidebar-widget .size-filter li a,
+.theme-sidebar-widget .color-filter li a,
+.shop-demo-filter .selectize-dropdown .option,
+.product-showcase .single-product-case,
+.product-showcase .single-product-case .info .name,
+.product-showcase .single-product-case .info .cart-button:before,
+.theme-sidebar-widget .sidebar-search button,
+.product-showcase .single-product-case .info .cart-button:after,
+.product-showcase .single-product-case .info .cart-button span,
+.theme-pagination-one ul li a,
+.theme-sidebar-widget .list-item li .sub-menu a,
+.cart-list-form .table .product-info .product-name,
+.cart-list-form .table .remove-product,
+.dark-button-one,
+.checkout-form .checkbox-list li label:before,
+.page-breadcrumbs li a,
+.theme-footer-four .bottom-footer ul li a,
+.theme-sidebar-widget .sidebar-popular-product .info a,
+.shop-details .procuct-details .product-info .cart-button,
+.shop-details .procuct-details .product-info .wishlist-button,
+.navbar .mega-dropdown-list li a .icon,
+.shop-details .product-review-tab .nav-tabs li a:before,
+.faq-page .faq-search-form button,
+.faq-page .submit-faq button,
+.our-team .single-team-member .info-meta,
+.our-blog .post-data .date,
+.our-team .single-team-member .hover-content ul li a,
+.our-team .single-team-member .hover-content,
+body .theme-button-one,
+body .theme-button-one:before,
+.our-service .service-block .read-more,
+.service-standard .service-block:before,
+.theme-action-banner-two .banner-button,
+#isotop-gallery-wrapper .isotop-item .hover-jojo ul li,
+.gallery-sidebar .sidebar-list li a,
+.our-blog .post-data .read-more,
+#isotop-gallery-wrapper .isotop-item .hover-jojo ul li a,
+#isotop-gallery-wrapper .isotop-item .hover-jojo,
+.our-project .project-item .hover-valina,
+.gallery-sidebar .sidebar-icon ul li a,
+.theme-footer-two ul li a,
+.project-with-sidebar .project-item .img-box a,
+.project-minimal-style .share-icon li a,
+.project-details .share-icon li a,
+.pd-footer .theme-pager,
+.pd-footer .theme-pager span,
+body .theme-button-two:before,
+.our-blog .img-holder .video-button,
+.theme-sidebar-widget .keywords-tag li a,
+.blog-details .post-tag-area .tags li a,
+.blog-details .post-tag-area .share-icon li a,
+.blog-details .user-comment-area .single-comment .reply,
+.blog-details-fg .blog-fg-data .video-banner-blog .video-button,
+#contact-form .form-group .help-block,
+.contact-us-section .contact-info ul li a,
+.form-style-three .send-button,
+.faq-tab-wrapper-four .faq-panel .panel .panel-heading .panel-title a i,
+.contact-address-two .address-block a,
+body .line-button-one,
+body .solid-button-one,
+body .white-shdw-button,
+#theme-banner-two .main-wrapper .button-group .contact-button,
+#theme-banner-two .main-wrapper .button-group .more-button,
+.shrt-menu .top-header .infoList li a,
+.shrt-menu
+  .top-header
+  .right-widget
+  .user-profile-action
+  .dropdown-menu
+  ul
+  li
+  a,
+.shrt-menu .menu-social-icon li a,
+.shrt-menu .main-header .cart-action-wrapper .button-group a,
+#arch-carousel .indicators-one li i,
+#arch-carousel .indicators-one li span,
+.arch-footer .top-footer .footer-list ul li a,
+.theme-tab .tabs-menu li a,
+.studio-feature-area .feature-block .title,
+.studio-feature-area .feature-block,
+.studio-project-holder,
+.studio-client-slider .customer-block p,
+.studio-client-slider .customer-block .name,
+.studio-client-slider .customer-block .customer-info span,
+.studio-client-slider .customer-block:before,
+.studio-client-slider .customer-block,
+.studio-footer-one .top-footer .footer-list ul li a,
+.studio-footer-one .bottom-footer ul li a {
+  transition: all 0.3s ease-in-out;
 }
-.tran4s,.theme-main-menu,.our-service-portfo .service-block:before,.our-service-portfo .service-block:after,.our-project .project-item  p,
-.our-project-portfo #isotop-gallery-wrapper .isotop-item .effect-zoe img,.our-team .img-box img,.service-standard .service-block .hover-content p,
-.our-project .project-item .hover-valina .zoom,.our-project .project-item .hover-valina:before,.our-project .project-item .hover-valina:after,
+.tran4s,
+.theme-main-menu,
+.our-service-portfo .service-block:before,
+.our-service-portfo .service-block:after,
+.our-project .project-item p,
+.our-project-portfo #isotop-gallery-wrapper .isotop-item .effect-zoe img,
+.our-team .img-box img,
+.service-standard .service-block .hover-content p,
+.our-project .project-item .hover-valina .zoom,
+.our-project .project-item .hover-valina:before,
+.our-project .project-item .hover-valina:after,
 #mega-menu-holder .img-box .img img {
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 /*----------------------- Theme Color File -------------------*/
-.theme-footer-one .top-footer .footer-list ul li a:hover,.theme-footer-one .bottom-footer ul li a:hover,.seo-our-goal .text-wrapper .request-button:hover,body .video-button-one:hover,body .video-button-one:hover i,
-.seo-our-pricing .single-pr-table .pr-header .price,.seo-our-pricing .single-pr-table .pr-footer .trial-button:hover,.theme-menu-one .navbar-nav .nav-item:hover .nav-link,body .white-shdw-button,
-.theme-menu-one .navbar-nav .nav-item.active .nav-link,.sass-faq-section .sub-heading a:hover,.theme-Ecommerce-menu .right-content .user-profile-action .dropdown-menu ul li a:hover,
-.eCommerce-side-menu .main-menu-list>ul>li:hover>a,.eCommerce-side-menu .main-menu-list>ul .sub-menu a:hover,.eCommerce-hero-section .social-share li a:hover,.theme-counter-three .single-counter-box .number,
-.product-details-modal .main-bg-wrapper .close-button:hover,.theme-sidebar-widget .list-item li:hover a,.product-showcase .single-product-case:hover .info .name,.theme-title-one .upper-title,
-.theme-pagination-one ul li a:hover,.theme-pagination-one ul li.active a,.theme-sidebar-widget .sidebar-search button:hover,.theme-sidebar-widget .list-item li .sub-menu a:hover,.agn-what-we-do .single-block .more-button,
-.cart-list-form .table .product-info .product-name:hover,.cart-list-form .table .remove-product:hover,.checkout-toggle-area p button:hover,.checkout-toggle-area form .lost-passw:hover,
-.solid-inner-banner .page-breadcrumbs li a:hover,.theme-sidebar-widget .sidebar-popular-product li:hover .info a,.shop-details .procuct-details .product-info .price,.faq-page .faq-search-form button:hover,
-.shop-details .procuct-details .product-info .cart-button:hover,.realated-product .owl-theme .owl-nav [class*=owl-]:hover,.faq-tab-wrapper.faq-page .faq-panel .panel .panel-heading.active-panel .panel-title a:before,
-.faq-page .submit-faq button:hover,.team-standard .single-team-member .hover-content ul li a:hover,body .theme-button-one,.team-minimal .single-team-member .hover-content ul li a:hover,
-.team-classic .wrapper .hover-content li a:hover,.service-minimal .service-block:hover .read-more,.service-modren .service-block .service-info:hover .read-more,.gallery-sidebar .sidebar-icon ul li a:hover,
-.service-standard .service-block .hover-content .read-more:hover,.our-project .isotop-menu-wrapper li.is-checked,.gallery-sidebar .sidebar-list li a:hover,.gallery-sidebar .sidebar-list li.active a,
-.project-with-sidebar .project-item .hover-coco .title a:hover,.project-minimal-style .owl-theme .owl-nav [class*=owl-]:hover,.pd-footer .theme-pager:hover,.pd-footer .theme-pager:hover span,
-.related-project .owl-theme .owl-nav [class*=owl-]:hover,.our-blog .single-blog-post:hover .post-data .title a,.theme-sidebar-widget .recent-news-item li:hover .rn-title a,body .line-button-one,
-.blog-details .post-tag-area .share-icon li a:hover,#contact-form .form-group .help-block li:before,.contact-address-two .address-block p a:hover,.contact-address-two .address-block ul li a:hover,
-body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel .panel .panel-heading.active-panel .panel-title a:before,.faq-tab-wrapper-two .faq-panel .panel .panel-heading.active-panel .panel-title a:before,
-.faq-tab-wrapper-four .faq-panel .panel .panel-heading .panel-title a i,.breadcrumbs-two .page-breadcrumbs li a:hover,.b-wh-text .page-breadcrumbs li a:hover,.agn-counter-section .counter-wrapper .single-counter-box .icon,
-.agn-counter-section .counter-wrapper .single-counter-box .number,.theme-counter-three .single-counter-box .icon,.theme-list-item li .color-style,.theme-menu-one .header-right-widget .call-us a,.theme-footer-two .social-icon li a:hover,
-.agn-our-pricing .table-wrapper .pr-column .pr-header .price,.theme-footer-one .about-widget .phone,.navbar .mega-dropdown-list li a:hover,.theme-menu-one .header-right-widget .language-switcher .dropdown-menu ul li a:hover,
-.theme-footer-three .phone,.theme-footer-four .footer-list ul li a:hover,.theme-footer-four .phone,.theme-footer-four .bottom-footer ul li a:hover,.theme-footer-four.light-v .footer-list ul li a:hover,
-.theme-footer-four.light-v .bottom-footer ul li a:hover,.shrt-menu .main-header .call-us a,.shrt-menu .top-header .infoList li a:hover,.shrt-menu .top-header .right-widget .language-switcher .dropdown-menu ul li a:hover,
-.shrt-menu .top-header .right-widget .user-profile-action .dropdown-menu ul li a:hover,.shrt-menu.text-light .navbar .dropdown-menu .dropdown-item:hover, .shrt-menu.text-light .navbar .mega-dropdown-list li a:hover,
-.shrt-menu.text-light .top-header .infoList li a:hover,.shrt-menu.dark-bg .top-header .right-widget .language-switcher .dropdown-menu ul li a:hover,.shrt-menu.dark-bg .top-header .right-widget .user-profile-action .dropdown-menu ul li a:hover,
-.navbar .mega-dropdown-list li a:hover .icon,.pricing-tab-menu .nav-tabs .nav-item .nav-link,.signin-form-wrapper .signUp-text a,#arch-carousel .inner-item-wrapper .upper-title,#arch-carousel .indicators-one li i,
-.arch-project-gallery .isotop-menu-wrapper li.is-checked,.arch-service .single-block:hover .title a,.arch-blog .blog-post:hover .title a,.arch-contact .form-wrapper .contact-text .call-us,.arch-footer .top-footer h2 a,
-.arch-footer .top-footer .phone,.theme-footer-one.arch-footer .top-footer .footer-list ul li a:hover,.theme-tab-basic.theme-tab .tabs-menu li.z-active a,.theme-tab .z-content-inner ol li a:hover,.studio-feature-area .feature-block:hover .title,
-.z-tabs.mobile > ul.z-tabs-mobile > li > a > span.drp-icon,#studio-banner-two .main-text-wrapper .button-link,.studio-feature-area .feature-block .icon-s,.studio-feature-area .feature-block .detail-button,.studio-client-slider .customer-block:before,
-.studio-contact-area .contact-text .call-to-dial,.studio-footer-one .top-footer h2 a,.studio-footer-one .top-footer .footer-list ul li a:hover  {
-  color: #FF3A46;
+.theme-footer-one .top-footer .footer-list ul li a:hover,
+.theme-footer-one .bottom-footer ul li a:hover,
+.seo-our-goal .text-wrapper .request-button:hover,
+body .video-button-one:hover,
+body .video-button-one:hover i,
+.seo-our-pricing .single-pr-table .pr-header .price,
+.seo-our-pricing .single-pr-table .pr-footer .trial-button:hover,
+.theme-menu-one .navbar-nav .nav-item:hover .nav-link,
+body .white-shdw-button,
+.theme-menu-one .navbar-nav .nav-item.active .nav-link,
+.sass-faq-section .sub-heading a:hover,
+.theme-Ecommerce-menu
+  .right-content
+  .user-profile-action
+  .dropdown-menu
+  ul
+  li
+  a:hover,
+.eCommerce-side-menu .main-menu-list > ul > li:hover > a,
+.eCommerce-side-menu .main-menu-list > ul .sub-menu a:hover,
+.eCommerce-hero-section .social-share li a:hover,
+.theme-counter-three .single-counter-box .number,
+.product-details-modal .main-bg-wrapper .close-button:hover,
+.theme-sidebar-widget .list-item li:hover a,
+.product-showcase .single-product-case:hover .info .name,
+.theme-title-one .upper-title,
+.theme-pagination-one ul li a:hover,
+.theme-pagination-one ul li.active a,
+.theme-sidebar-widget .sidebar-search button:hover,
+.theme-sidebar-widget .list-item li .sub-menu a:hover,
+.agn-what-we-do .single-block .more-button,
+.cart-list-form .table .product-info .product-name:hover,
+.cart-list-form .table .remove-product:hover,
+.checkout-toggle-area p button:hover,
+.checkout-toggle-area form .lost-passw:hover,
+.solid-inner-banner .page-breadcrumbs li a:hover,
+.theme-sidebar-widget .sidebar-popular-product li:hover .info a,
+.shop-details .procuct-details .product-info .price,
+.faq-page .faq-search-form button:hover,
+.shop-details .procuct-details .product-info .cart-button:hover,
+.realated-product .owl-theme .owl-nav [class*="owl-"]:hover,
+.faq-tab-wrapper.faq-page
+  .faq-panel
+  .panel
+  .panel-heading.active-panel
+  .panel-title
+  a:before,
+.faq-page .submit-faq button:hover,
+.team-standard .single-team-member .hover-content ul li a:hover,
+body .theme-button-one,
+.team-minimal .single-team-member .hover-content ul li a:hover,
+.team-classic .wrapper .hover-content li a:hover,
+.service-minimal .service-block:hover .read-more,
+.service-modren .service-block .service-info:hover .read-more,
+.gallery-sidebar .sidebar-icon ul li a:hover,
+.service-standard .service-block .hover-content .read-more:hover,
+.our-project .isotop-menu-wrapper li.is-checked,
+.gallery-sidebar .sidebar-list li a:hover,
+.gallery-sidebar .sidebar-list li.active a,
+.project-with-sidebar .project-item .hover-coco .title a:hover,
+.project-minimal-style .owl-theme .owl-nav [class*="owl-"]:hover,
+.pd-footer .theme-pager:hover,
+.pd-footer .theme-pager:hover span,
+.related-project .owl-theme .owl-nav [class*="owl-"]:hover,
+.our-blog .single-blog-post:hover .post-data .title a,
+.theme-sidebar-widget .recent-news-item li:hover .rn-title a,
+body .line-button-one,
+.blog-details .post-tag-area .share-icon li a:hover,
+#contact-form .form-group .help-block li:before,
+.contact-address-two .address-block p a:hover,
+.contact-address-two .address-block ul li a:hover,
+body .solid-button-one:hover,
+.navbar .navbar-toggler,
+.faq-tab-wrapper
+  .faq-panel
+  .panel
+  .panel-heading.active-panel
+  .panel-title
+  a:before,
+.faq-tab-wrapper-two
+  .faq-panel
+  .panel
+  .panel-heading.active-panel
+  .panel-title
+  a:before,
+.faq-tab-wrapper-four .faq-panel .panel .panel-heading .panel-title a i,
+.breadcrumbs-two .page-breadcrumbs li a:hover,
+.b-wh-text .page-breadcrumbs li a:hover,
+.agn-counter-section .counter-wrapper .single-counter-box .icon,
+.agn-counter-section .counter-wrapper .single-counter-box .number,
+.theme-counter-three .single-counter-box .icon,
+.theme-list-item li .color-style,
+.theme-menu-one .header-right-widget .call-us a,
+.theme-footer-two .social-icon li a:hover,
+.agn-our-pricing .table-wrapper .pr-column .pr-header .price,
+.theme-footer-one .about-widget .phone,
+.navbar .mega-dropdown-list li a:hover,
+.theme-menu-one
+  .header-right-widget
+  .language-switcher
+  .dropdown-menu
+  ul
+  li
+  a:hover,
+.theme-footer-three .phone,
+.theme-footer-four .footer-list ul li a:hover,
+.theme-footer-four .phone,
+.theme-footer-four .bottom-footer ul li a:hover,
+.theme-footer-four.light-v .footer-list ul li a:hover,
+.theme-footer-four.light-v .bottom-footer ul li a:hover,
+.shrt-menu .main-header .call-us a,
+.shrt-menu .top-header .infoList li a:hover,
+.shrt-menu
+  .top-header
+  .right-widget
+  .language-switcher
+  .dropdown-menu
+  ul
+  li
+  a:hover,
+.shrt-menu
+  .top-header
+  .right-widget
+  .user-profile-action
+  .dropdown-menu
+  ul
+  li
+  a:hover,
+.shrt-menu.text-light .navbar .dropdown-menu .dropdown-item:hover,
+.shrt-menu.text-light .navbar .mega-dropdown-list li a:hover,
+.shrt-menu.text-light .top-header .infoList li a:hover,
+.shrt-menu.dark-bg
+  .top-header
+  .right-widget
+  .language-switcher
+  .dropdown-menu
+  ul
+  li
+  a:hover,
+.shrt-menu.dark-bg
+  .top-header
+  .right-widget
+  .user-profile-action
+  .dropdown-menu
+  ul
+  li
+  a:hover,
+.navbar .mega-dropdown-list li a:hover .icon,
+.pricing-tab-menu .nav-tabs .nav-item .nav-link,
+.signin-form-wrapper .signUp-text a,
+#arch-carousel .inner-item-wrapper .upper-title,
+#arch-carousel .indicators-one li i,
+.arch-project-gallery .isotop-menu-wrapper li.is-checked,
+.arch-service .single-block:hover .title a,
+.arch-blog .blog-post:hover .title a,
+.arch-contact .form-wrapper .contact-text .call-us,
+.arch-footer .top-footer h2 a,
+.arch-footer .top-footer .phone,
+.theme-footer-one.arch-footer .top-footer .footer-list ul li a:hover,
+.theme-tab-basic.theme-tab .tabs-menu li.z-active a,
+.theme-tab .z-content-inner ol li a:hover,
+.studio-feature-area .feature-block:hover .title,
+.z-tabs.mobile > ul.z-tabs-mobile > li > a > span.drp-icon,
+#studio-banner-two .main-text-wrapper .button-link,
+.studio-feature-area .feature-block .icon-s,
+.studio-feature-area .feature-block .detail-button,
+.studio-client-slider .customer-block:before,
+.studio-contact-area .contact-text .call-to-dial,
+.studio-footer-one .top-footer h2 a,
+.studio-footer-one .top-footer .footer-list ul li a:hover {
+  color: #ff3a46;
 }
-.scroll-top,.theme-footer-one .top-footer .footer-information ul li a:hover,.theme-menu-two .quote-button:hover,.theme-Ecommerce-menu .right-content .cart-action-wrapper .button-group a:hover,
-#eCommerce-carousel .inner-item-wrapper .button-group .shop-now:hover,#eCommerce-carousel .inner-item-wrapper .button-group .details-info-button:hover,.product-details-modal .main-bg-wrapper .cart-button,
-.theme-sidebar-widget .price-ranger .ui-slider .ui-slider-range,.theme-sidebar-widget .size-filter li a:hover,.shop-demo-filter .selectize-dropdown .option:hover,.shop-demo-filter .selectize-dropdown .active,
-.product-showcase .single-product-case .info .cart-button span,.dark-button-one:hover,.shop-details .procuct-details .product-info .cart-button,.shop-details .procuct-details .product-info .wishlist-button:hover,
-.shop-details .product-review-tab .tab-content .list-item li:before,.faq-page .submit-faq button,body .theme-button-one:before,.newsletter-section.agn-theme .main-wrapper form button,
-.newsletter-section.agn-theme .theme-title-one.upper-bar:before,.video-action-banner-one .video-button,.video-action-banner-one .video-button:before,.theme-action-banner-two .banner-button:hover,
-#isotop-gallery-wrapper .isotop-item .hover-jojo ul li a:hover,.gallery-sidebar .sidebar-title:before,.project-details .side-block .block-title:before,.our-blog .single-blog-post:hover .img-holder .video-button,
-.theme-sidebar-widget .keywords-tag li a:hover,.blog-details .user-comment-area .single-comment .reply:hover,body .theme-button-two,.blog-details-fg .blog-fg-data .video-banner-blog .video-button:hover,
-#contact-form .form-group .help-block,.contact-us-section .contact-info ul li a:hover,.form-style-three .send-button:hover,body .line-button-one:hover,body .solid-button-one,body .line-button-two:hover,
-.agn-our-pricing .table-wrapper .pr-column:hover .line-button-two,body .white-shdw-button:hover,#theme-banner-two .main-wrapper .button-group .contact-button:hover,.seo-what-we-do .single-block:nth-child(1) .wrapper .icon-box,
-.faq-tab-wrapper-three .faq-panel .panel .panel-heading.active-panel .panel-title a,.faq-tab-wrapper-four .faq-panel .panel .panel-heading.active-panel .panel-title a,.agn-our-gallery .main-wrapper .view-gallery:hover,
-.agn-home-blog .single-blog-post .flip-box-back,.seo-contact-banner .contact-button:hover,.navbar .dropdown-menu .dropdown-item span,.ln-inner-page-demo .inner-wrapper .single-page a .new,.theme-footer-three .social-icon li a:hover,
-.theme-footer-four .social-icon li a:hover,.navbar .mega-dropdown-list li a span,.btn-white:hover,.ln-home-demo .single-page-demo .new,.shrt-menu .main-header .cart-action-wrapper .button-group a:hover,
-.pricing-tab-menu .nav-tabs .nav-item .nav-link.active,#arch-carousel .indicators-one li.active span,.about-arch .text-wrapper .mark-text:before,.about-arch .img-box .sq-box,body .line-button-three:hover,
-.arch-testimonial .owl-theme .owl-dots .owl-dot.active span,.arch-testimonial .owl-theme .owl-dots .owl-dot span:hover,#arch-carousel .details-info-button,.theme-tab .tabs-menu li a:before,
-.theme-tab .z-content-inner .list-item li:before,.theme-tab-solid.theme-tab .tabs-menu li.z-active a,.theme-tab .nested-tab-menu li.z-active a:before,.action-banner-three,.studio-client-slider .center .customer-block  {
-  background: #FF3A46;
+.scroll-top,
+.theme-footer-one .top-footer .footer-information ul li a:hover,
+.theme-menu-two .quote-button:hover,
+.theme-Ecommerce-menu .right-content .cart-action-wrapper .button-group a:hover,
+#eCommerce-carousel .inner-item-wrapper .button-group .shop-now:hover,
+#eCommerce-carousel
+  .inner-item-wrapper
+  .button-group
+  .details-info-button:hover,
+.product-details-modal .main-bg-wrapper .cart-button,
+.theme-sidebar-widget .price-ranger .ui-slider .ui-slider-range,
+.theme-sidebar-widget .size-filter li a:hover,
+.shop-demo-filter .selectize-dropdown .option:hover,
+.shop-demo-filter .selectize-dropdown .active,
+.product-showcase .single-product-case .info .cart-button span,
+.dark-button-one:hover,
+.shop-details .procuct-details .product-info .cart-button,
+.shop-details .procuct-details .product-info .wishlist-button:hover,
+.shop-details .product-review-tab .tab-content .list-item li:before,
+.faq-page .submit-faq button,
+body .theme-button-one:before,
+.newsletter-section.agn-theme .main-wrapper form button,
+.newsletter-section.agn-theme .theme-title-one.upper-bar:before,
+.video-action-banner-one .video-button,
+.video-action-banner-one .video-button:before,
+.theme-action-banner-two .banner-button:hover,
+#isotop-gallery-wrapper .isotop-item .hover-jojo ul li a:hover,
+.gallery-sidebar .sidebar-title:before,
+.project-details .side-block .block-title:before,
+.our-blog .single-blog-post:hover .img-holder .video-button,
+.theme-sidebar-widget .keywords-tag li a:hover,
+.blog-details .user-comment-area .single-comment .reply:hover,
+body .theme-button-two,
+.blog-details-fg .blog-fg-data .video-banner-blog .video-button:hover,
+#contact-form .form-group .help-block,
+.contact-us-section .contact-info ul li a:hover,
+.form-style-three .send-button:hover,
+body .line-button-one:hover,
+body .solid-button-one,
+body .line-button-two:hover,
+.agn-our-pricing .table-wrapper .pr-column:hover .line-button-two,
+body .white-shdw-button:hover,
+#theme-banner-two .main-wrapper .button-group .contact-button:hover,
+.seo-what-we-do .single-block:nth-child(1) .wrapper .icon-box,
+.faq-tab-wrapper-three
+  .faq-panel
+  .panel
+  .panel-heading.active-panel
+  .panel-title
+  a,
+.faq-tab-wrapper-four
+  .faq-panel
+  .panel
+  .panel-heading.active-panel
+  .panel-title
+  a,
+.agn-our-gallery .main-wrapper .view-gallery:hover,
+.agn-home-blog .single-blog-post .flip-box-back,
+.seo-contact-banner .contact-button:hover,
+.navbar .dropdown-menu .dropdown-item span,
+.ln-inner-page-demo .inner-wrapper .single-page a .new,
+.theme-footer-three .social-icon li a:hover,
+.theme-footer-four .social-icon li a:hover,
+.navbar .mega-dropdown-list li a span,
+.btn-white:hover,
+.ln-home-demo .single-page-demo .new,
+.shrt-menu .main-header .cart-action-wrapper .button-group a:hover,
+.pricing-tab-menu .nav-tabs .nav-item .nav-link.active,
+#arch-carousel .indicators-one li.active span,
+.about-arch .text-wrapper .mark-text:before,
+.about-arch .img-box .sq-box,
+body .line-button-three:hover,
+.arch-testimonial .owl-theme .owl-dots .owl-dot.active span,
+.arch-testimonial .owl-theme .owl-dots .owl-dot span:hover,
+#arch-carousel .details-info-button,
+.theme-tab .tabs-menu li a:before,
+.theme-tab .z-content-inner .list-item li:before,
+.theme-tab-solid.theme-tab .tabs-menu li.z-active a,
+.theme-tab .nested-tab-menu li.z-active a:before,
+.action-banner-three,
+.studio-client-slider .center .customer-block {
+  background: #ff3a46;
 }
-.theme-footer-one .top-footer .footer-information ul li a:hover,.seo-contact-banner .contact-button:hover,.theme-Ecommerce-menu .right-content .cart-action-wrapper .button-group a:hover,body .theme-button-one,
-.theme-sidebar-widget .size-filter li a:hover,.shop-details .procuct-details .product-info .cart-button,.shop-details .procuct-details .product-info .wishlist-button:hover,.faq-page .submit-faq button,
-.theme-action-banner-two .banner-button:hover,.our-project .isotop-menu-wrapper li.is-checked,#isotop-gallery-wrapper .isotop-item .hover-jojo ul li a:hover,.theme-sidebar-widget .keywords-tag li a:hover,
-.blog-details .user-comment-area .single-comment .reply:hover,.contact-us-section .contact-info ul li a:hover,.form-style-three .send-button:hover,body .line-button-one,body .solid-button-one,body .line-button-two:hover,
-.agn-our-pricing .table-wrapper .pr-column:hover .line-button-two,#theme-banner-two .main-wrapper .button-group .contact-button:hover,.agn-our-gallery .main-wrapper .view-gallery:hover,.theme-footer-three .social-icon li a:hover,
-.theme-footer-four .social-icon li a:hover,.pricing-tab-menu .nav-wrapper,body .line-button-three:hover,.arch-testimonial .owl-theme .owl-dots .owl-dot span,.studio-feature-area .feature-block:hover {
-  border-color: #FF3A46;
+.theme-footer-one .top-footer .footer-information ul li a:hover,
+.seo-contact-banner .contact-button:hover,
+.theme-Ecommerce-menu .right-content .cart-action-wrapper .button-group a:hover,
+body .theme-button-one,
+.theme-sidebar-widget .size-filter li a:hover,
+.shop-details .procuct-details .product-info .cart-button,
+.shop-details .procuct-details .product-info .wishlist-button:hover,
+.faq-page .submit-faq button,
+.theme-action-banner-two .banner-button:hover,
+.our-project .isotop-menu-wrapper li.is-checked,
+#isotop-gallery-wrapper .isotop-item .hover-jojo ul li a:hover,
+.theme-sidebar-widget .keywords-tag li a:hover,
+.blog-details .user-comment-area .single-comment .reply:hover,
+.contact-us-section .contact-info ul li a:hover,
+.form-style-three .send-button:hover,
+body .line-button-one,
+body .solid-button-one,
+body .line-button-two:hover,
+.agn-our-pricing .table-wrapper .pr-column:hover .line-button-two,
+#theme-banner-two .main-wrapper .button-group .contact-button:hover,
+.agn-our-gallery .main-wrapper .view-gallery:hover,
+.theme-footer-three .social-icon li a:hover,
+.theme-footer-four .social-icon li a:hover,
+.pricing-tab-menu .nav-wrapper,
+body .line-button-three:hover,
+.arch-testimonial .owl-theme .owl-dots .owl-dot span,
+.studio-feature-area .feature-block:hover {
+  border-color: #ff3a46;
 }
 
 /*------------------- Theme Title ------------------*/
-.arch-title .main-title {font-family: 'CircularStdbld';}
-.arch-title .line {display: inline-block;position: relative;}
+.arch-title .main-title {
+  font-family: "CircularStdbld";
+}
+.arch-title .line {
+  display: inline-block;
+  position: relative;
+}
 .arch-title .line:before {
-  content: '';
+  content: "";
   width: 0;
   height: 3px;
-  background: #233D63;
+  background: #233d63;
   border-radius: 5px;
   position: absolute;
   right: -175px;
   bottom: 10px;
   transition: all 0.8s ease-out;
 }
-.arch-title.show-pr .line:before {width: 170px;}
-.theme-title-one,.theme-title-two {position: relative;}
+.arch-title.show-pr .line:before {
+  width: 170px;
+}
+.theme-title-one,
+.theme-title-two {
+  position: relative;
+}
 .theme-title-one .upper-title {
   font-size: 18px;
   text-transform: uppercase;
@@ -308,7 +870,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 .theme-title-one .main-title {
   font-size: 48px;
   line-height: 60px;
-  color: #233D63;
+  color: #233d63;
 }
 .theme-title-one.studio-title .main-title {
   font-size: 72px;
@@ -316,37 +878,52 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   line-height: 75px;
   color: #202020;
 }
-.theme-title-one.title-underline .main-title {text-decoration: underline;}
+.theme-title-one.title-underline .main-title {
+  text-decoration: underline;
+}
 .theme-title-one .bottom-title {
   font-size: 20px;
   color: #546886;
   padding-top: 20px;
 }
-.theme-title-one.upper-bar {padding-top: 22px;}
+.theme-title-one.upper-bar {
+  padding-top: 22px;
+}
 .theme-title-one.upper-bar:before {
-  content: '';
+  content: "";
   width: 50px;
   height: 4px;
   border-radius: 5px;
   background: #ff7300;
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
 }
-.theme-title-one.upper-bar.text-center:before {left:50%;  margin-left: -25px;}
-.theme-title-one .icon-box {display: inline-block;margin-bottom: 25px; position: relative;}
+.theme-title-one.upper-bar.text-center:before {
+  left: 50%;
+  margin-left: -25px;
+}
+.theme-title-one .icon-box {
+  display: inline-block;
+  margin-bottom: 25px;
+  position: relative;
+}
 .theme-title-one .icon-box .bg-shape {
   transform: rotate(-90deg);
   transition: all 1s ease-out;
 }
-.theme-title-one .icon-box.show-pr .bg-shape {transform: rotate(0deg);}
+.theme-title-one .icon-box.show-pr .bg-shape {
+  transform: rotate(0deg);
+}
 .theme-title-one .icon-box .icon {
   position: absolute;
-  top:50%;
-  left:50%;
-  transform: translate(-50% , -50%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.theme-title-one.arch-title .upper-title {color: #aeaeae;}
+.theme-title-one.arch-title .upper-title {
+  color: #aeaeae;
+}
 .theme-title-two {
   position: relative;
   font-size: 144px;
@@ -359,8 +936,12 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   color: #1d2046;
   padding-right: 15px;
 }
-.theme-title-two span {color: #e1a34c;}
-.theme-title-three {padding: 0 145px;}
+.theme-title-two span {
+  color: #e1a34c;
+}
+.theme-title-three {
+  padding: 0 145px;
+}
 .theme-title-three .title {
   font-size: 48px;
   line-height: 60px;
@@ -378,24 +959,27 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   color: #202020;
   font-weight: 600;
 }
-.theme-title-four span {position: relative; display: inline-block;}
+.theme-title-four span {
+  position: relative;
+  display: inline-block;
+}
 .theme-title-four span:before {
-  content: '';
+  content: "";
   width: 100%;
   height: 76%;
   position: absolute;
-  top:20px;
-  left:0;
-  background: rgba(255,221,79,0.3);
+  top: 20px;
+  left: 0;
+  background: rgba(255, 221, 79, 0.3);
   z-index: -1;
 }
 .theme-title-four span:after {
-  content: '';
+  content: "";
   width: 120px;
   height: 3px;
   position: absolute;
   background: #202020;
-  top:55%;
+  top: 55%;
   right: -150px;
 }
 /*------------------- Theme Pagination ------------------*/
@@ -403,64 +987,90 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   display: inline-block;
   margin: 0 -10px;
 }
-.theme-pagination-one ul li {float: left;padding: 0 10px;}
+.theme-pagination-one ul li {
+  float: left;
+  padding: 0 10px;
+}
 .theme-pagination-one ul li a {
   font-size: 24px;
   color: #4f4f4f;
   line-height: 40px;
 }
-.theme-pagination-one ul li a .icon {font-size: 30px;}
-.theme-pagination-one ul li.active a {cursor: default;}
+.theme-pagination-one ul li a .icon {
+  font-size: 30px;
+}
+.theme-pagination-one ul li.active a {
+  cursor: default;
+}
 /*----------------------- Theme Main Menu --------------------*/
-#mega-menu-holder {position: static;}
-#mega-menu-holder .img-box {display: block; text-align: center;}
+#mega-menu-holder {
+  position: static;
+}
+#mega-menu-holder .img-box {
+  display: block;
+  text-align: center;
+}
 #mega-menu-holder .img-box .img {
   display: block;
   overflow: hidden;
   background: #000;
   box-shadow: 0px 30px 70px 0px rgba(223, 227, 234, 0.5);
 }
-#mega-menu-holder .img-box .img img {width: 100%;}
-#mega-menu-holder .img-box:hover .img img {opacity: 0.7;transform: scale3d(1.1,1.1,1);}
+#mega-menu-holder .img-box .img img {
+  width: 100%;
+}
+#mega-menu-holder .img-box:hover .img img {
+  opacity: 0.7;
+  transform: scale3d(1.1, 1.1, 1);
+}
 #mega-menu-holder .img-box .text {
   font-size: 15px;
   letter-spacing: 1px;
   display: block;
-  color: #212121; 
+  color: #212121;
   padding-top: 10px;
 }
 .theme-main-menu {
   position: absolute;
-  top:0;
+  top: 0;
   width: 100%;
-  left:0;
+  left: 0;
   z-index: 99;
   padding: 65px 0 0;
 }
 .theme-menu-one .logo {
   position: absolute;
-  top:-1px;
-  left:0;
+  top: -1px;
+  left: 0;
   z-index: 3;
 }
-.theme-menu-one .logo a {display: block;}
-.theme-menu-one .navbar-nav .nav-item .nav-link {color: #64697A;}
-.theme-menu-one .navbar-nav .nav-item:first-child .nav-link {margin-left: 0;}
+.theme-menu-one .logo a {
+  display: block;
+}
+.theme-menu-one .navbar-nav .nav-item .nav-link {
+  color: #64697a;
+}
+.theme-menu-one .navbar-nav .nav-item:first-child .nav-link {
+  margin-left: 0;
+}
 .theme-menu-one .header-right-widget {
   position: absolute;
-  top:52px;
+  top: 52px;
   right: 60px;
   z-index: 1;
 }
-.theme-menu-one .header-right-widget>ul>li {display: inline-block;vertical-align: middle;}
+.theme-menu-one .header-right-widget > ul > li {
+  display: inline-block;
+  vertical-align: middle;
+}
 
 .theme-menu-one .header-right-widget .language-switcher button {
   background: transparent;
   height: 55px;
   text-transform: uppercase;
-  color: #233D63;
+  color: #233d63;
   font-size: 16px;
-  margin:0 45px 0 40px;
+  margin: 0 45px 0 40px;
 }
 .theme-menu-one .header-right-widget .language-switcher .dropdown-menu {
   min-width: 170px;
@@ -478,38 +1088,86 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   line-height: 35px;
   text-transform: uppercase;
 }
-.skiptranslate {display: none !important;}
-.theme-menu-one .header-right-widget .language-switcher .dropdown-menu ul li a:hover {padding-left: 20px;}
-.theme-menu-one .header-right-widget .language-switcher .dropdown-toggle::after {color: #233D63;}
-.theme-menu-one .header-right-widget .call-us {font-size: 20px;color: #A2ADBD;}
-.theme-menu-one .header-right-widget .call-us a {font-size: 24px;margin-left: 15px;}
+.skiptranslate {
+  display: none !important;
+}
+.theme-menu-one
+  .header-right-widget
+  .language-switcher
+  .dropdown-menu
+  ul
+  li
+  a:hover {
+  padding-left: 20px;
+}
+.theme-menu-one
+  .header-right-widget
+  .language-switcher
+  .dropdown-toggle::after {
+  color: #233d63;
+}
+.theme-menu-one .header-right-widget .call-us {
+  font-size: 20px;
+  color: #a2adbd;
+}
+.theme-menu-one .header-right-widget .call-us a {
+  font-size: 24px;
+  margin-left: 15px;
+}
 /*----------------- SASS MENU ---------------------*/
 .theme-menu-one.d-align-item .navbar-nav .nav-item:hover .nav-link,
 .theme-menu-one.d-align-item .navbar-nav .nav-item.active .nav-link,
-.theme-menu-one.d-align-item .navbar .dropdown-item:focus,.theme-menu-one.d-align-item .navbar .dropdown-item:hover,
-.theme-menu-one.d-align-item .navbar .dropdown-submenu.dropdown:hover>.dropdown-item,.theme-menu-one.d-align-item .navbar .navbar-toggler,
+.theme-menu-one.d-align-item .navbar .dropdown-item:focus,
+.theme-menu-one.d-align-item .navbar .dropdown-item:hover,
+.theme-menu-one.d-align-item
+  .navbar
+  .dropdown-submenu.dropdown:hover
+  > .dropdown-item,
+.theme-menu-one.d-align-item .navbar .navbar-toggler,
 .theme-menu-one.d-align-item .navbar .mega-dropdown-list li a:hover,
-.theme-menu-one.d-align-item .navbar .mega-dropdown-list li a:hover .icon {color: #f569f8;}
-.theme-menu-one.d-align-item .navbar .mega-dropdown-list li a:hover .svg path {fill: #f569f8;}
-.theme-menu-one.d-align-item .navbar-nav .nav-item .nav-link {padding-bottom: 0;}
+.theme-menu-one.d-align-item .navbar .mega-dropdown-list li a:hover .icon {
+  color: #f569f8;
+}
+.theme-menu-one.d-align-item .navbar .mega-dropdown-list li a:hover .svg path {
+  fill: #f569f8;
+}
+.theme-menu-one.d-align-item .navbar-nav .nav-item .nav-link {
+  padding-bottom: 0;
+}
 .theme-menu-one.d-align-item .navbar-nav .nav-item .nav-link:before {
-  content: '';
+  content: "";
   width: 0;
   height: 2px;
   position: absolute;
-  left:1px;
+  left: 1px;
   bottom: 5px;
   z-index: -1;
   background: #f569f8;
   transition: width 0.3s ease-out;
 }
-.theme-menu-one.d-align-item .header-right-widget .call-us a {color: #bebebe; margin-left: 0;}
-.theme-menu-one.d-align-item .header-right-widget .call-us a:hover {color: #f569f8;}
+.theme-menu-one.d-align-item .header-right-widget .call-us a {
+  color: #bebebe;
+  margin-left: 0;
+}
+.theme-menu-one.d-align-item .header-right-widget .call-us a:hover {
+  color: #f569f8;
+}
 .theme-menu-one.d-align-item .navbar-nav .nav-item .nav-link:hover:before,
-.theme-menu-one.d-align-item .navbar-nav .nav-item.active .nav-link:before {width: 100%;}
-.theme-menu-one.d-align-item #mega-menu-holder {margin-right: 125px;}
-.theme-menu-one.d-align-item .header-right-widget {right: auto; left: 15%;}
-.theme-menu-one.d-align-item .logo {top:45px;left:75px;width: 63px;}
+.theme-menu-one.d-align-item .navbar-nav .nav-item.active .nav-link:before {
+  width: 100%;
+}
+.theme-menu-one.d-align-item #mega-menu-holder {
+  margin-right: 125px;
+}
+.theme-menu-one.d-align-item .header-right-widget {
+  right: auto;
+  left: 15%;
+}
+.theme-menu-one.d-align-item .logo {
+  top: 45px;
+  left: 75px;
+  width: 63px;
+}
 .theme-menu-one.d-align-item .navbar-nav .login-button a {
   width: 150px;
   line-height: 50px;
@@ -520,7 +1178,10 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   text-align: center;
   margin-top: -12px;
 }
-.theme-menu-one.d-align-item .navbar-nav .login-button a:hover {background: #f569f8;color: #fff;}
+.theme-menu-one.d-align-item .navbar-nav .login-button a:hover {
+  background: #f569f8;
+  color: #fff;
+}
 .theme-menu-one.d-align-item .navbar-nav .login-button-two a {
   width: 150px;
   line-height: 48px;
@@ -537,17 +1198,31 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 }
 /*------------------ Menu One Color Fix -------------------*/
 .theme-menu-one.d-align-item.color-white .header-right-widget .call-us a,
-.theme-menu-one.d-align-item.color-white .header-right-widget .language-switcher button,
-.theme-menu-one.d-align-item.color-white .header-right-widget .language-switcher .dropdown-toggle::after,
+.theme-menu-one.d-align-item.color-white
+  .header-right-widget
+  .language-switcher
+  button,
+.theme-menu-one.d-align-item.color-white
+  .header-right-widget
+  .language-switcher
+  .dropdown-toggle::after,
 .theme-menu-one.d-align-item.color-white .navbar-nav .nav-item .nav-link {
   color: #fff;
 }
-.theme-menu-one.d-align-item.color-white .navbar-nav .nav-item .nav-link:before {background: #fff;}
+.theme-menu-one.d-align-item.color-white
+  .navbar-nav
+  .nav-item
+  .nav-link:before {
+  background: #fff;
+}
 /*----------------------- Theme Main Menu Two  --------------------*/
-.theme-menu-two {padding-left: 90px;padding-right: 90px;}
+.theme-menu-two {
+  padding-left: 90px;
+  padding-right: 90px;
+}
 .theme-menu-two .logo {
   position: absolute;
-  top:50px;
+  top: 50px;
   left: 90px;
   width: 63px;
   z-index: 2;
@@ -556,56 +1231,74 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   width: 160px;
   line-height: 50px;
   border-radius: 3px;
-  background:#fff;
+  background: #fff;
   font-size: 18px;
   color: #3d3d3d;
   text-align: center;
   position: absolute;
   right: 90px;
-  top:55px;
+  top: 55px;
   z-index: 1;
 }
-.theme-menu-two .quote-button:hover {color: #fff;}
-.theme-menu-two #mega-menu-holder {margin-right: 265px;}
+.theme-menu-two .quote-button:hover {
+  color: #fff;
+}
+.theme-menu-two #mega-menu-holder {
+  margin-right: 265px;
+}
 /*---------------------- Theme Main Menu Three --------------------*/
 .theme-menu-three .logo {
   position: absolute;
-  top:-1px;
-  left:0;
+  top: -1px;
+  left: 0;
   z-index: 3;
 }
-.theme-menu-three .logo a {display: block;}
-.theme-menu-three .navbar-nav .nav-item {padding-bottom: 15px;}
-.theme-menu-three .navbar-nav .nav-item .nav-link {color: #fff; position: relative;padding: 0;}
+.theme-menu-three .logo a {
+  display: block;
+}
+.theme-menu-three .navbar-nav .nav-item {
+  padding-bottom: 15px;
+}
+.theme-menu-three .navbar-nav .nav-item .nav-link {
+  color: #fff;
+  position: relative;
+  padding: 0;
+}
 .theme-menu-three .navbar-nav .nav-item .nav-link:before {
-  content: '';
+  content: "";
   width: 0;
   height: 5px;
   position: absolute;
-  left:1px;
+  left: 1px;
   bottom: 7px;
   z-index: -1;
   background: #e1a34c;
   transition: width 0.3s ease-out;
 }
 .theme-menu-three .navbar-nav .nav-item .nav-link:hover:before,
-.theme-menu-three .navbar-nav .nav-item.active .nav-link:before {width: 91%;}
-.theme-menu-three #mega-menu-holder {margin-right: 255px;}
+.theme-menu-three .navbar-nav .nav-item.active .nav-link:before {
+  width: 91%;
+}
+.theme-menu-three #mega-menu-holder {
+  margin-right: 255px;
+}
 .theme-menu-three .header-right-widget {
   position: absolute;
-  top:57px;
+  top: 57px;
   right: 65px;
   z-index: 1;
 }
-.theme-menu-three .header-right-widget .social-icon li {display: inline-block;}
+.theme-menu-three .header-right-widget .social-icon li {
+  display: inline-block;
+}
 .theme-menu-three .header-right-widget .social-icon li a {
   width: 45px;
   height: 45px;
   text-align: center;
   line-height: 45px;
-  border: 2px solid rgba(255,255,255,0.8);
+  border: 2px solid rgba(255, 255, 255, 0.8);
   font-size: 20px;
-  color: rgba(255,255,255,0.8);
+  color: rgba(255, 255, 255, 0.8);
   border-radius: 50%;
   margin-left: 5px;
 }
@@ -614,68 +1307,147 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   background: #cd9a53;
   border-color: #cd9a53;
 }
-.theme-menu-three .navbar .dropdown-item:focus,.theme-menu-three .navbar .dropdown-item:hover,
-.theme-menu-three .navbar .dropdown-submenu.dropdown:hover>.dropdown-item,
-.theme-menu-three .navbar .mega-dropdown-list li a:hover,.theme-menu-three .navbar .mega-dropdown-list li a:hover .icon {color: #e1a34c;}
-.theme-menu-three .navbar .mega-dropdown-list li a:hover .svg path {fill: #e1a34c;}
+.theme-menu-three .navbar .dropdown-item:focus,
+.theme-menu-three .navbar .dropdown-item:hover,
+.theme-menu-three .navbar .dropdown-submenu.dropdown:hover > .dropdown-item,
+.theme-menu-three .navbar .mega-dropdown-list li a:hover,
+.theme-menu-three .navbar .mega-dropdown-list li a:hover .icon {
+  color: #e1a34c;
+}
+.theme-menu-three .navbar .mega-dropdown-list li a:hover .svg path {
+  fill: #e1a34c;
+}
 /*---------------------- APP Menu ----------------------*/
-.theme-menu-one.d-align-item.app-menu .navbar .dropdown-item:focus,.theme-menu-one.d-align-item.app-menu .navbar .dropdown-item:hover,
-.theme-menu-one.d-align-item.app-menu .navbar .dropdown-submenu.dropdown:hover>.dropdown-item,
+.theme-menu-one.d-align-item.app-menu .navbar .dropdown-item:focus,
+.theme-menu-one.d-align-item.app-menu .navbar .dropdown-item:hover,
+.theme-menu-one.d-align-item.app-menu
+  .navbar
+  .dropdown-submenu.dropdown:hover
+  > .dropdown-item,
 .theme-menu-one.d-align-item.app-menu .navbar .mega-dropdown-list li a:hover,
-.theme-menu-one.d-align-item.app-menu .navbar .mega-dropdown-list li a:hover .icon {color: #614ef9;}
-.theme-menu-one.d-align-item.app-menu .navbar .mega-dropdown-list li a:hover .svg path {fill: #614ef9;}
+.theme-menu-one.d-align-item.app-menu
+  .navbar
+  .mega-dropdown-list
+  li
+  a:hover
+  .icon {
+  color: #614ef9;
+}
+.theme-menu-one.d-align-item.app-menu
+  .navbar
+  .mega-dropdown-list
+  li
+  a:hover
+  .svg
+  path {
+  fill: #614ef9;
+}
 /*================= Sticky Menu ===============*/
 @-webkit-keyframes menu_sticky {
-  0%   {margin-top:-120px;opacity: 0;}
-  50%  {margin-top: -64px;opacity: 0;}
-  100% {margin-top: 0;opacity: 1;}
+  0% {
+    margin-top: -120px;
+    opacity: 0;
+  }
+  50% {
+    margin-top: -64px;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 0;
+    opacity: 1;
+  }
 }
 @keyframes menu_sticky {
-  0%   {margin-top:-120px;opacity: 0;}
-  50%  {margin-top: -64px;opacity: 0;}
-  100% {margin-top: 0;opacity: 1;}
+  0% {
+    margin-top: -120px;
+    opacity: 0;
+  }
+  50% {
+    margin-top: -64px;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 0;
+    opacity: 1;
+  }
 }
 .theme-main-menu.fixed {
   position: fixed !important;
   background: #fff;
-  box-shadow: 0px 13px 35px -12px rgba(35,35,35,0.15);
-  animation: menu_sticky  0.60s ease-in-out;
+  box-shadow: 0px 13px 35px -12px rgba(35, 35, 35, 0.15);
+  animation: menu_sticky 0.6s ease-in-out;
 }
-.theme-menu-one.d-align-item.fixed .logo {width: 63px;}
-.theme-menu-one.fixed.d-align-item .logo {top:5px;}
+.theme-menu-one.d-align-item.fixed .logo {
+  width: 63px;
+}
+.theme-menu-one.fixed.d-align-item .logo {
+  top: 5px;
+}
 .theme-menu-one.fixed .navbar-nav .nav-item .nav-link,
-.theme-menu-two.fixed .navbar-nav .nav-item .nav-link {padding-bottom: 20px;}
+.theme-menu-two.fixed .navbar-nav .nav-item .nav-link {
+  padding-bottom: 20px;
+}
 
-.theme-menu-one.fixed,.theme-menu-two.fixed {padding: 20px 0 0;}
-.theme-main-menu.theme-menu-three.fixed {padding: 20px 0 5px;}
-.theme-menu-one.fixed .logo,.theme-menu-three.fixed .logo {width: 70px;}
-.theme-menu-one.fixed .header-right-widget {top:7px;}
-.theme-menu-two.fixed .logo {top:7px;}
-.theme-menu-two.fixed .quote-button {top:9px;}
-.theme-main-menu.theme-menu-two.fixed,.theme-menu-one.d-align-item.color-white.fixed {background: #1b1d3d;}
-.theme-main-menu.theme-menu-three.fixed {background: rgba(29,31,66,0.98); border-bottom: 1px solid rgba(255,255,255,0.03);}
-.theme-menu-three.fixed .header-right-widget {top:14px;}
-.theme-menu-one.d-align-item.fixed .navbar-nav .nav-item .nav-link {padding-bottom: 0;}
-.theme-menu-one.d-align-item.fixed  {padding-bottom: 12px;}
+.theme-menu-one.fixed,
+.theme-menu-two.fixed {
+  padding: 20px 0 0;
+}
+.theme-main-menu.theme-menu-three.fixed {
+  padding: 20px 0 5px;
+}
+.theme-menu-one.fixed .logo,
+.theme-menu-three.fixed .logo {
+  width: 70px;
+}
+.theme-menu-one.fixed .header-right-widget {
+  top: 7px;
+}
+.theme-menu-two.fixed .logo {
+  top: 7px;
+}
+.theme-menu-two.fixed .quote-button {
+  top: 9px;
+}
+.theme-main-menu.theme-menu-two.fixed,
+.theme-menu-one.d-align-item.color-white.fixed {
+  background: #1b1d3d;
+}
+.theme-main-menu.theme-menu-three.fixed {
+  background: rgba(29, 31, 66, 0.98);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+}
+.theme-menu-three.fixed .header-right-widget {
+  top: 14px;
+}
+.theme-menu-one.d-align-item.fixed .navbar-nav .nav-item .nav-link {
+  padding-bottom: 0;
+}
+.theme-menu-one.d-align-item.fixed {
+  padding-bottom: 12px;
+}
 /*---------------------------- Theme Main Banner One -------------------------*/
 #theme-banner-one {
   /* background: url(../images/shape/1.png) no-repeat top right; */
   position: relative;
 }
-#theme-banner-one .main-wrapper {padding: 235px 0 155px;}
+#theme-banner-one .main-wrapper {
+  padding: 235px 0 155px;
+}
 #theme-banner-one .main-wrapper .slogan {
   display: inline-block;
-  background: #FBFBFF;
-  border: 1px solid #E9E9E9;
+  background: #fbfbff;
+  border: 1px solid #e9e9e9;
   line-height: 32px;
   padding: 0 20px;
   font-size: 15px;
   color: #677180;
   border-radius: 3px;
 }
-#theme-banner-one .main-wrapper .slogan span {color: #FF605E;}
+#theme-banner-one .main-wrapper .slogan span {
+  color: #ff605e;
+}
 #theme-banner-one .main-wrapper .main-title {
-  font-family: 'CircularStdmed';
+  font-family: "CircularStdmed";
   font-size: 70px;
   line-height: 80px;
   padding: 25px 0 35px;
@@ -692,11 +1464,13 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   margin-top: 5px;
   line-height: 55px;
 }
-#theme-banner-one .main-wrapper .button-group .more-button {margin-right: 30px;}
+#theme-banner-one .main-wrapper .button-group .more-button {
+  margin-right: 30px;
+}
 #theme-banner-one .illustration {
   position: absolute;
   right: 12%;
-  top:27%;
+  top: 27%;
 }
 #theme-banner-one .illustration .shape-one {
   position: absolute;
@@ -711,30 +1485,30 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 #theme-banner-one .oval-one {
   position: absolute;
   right: -3%;
-  top:26%;
+  top: 26%;
   animation: jump 8s infinite linear;
 }
 #theme-banner-one .shape-three {
   position: absolute;
-  top:21%;
+  top: 21%;
   right: 22%;
   animation: animationFramesTwo 13s infinite linear;
 }
 #theme-banner-one .shape-four {
   position: absolute;
-  top:27%;
+  top: 27%;
   left: 7%;
   animation: animationFramesFour 25s alternate infinite linear;
 }
 #theme-banner-one .shape-five {
   position: absolute;
-  top:50%;
+  top: 50%;
   left: 50%;
   animation: animationFramesThree 35s alternate infinite linear;
 }
 #theme-banner-one .shape-six {
   position: absolute;
-  top:70%;
+  top: 70%;
   right: 3%;
   animation: animationFramesFour 20s alternate infinite linear;
 }
@@ -758,30 +1532,34 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 }
 #theme-banner-one .shape-ten {
   position: absolute;
-  top:60%;
+  top: 60%;
   left: 4%;
   animation: animationFramesOne 20s alternate infinite linear;
 }
 #theme-banner-one .shape-eleven {
   position: absolute;
-  top:22%;
+  top: 22%;
   left: 41%;
   animation: animationFramesOne 15s infinite linear;
 }
 /*---------------------------- Theme Main Banner Two -------------------------*/
 #theme-banner-two {
-  background: linear-gradient( -120deg, rgb(135,88,255) 0%, rgb(97,78,249) 100%);
+  background: linear-gradient(
+    -120deg,
+    rgb(135, 88, 255) 0%,
+    rgb(97, 78, 249) 100%
+  );
   position: relative;
-  overflow:hidden;
+  overflow: hidden;
 }
 #theme-banner-two:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 753px;
   /* background: url(../images/shape/bg4.png) no-repeat left top; */
-  bottom:-1px;
-  left:0;
+  bottom: -1px;
+  left: 0;
   z-index: 2;
 }
 #theme-banner-two .main-wrapper {
@@ -792,7 +1570,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 #theme-banner-two .bg-round-one {
   width: 690px;
   height: 690px;
-  background:rgba(255,255,255,0.04);
+  background: rgba(255, 255, 255, 0.04);
   border-radius: 50%;
   position: absolute;
   top: -170px;
@@ -802,7 +1580,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 #theme-banner-two .bg-round-two {
   width: 690px;
   height: 690px;
-  background:rgba(255,255,255,0.02);
+  background: rgba(255, 255, 255, 0.02);
   border-radius: 50%;
   position: absolute;
   bottom: 0;
@@ -812,10 +1590,10 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 #theme-banner-two .bg-round-three {
   width: 400px;
   height: 400px;
-  background:rgba(255,255,255,0.02);
+  background: rgba(255, 255, 255, 0.02);
   border-radius: 0 0 0 85px;
   position: absolute;
-  top:-87px;
+  top: -87px;
   right: -98px;
   z-index: 1;
   transform: rotate(-9deg);
@@ -824,10 +1602,10 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 #theme-banner-two .bg-round-four {
   width: 250px;
   height: 250px;
-  background:rgba(255,255,255,0.02);
+  background: rgba(255, 255, 255, 0.02);
   border-radius: 0 0 0 85px;
   position: absolute;
-  top:-87px;
+  top: -87px;
   right: -98px;
   z-index: 1;
   transform: rotate(-9deg);
@@ -835,7 +1613,11 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 #theme-banner-two .bg-round-five {
   width: 650px;
   height: 650px;
-  background: linear-gradient( -90deg, rgb(133,87,255) 0%, rgb(128,92,255) 100%);
+  background: linear-gradient(
+    -90deg,
+    rgb(133, 87, 255) 0%,
+    rgb(128, 92, 255) 100%
+  );
   border-radius: 50%;
   position: absolute;
   bottom: -90px;
@@ -850,7 +1632,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   max-width: 47%;
 }
 #theme-banner-two .main-title {
-  font-family: 'CircularStdmed';
+  font-family: "CircularStdmed";
   font-size: 60px;
   line-height: 72px;
   color: #fff;
@@ -871,16 +1653,25 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 #theme-banner-two .main-wrapper .button-group .more-button {
   width: 165px;
   line-height: 50px;
-  border:1px solid transparent;
+  border: 1px solid transparent;
   text-align: center;
   border-radius: 3px;
   font-size: 18px;
   color: #fff;
-  background: linear-gradient( -180deg, rgb(0,235,172) 0%, rgb(0,209,244) 100%);
+  background: linear-gradient(
+    -180deg,
+    rgb(0, 235, 172) 0%,
+    rgb(0, 209, 244) 100%
+  );
   margin-right: 18px;
 }
-#theme-banner-two .main-wrapper .button-group .more-button i {vertical-align: -1px;}
-#theme-banner-two .main-wrapper .button-group .more-button:hover {background: transparent;border-color: #fff;}
+#theme-banner-two .main-wrapper .button-group .more-button i {
+  vertical-align: -1px;
+}
+#theme-banner-two .main-wrapper .button-group .more-button:hover {
+  background: transparent;
+  border-color: #fff;
+}
 #theme-banner-two .main-wrapper .button-group .contact-button {
   width: 170px;
   line-height: 48px;
@@ -899,63 +1690,80 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   position: fixed;
   width: 100%;
   height: 100%;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   z-index: 0;
 }
-#particles {width: 100%;height: 100%;}
+#particles {
+  width: 100%;
+  height: 100%;
+}
 #theme-banner-three .main-title {
-  font-family: 'CircularStdbld';
+  font-family: "CircularStdbld";
   font-size: 140px;
   color: #fff;
   text-decoration: underline;
 }
 #theme-banner-three .main-title span,
-#theme-banner-three .main-title span b {text-decoration: underline;line-height: 160px;}
+#theme-banner-three .main-title span b {
+  text-decoration: underline;
+  line-height: 160px;
+}
 #theme-banner-three .main-title i {
   color: #e1a34c;
   font-style: normal;
 }
 #theme-banner-three:before {
-  content: '';
-  background: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(35,38,91) 0%, rgb(27,29,61) 100%);
+  content: "";
+  background: -webkit-radial-gradient(
+    50% 50%,
+    circle closest-side,
+    rgb(35, 38, 91) 0%,
+    rgb(27, 29, 61) 100%
+  );
   position: absolute;
   width: 2285px;
   height: 2285px;
   border-radius: 50%;
-  left:50%;
-  top:-500px;
+  left: 50%;
+  top: -500px;
   transform: translateX(-50%);
   z-index: -1;
 }
 /*---------------------------- Theme Main Banner Four -------------------------*/
-#theme-banner-four {position: relative;}
-#theme-banner-four .main-wrapper {padding: 290px 0 260px;position: relative;z-index: 5;}
+#theme-banner-four {
+  position: relative;
+}
+#theme-banner-four .main-wrapper {
+  padding: 290px 0 260px;
+  position: relative;
+  z-index: 5;
+}
 #theme-banner-four .screen-one {
   position: absolute;
   right: 0;
-  top:12%;
+  top: 12%;
   z-index: 1;
   width: 35%;
 }
 #theme-banner-four .screen-two {
   position: absolute;
   right: 24%;
-  top:27%;
+  top: 27%;
   z-index: 1;
   width: 22%;
 }
 #theme-banner-four .shape-one {
   position: absolute;
   right: 0;
-  top:145px;
+  top: 145px;
   z-index: 0;
   opacity: 0.65;
 }
 #theme-banner-four .shape-two {
   position: absolute;
   bottom: 12%;
-  left:31%;
+  left: 31%;
   animation: rotated 20s infinite linear;
 }
 #theme-banner-four .shape-three {
@@ -978,8 +1786,8 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   border: 3px solid #fe8f8f;
   border-radius: 50%;
   position: absolute;
-  top:15%;
-  left:36%;
+  top: 15%;
+  left: 36%;
   animation: animationFramesOne 15s infinite linear;
 }
 #theme-banner-four .round-shape-two {
@@ -988,8 +1796,8 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   background: #d5eeff;
   border-radius: 50%;
   position: absolute;
-  top:23%;
-  left:8%;
+  top: 23%;
+  left: 8%;
   animation: animationFramesTwo 13s infinite linear;
 }
 #theme-banner-four .round-shape-three {
@@ -1009,7 +1817,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   width: 350px;
   height: 350px;
   border-radius: 50%;
-  border:1px solid #fbfbfb;
+  border: 1px solid #fbfbfb;
   animation: rotated 10s infinite linear;
 }
 #theme-banner-four .round-shape-four:before {
@@ -1017,24 +1825,26 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   width: 10px;
   height: 10px;
   position: absolute;
-  top:50%;
+  top: 50%;
   left: -5px;
   background: #ddabf6;
   border-radius: 50%;
 }
 #theme-banner-four .main-wrapper .slogan {
   display: inline-block;
-  background: #FBFBFF;
-  border: 1px solid #E9E9E9;
+  background: #fbfbff;
+  border: 1px solid #e9e9e9;
   line-height: 32px;
   padding: 0 20px;
   font-size: 15px;
   color: #677180;
   border-radius: 18px;
 }
-#theme-banner-four .main-wrapper .slogan span {color: #FF605E;}
+#theme-banner-four .main-wrapper .slogan span {
+  color: #ff605e;
+}
 #theme-banner-four .main-wrapper .main-title {
-  font-family: 'CircularStdmed';
+  font-family: "CircularStdmed";
   font-size: 70px;
   line-height: 80px;
   padding: 25px 0 35px;
@@ -1057,17 +1867,32 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   text-align: center;
   border-radius: 3px;
   color: #fff;
-  box-shadow: 0px 10px 40px 0px rgba(150,57,57,0.25);
-  background: linear-gradient( -135deg, rgb(191,108,255) 0%, rgb(144,65,255) 100%);
+  box-shadow: 0px 10px 40px 0px rgba(150, 57, 57, 0.25);
+  background: linear-gradient(
+    -135deg,
+    rgb(191, 108, 255) 0%,
+    rgb(144, 65, 255) 100%
+  );
   margin-right: 30px;
 }
-#theme-banner-four .main-wrapper .button-group .more-button:hover {box-shadow: none;}
-#theme-banner-four .main-wrapper .button-group .more-button i {vertical-align: -1px;margin-left: 5px;}
+#theme-banner-four .main-wrapper .button-group .more-button:hover {
+  box-shadow: none;
+}
+#theme-banner-four .main-wrapper .button-group .more-button i {
+  vertical-align: -1px;
+  margin-left: 5px;
+}
 #theme-banner-four .main-wrapper .button-group .video-button:hover,
-#theme-banner-four .main-wrapper .button-group .video-button:hover i {color: #f569f8;}
+#theme-banner-four .main-wrapper .button-group .video-button:hover i {
+  color: #f569f8;
+}
 /*---------------------- Theme Main Banne Five -----------------------*/
 #theme-banner-five {
-  background: linear-gradient( 145deg, rgb(132,0,252) 0%, rgb(17,222,244) 100%);
+  background: linear-gradient(
+    145deg,
+    rgb(132, 0, 252) 0%,
+    rgb(17, 222, 244) 100%
+  );
   position: relative;
   z-index: 5;
 }
@@ -1075,8 +1900,8 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   position: absolute;
   width: 100%;
   height: 100%;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   z-index: -1;
   overflow: hidden;
 }
@@ -1084,7 +1909,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   position: absolute;
   width: 662px;
   height: 662px;
-  background: rgba(255,255,255,0.04);
+  background: rgba(255, 255, 255, 0.04);
   top: -346px;
   left: -75px;
   border-radius: 50%;
@@ -1093,7 +1918,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   position: absolute;
   width: 1372px;
   height: 1372px;
-  background: rgba(255,255,255,0.04);
+  background: rgba(255, 255, 255, 0.04);
   top: -689px;
   left: -368px;
   border-radius: 50%;
@@ -1103,7 +1928,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   position: absolute;
   width: 2242px;
   height: 2242px;
-  background: rgba(255,255,255,0.04);
+  background: rgba(255, 255, 255, 0.04);
   top: -1161px;
   left: -779px;
   border-radius: 50%;
@@ -1113,33 +1938,33 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: rgba(213,238,255,0.29);
+  background: rgba(213, 238, 255, 0.29);
   position: absolute;
-  top:18%;
-  left:14%;
+  top: 18%;
+  left: 14%;
   animation: animationFramesTwo 13s infinite linear;
 }
 #theme-banner-five .bg-shape-holder .shape-two {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  border: 5px solid rgba(255,255,255,0.16);
+  border: 5px solid rgba(255, 255, 255, 0.16);
   position: absolute;
-  top:16%;
-  left:41%;
+  top: 16%;
+  left: 41%;
   animation: animationFramesOne 15s infinite linear;
 }
 #theme-banner-five .bg-shape-holder .shape-three {
   position: absolute;
   bottom: 15%;
-  left:35%;
+  left: 35%;
   animation: animationFramesFour 15s infinite linear alternate;
 }
 #theme-banner-five .bg-shape-holder .shape-four {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: rgba(213,238,255,0.29);
+  background: rgba(213, 238, 255, 0.29);
   position: absolute;
   bottom: 12%;
   right: 30%;
@@ -1165,9 +1990,11 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   right: 28%;
   width: 68%;
 }
-#theme-banner-five .main-wrapper {padding: 300px 0 215px 15%;}
+#theme-banner-five .main-wrapper {
+  padding: 300px 0 215px 15%;
+}
 #theme-banner-five .main-title {
-  font-family: 'CircularStdmed';
+  font-family: "CircularStdmed";
   font-size: 60px;
   line-height: 72px;
   color: #fff;
@@ -1197,32 +2024,43 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   font-size: 13px;
   margin-bottom: -5px;
 }
-#theme-banner-five .main-wrapper .button-group li a.google-button {margin-right: 22px;}
+#theme-banner-five .main-wrapper .button-group li a.google-button {
+  margin-right: 22px;
+}
 #theme-banner-five .main-wrapper .button-group li a img {
   position: absolute;
-  left:30px;
-  top:50%;
+  left: 30px;
+  top: 50%;
   transform: translateY(-50%);
   width: 30px;
 }
 /*---------------------- What We Do/Agency --------------------*/
-.agn-what-we-do {position: relative;}
+.agn-what-we-do {
+  position: relative;
+}
 .agn-what-we-do .shape-one {
   position: absolute;
-  top:19%;
-  left:0;
+  top: 19%;
+  left: 0;
 }
 .agn-what-we-do .shape-two {
   position: absolute;
-  top:25%;
-  right:11%;
+  top: 25%;
+  right: 11%;
 }
-.agn-what-we-do .theme-title-one {padding-bottom: 50px;}
-.agn-what-we-do .single-block .icon {position: relative; height: 98px;}
-.agn-what-we-do .single-block .icon .bg {animation: rotated 25s infinite linear;}
+.agn-what-we-do .theme-title-one {
+  padding-bottom: 50px;
+}
+.agn-what-we-do .single-block .icon {
+  position: relative;
+  height: 98px;
+}
+.agn-what-we-do .single-block .icon .bg {
+  animation: rotated 25s infinite linear;
+}
 .agn-what-we-do .single-block .icon .shape {
   position: absolute;
-  top:35px;
+  top: 35px;
   left: 10px;
   z-index: 1;
 }
@@ -1231,18 +2069,31 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   color: #244574;
   padding: 35px 0 35px;
 }
-.agn-what-we-do .single-block p {padding-right: 90px;}
+.agn-what-we-do .single-block p {
+  padding-right: 90px;
+}
 .agn-what-we-do .single-block .more-button {
   font-size: 15px;
   text-decoration: underline;
   margin-top: 20px;
 }
-.agn-what-we-do .single-block .more-button:hover {text-decoration: overline;}
-.agn-what-we-do .single-block {padding-top: 60px;}
+.agn-what-we-do .single-block .more-button:hover {
+  text-decoration: overline;
+}
+.agn-what-we-do .single-block {
+  padding-top: 60px;
+}
 /*---------------------- What We Do/SEO --------------------*/
-.seo-what-we-do {position: relative;padding: 150px 0 100px;}
-.seo-what-we-do .theme-title-one {padding-bottom: 60px;}
-.seo-what-we-do .single-block {margin-top: 40px;}
+.seo-what-we-do {
+  position: relative;
+  padding: 150px 0 100px;
+}
+.seo-what-we-do .theme-title-one {
+  padding-bottom: 60px;
+}
+.seo-what-we-do .single-block {
+  margin-top: 40px;
+}
 .seo-what-we-do .single-block .wrapper {
   background: #fff;
   border-radius: 4px;
@@ -1250,7 +2101,9 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   padding: 50px 10px 60px;
 }
 .seo-what-we-do .single-block.active .wrapper,
-.seo-what-we-do .single-block .wrapper:hover {box-shadow: 0px 20px 70px 0px rgba(4, 7, 18, 0.06);}
+.seo-what-we-do .single-block .wrapper:hover {
+  box-shadow: 0px 20px 70px 0px rgba(4, 7, 18, 0.06);
+}
 .seo-what-we-do .single-block .wrapper .title {
   display: block;
   font-size: 20px;
@@ -1268,46 +2121,52 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 .seo-what-we-do .single-block .wrapper .icon-box img {
   position: relative;
   margin: 0 auto;
-  top:50%;
+  top: 50%;
   transform: translateY(-50%);
 }
-.seo-what-we-do .single-block:nth-child(2) .wrapper .icon-box {background: #00ebac;}
-.seo-what-we-do .single-block:nth-child(3) .wrapper .icon-box {background: #9657f6;}
-.seo-what-we-do .single-block:nth-child(4) .wrapper .icon-box {background: #ff930e;}
+.seo-what-we-do .single-block:nth-child(2) .wrapper .icon-box {
+  background: #00ebac;
+}
+.seo-what-we-do .single-block:nth-child(3) .wrapper .icon-box {
+  background: #9657f6;
+}
+.seo-what-we-do .single-block:nth-child(4) .wrapper .icon-box {
+  background: #ff930e;
+}
 .seo-what-we-do .single-block .wrapper .icon-box:before,
 .seo-what-we-do .single-block .wrapper .icon-box:after {
-  content: '';
+  content: "";
   position: absolute;
   border-radius: 50%;
   z-index: -1;
 }
-.seo-what-we-do .single-block .wrapper .icon-box:before{
-  top:0px;
+.seo-what-we-do .single-block .wrapper .icon-box:before {
+  top: 0px;
   right: 0px;
   bottom: 0px;
-  left:0px;
+  left: 0px;
 }
-.seo-what-we-do .single-block .wrapper .icon-box:after{
-  top:0px;
+.seo-what-we-do .single-block .wrapper .icon-box:after {
+  top: 0px;
   right: 0px;
   bottom: 0px;
-  left:0px;
+  left: 0px;
 }
 .seo-what-we-do .single-block:nth-child(1) .wrapper .icon-box:before,
 .seo-what-we-do .single-block:nth-child(1) .wrapper .icon-box:after {
- background: rgba(255,58,70,0.5);
+  background: rgba(255, 58, 70, 0.5);
 }
 .seo-what-we-do .single-block:nth-child(2) .wrapper .icon-box:before,
 .seo-what-we-do .single-block:nth-child(2) .wrapper .icon-box:after {
- background: rgba(0,235,172,0.5);
+  background: rgba(0, 235, 172, 0.5);
 }
 .seo-what-we-do .single-block:nth-child(3) .wrapper .icon-box:before,
 .seo-what-we-do .single-block:nth-child(3) .wrapper .icon-box:after {
- background: rgba(150,87,246,0.5);
+  background: rgba(150, 87, 246, 0.5);
 }
 .seo-what-we-do .single-block:nth-child(4) .wrapper .icon-box:before,
 .seo-what-we-do .single-block:nth-child(4) .wrapper .icon-box:after {
- background: rgba(255,147,14,0.5);
+  background: rgba(255, 147, 14, 0.5);
 }
 
 .seo-what-we-do .single-block.active .wrapper .icon-box:after,

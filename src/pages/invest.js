@@ -2,6 +2,43 @@ import React, { Component } from "react";
 import Layout from "../components/Layout";
 
 class Invest extends Component {
+  componentDidMount() {
+    window.fairmintSettings = {
+      org: "erxes", // This is your organization id
+      stage: "production", // Environment Stage value. possible values 'production', 'staging', 'development'.
+      width: 123, // Invest button width in pixel. default: 132
+      height: 44, // Invest button height in pixel. default: 48
+      mobileWidth: 36, // Invest button width in pixel for mobile. default: 36
+      mobileHeight: 36, // Invest button height in pixel for mobile. default: 36
+      amountInvested: true, // Show Amount Invested field. default: false
+      companyValuation: true, // Show Company Valuation field. default: false
+      performance: false, // Show Performance field. default: false
+    };
+
+    window.addEventListener(
+      "load",
+      function() {
+        var e = document.createElement("script");
+        (e.type = "text/javascript"),
+          (e.async = !0),
+          (e.src = "https://static.fairmint.co/widget/fairmint.2020.12.24.js");
+        var t = document.getElementsByTagName("script")[0];
+        t.parentNode.insertBefore(e, t);
+      },
+      !1
+    );
+
+    setTimeout(function() {
+      var x = document.getElementsByClassName("fairmint-widget-frame");
+      x[0].classList.add("fairmint-widget-frame-visible");
+
+      var iFrame = x[0].getElementsByTagName("iframe")[0];
+      iFrame.contentDocument.body.innerHTML =
+        iFrame.contentDocument.body.innerHTML +
+        "<style>body { overflow: hidden; } .fairmint-cafe-widget-card-footer {display: none; }</style>";
+    }, 5000);
+  }
+
   render() {
     return (
       <Layout>
@@ -52,7 +89,7 @@ class Invest extends Component {
             </div>
 
             <div className="row">
-              <div className="col-lg-6 order-lg-last">
+              <div className="col-lg-6 invest-content order-lg-last">
                 <div className="text-wrapper">
                   <p>
                     Эрксис технологийн компани нь маркетингийн технологийг бүхий
@@ -75,11 +112,7 @@ class Invest extends Component {
               </div>
               <div className="col-lg-6 order-lg-first">
                 <div className="img-box">
-                  <img
-                    src="https://erxes.io/static/images/invest__1_.png"
-                    alt=""
-                    className="main-img"
-                  />
+                  <div className="fairmint-invest-widget" />
                 </div>
               </div>
             </div>
@@ -96,7 +129,7 @@ class Invest extends Component {
           </a>
         </div>
 
-        <div className="agn-what-we-do pt-150 pb-70 invest">
+        <div className="agn-what-we-do pt-250 pb-70 invest">
           <img src="images/shape/shape-56.svg" alt="" className="shape-two" />
           <div className="container">
             <div className="theme-title-one text-center">
