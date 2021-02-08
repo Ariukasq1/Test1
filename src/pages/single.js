@@ -1,9 +1,9 @@
-import Layout from '../components/Layout';
+import Layout from "../components/Layout";
 import React, { Component } from "react";
-import WPAPI from 'wpapi'
-import Disqus from "disqus-react"
+import WPAPI from "wpapi";
+import Disqus from "disqus-react";
 import Share from "../components/Share";
-import Error from 'next/error';
+import Error from "next/error";
 import { getData } from "../utils";
 import Config from "../config";
 import moment from "moment";
@@ -17,11 +17,11 @@ export default class extends Component {
     let apiMethod = wp.posts();
 
     const post = await apiMethod
-    .slug(slug)
-    .embed()
-    .then(data => {
-      return data[0];
-    });
+      .slug(slug)
+      .embed()
+      .then((data) => {
+        return data[0];
+      });
 
     return { post };
   }
@@ -33,31 +33,36 @@ export default class extends Component {
       return <Error statusCode={404} />;
     }
 
-    let url = '';
+    let url = "";
 
     const embeddedData = post._embedded;
 
     if (process.browser) {
-      url = window.location.href
+      url = window.location.href;
     }
 
     const disqusShortname = "erxes";
     const disqusConfig = {
       url,
       identifier: post.id,
-      title: post.title.rendered
-    }
-
+      title: post.title.rendered,
+    };
+    console.log("p", post);
     return (
       <Layout>
         <div className="single">
           <div className="our-blog blog-details blog-details-fg">
             <div className="blog-hero-banner">
-              <img src={getData(post._embedded, 'image')} />
+              <img src={post.acf.image && post.acf.image} />
               <div className="blog-custom-container">
-                <a href="#" className="date">{moment(post.date).format('L')}</a>
-                <Disqus.CommentCount shortname={disqusShortname} config={disqusConfig}>
-                    Cэтгэгдэл
+                <a href="#" className="date">
+                  {moment(post.date).format("L")}
+                </a>
+                <Disqus.CommentCount
+                  shortname={disqusShortname}
+                  config={disqusConfig}
+                >
+                  Cэтгэгдэл
                 </Disqus.CommentCount>
                 <h2 className="blog-title">{post.title.rendered}</h2>
               </div>
@@ -67,7 +72,15 @@ export default class extends Component {
                 <div className="blog-custom-container">
                   <div className="custom-container-bg">
                     <div className="pt-50">
-                      <div dangerouslySetInnerHTML={{ __html: post.content.rendered }} />
+                      <img
+                        className="pb-30"
+                        src={getData(post._embedded, "image")}
+                      />
+                      <div
+                        dangerouslySetInnerHTML={{
+                          __html: post.content.rendered,
+                        }}
+                      />
                     </div>
                   </div>
                 </div>
@@ -78,8 +91,10 @@ export default class extends Component {
                   <div className="post-tag-area d-md-flex justify-content-between align-items-center pt-50">
                     <ul className="tags">
                       <li>Ангилал: </li>
-                      {getData(post._embedded, 'categories').map(cat => (
-                        <li key={cat.id}><a href="#">{cat.name},</a></li>
+                      {getData(post._embedded, "categories").map((cat) => (
+                        <li key={cat.id}>
+                          <a href="#">{cat.name},</a>
+                        </li>
                       ))}
                     </ul>
                     <ul className="share-icon">

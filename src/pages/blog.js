@@ -1,8 +1,8 @@
-import WPAPI from 'wpapi';
-import React, { Component } from 'react';
-import Layout from '../components/Layout';
+import WPAPI from "wpapi";
+import React, { Component } from "react";
+import Layout from "../components/Layout";
 import Config from "../config";
-import { getData } from "../utils"
+import { getData } from "../utils";
 import Link from "next/link";
 import moment from "moment";
 import Disqus from "disqus-react";
@@ -21,52 +21,81 @@ class Blog extends Component {
   }
 
   renderCategory = (categories) => {
-    const cat = categories.map(cat => cat.name);
+    const cat = categories.map((cat) => cat.name);
 
-    return `isotop-item ${(cat).join(' ')}`;
-  }
+    return `isotop-item ${cat.join(" ")}`;
+  };
 
   render() {
     const { posts } = this.props;
-
+    console.log(posts);
     return (
       <Layout>
         <div className="our-blog blog-filer mb-150">
           <div className="blog-filter-title">
             <p className="upper-title">Блог</p>
-            <h2 className="main-title">Бидний тухай мэдээ, мэдээлэл<br /> бүрийг эндээс</h2>
+            <h2 className="main-title">
+              Бидний тухай мэдээ, мэдээлэл
+              <br /> бүрийг эндээс
+            </h2>
           </div>
 
           <ul className="isotop-menu-wrapper blog-filter-nav clearfix">
-            <li className="is-checked" data-filter="*"><span>Бүгд</span></li>
-            <li data-filter=".Маркетинг"><span>Маркетинг</span></li>
-            <li data-filter=".Технологи"><span>Технологи</span></li>
-            <li data-filter=".Борлуулалт"><span>Борлуулалт</span></li>
-            <li data-filter=".Зөвлөмж"><span>Зөвлөмж</span></li>
-            <li data-filter=".Шинэчлэл"><span>Шинэчлэл</span></li>
+            <li className="is-checked" data-filter="*">
+              <span>Бүгд</span>
+            </li>
+            <li data-filter=".Маркетинг">
+              <span>Маркетинг</span>
+            </li>
+            <li data-filter=".Технологи">
+              <span>Технологи</span>
+            </li>
+            <li data-filter=".Борлуулалт">
+              <span>Борлуулалт</span>
+            </li>
+            <li data-filter=".Зөвлөмж">
+              <span>Зөвлөмж</span>
+            </li>
+            <li data-filter=".Шинэчлэл">
+              <span>Шинэчлэл</span>
+            </li>
           </ul>
 
           <div className="masnory-blog-wrapper">
             <div className="grid-sizer"></div>
-            {posts.map(post => {
-              let url = '';
-              if (process.browser) { url = window.location.href }
+            {posts.map((post) => {
+              let url = "";
+              if (process.browser) {
+                url = window.location.href;
+              }
 
               const disqusShortname = "erxes";
               const disqusConfig = {
                 url,
                 identifier: post.id,
-                title: post.title.rendered
-              }
+                title: post.title.rendered,
+              };
 
               return (
-                <div key={post.slug} className={this.renderCategory(getData(post._embedded, 'categories'))}>
+                <div
+                  key={post.slug}
+                  className={this.renderCategory(
+                    getData(post._embedded, "categories")
+                  )}
+                >
                   <div className="single-blog-post">
-                    <div className="img-holder"><img src={getData(post._embedded, 'image')} alt="" /></div>
+                    <div className="img-holder">
+                      <img src={getData(post._embedded, "image")} alt="" />
+                    </div>
                     <div className="post-data blog-home">
-                      <span className="date">{moment(post.date).format('L')}</span>
                       <span className="date">
-                        <Disqus.CommentCount shortname={disqusShortname} config={disqusConfig}>
+                        {moment(post.date).format("L")}
+                      </span>
+                      <span className="date">
+                        <Disqus.CommentCount
+                          shortname={disqusShortname}
+                          config={disqusConfig}
+                        >
                           Cэтгэгдэл
                         </Disqus.CommentCount>
                       </span>
@@ -75,17 +104,25 @@ class Blog extends Component {
                           <a>{post.title.rendered}</a>
                         </Link>
                       </h5>
-                      <div dangerouslySetInnerHTML={{ __html: (post.excerpt.rendered).slice(0, 150) }} />
-                      <Link href={"blog/" + post.slug}><a className="read-more"><i className="flaticon-next-1"></i></a></Link>
+                      <div
+                        dangerouslySetInnerHTML={{
+                          __html: post.excerpt.rendered.slice(0, 150),
+                        }}
+                      />
+                      <Link href={"blog/" + post.slug}>
+                        <a className="read-more">
+                          <i className="flaticon-next-1"></i>
+                        </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
-              )
+              );
             })}
           </div>
         </div>
       </Layout>
-    )
+    );
   }
 }
 
