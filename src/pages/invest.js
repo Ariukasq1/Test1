@@ -17,22 +17,22 @@ class Invest extends Component {
 
     window.addEventListener(
       "load",
-      function() {
-        var e = document.createElement("script");
+      () => {
+        const e = document.createElement("script");
         (e.type = "text/javascript"),
           (e.async = !0),
           (e.src = "https://static.fairmint.co/widget/fairmint.2020.12.24.js");
-        var t = document.getElementsByTagName("script")[0];
+        const t = document.getElementsByTagName("script")[0];
         t.parentNode.insertBefore(e, t);
       },
       !1
     );
 
-    setTimeout(function() {
-      var x = document.getElementsByClassName("fairmint-widget-frame");
+    setTimeout(() => {
+      const x = document.getElementsByClassName("fairmint-widget-frame");
       x[0].classList.add("fairmint-widget-frame-visible");
 
-      var iFrame = x[0].getElementsByTagName("iframe")[0];
+      const iFrame = x[0].getElementsByTagName("iframe")[0];
       iFrame.contentDocument.body.innerHTML =
         iFrame.contentDocument.body.innerHTML +
         "<style>body { overflow: hidden; } .fairmint-cafe-widget-card-footer {display: none; }</style>";
