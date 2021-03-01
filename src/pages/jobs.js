@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import Layout from '../components/Layout';
-import WPAPI from 'wpapi';
+import React, { Component } from "react";
+import Layout from "../components/Layout";
+import WPAPI from "wpapi";
 import Config from "../config";
-import { getData } from "../utils"
+import { getData } from "../utils";
 import moment from "moment";
 
 const wp = new WPAPI({ endpoint: Config.apiUrl });
@@ -33,21 +33,35 @@ class HumanResource extends Component {
               <div className="col-lg-12">
                 <div className="faq-panel">
                   <div className="panel-group theme-accordion" id="accordion">
-                    {posts.map(post => {
+                    {posts.map((post) => {
                       return (
                         <div key={post.id} className="panel">
                           <div className="panel-heading">
                             <h6 className="panel-title">
-                              <a data-toggle="collapse" data-parent="#accordion" href={`#${post.id}`}>
-                                {post.title.rendered} <span>
-                                  <i className="fa fa-calendar" aria-hidden="true"></i> {moment(post.date).format('L')}</span></a>
+                              <a
+                                data-toggle="collapse"
+                                data-parent="#accordion"
+                                href={`#${post.id}`}
+                              >
+                                {post.title.rendered}{" "}
+                                <span>
+                                  <i
+                                    className="fa fa-calendar"
+                                    aria-hidden="true"
+                                  ></i>{" "}
+                                  {moment(post.date).format("L")}
+                                </span>
+                              </a>
                             </h6>
                           </div>
                           <div id={post.id} className="panel-collapse collapse">
                             <div className="panel-body">
                               <div className="panel-row pt-30 pb-30">
-                                <div dangerouslySetInnerHTML={{ __html: post.content.rendered }} />
-                                <div className="pt-30"><button className="line-button-one">Анкет бөглөх</button></div>
+                                <div
+                                  dangerouslySetInnerHTML={{
+                                    __html: post.content.rendered,
+                                  }}
+                                />
                               </div>
                             </div>
                           </div>
@@ -61,7 +75,7 @@ class HumanResource extends Component {
           </div>
         </div>
       </Layout>
-    )
+    );
   }
 }
 
