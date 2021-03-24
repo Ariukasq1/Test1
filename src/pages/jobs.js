@@ -22,14 +22,33 @@ class HumanResource extends Component {
     const { posts } = this.props;
 
     return (
-      <Layout>
+      <Layout
+        forms={[
+          {
+            brand_id: "m7DmKt",
+            form_id: "FMbmkB",
+          },
+        ]}
+      >
         <div className="solid-inner-banner">
           <h2 className="page-title">Нээлттэй ажлын байр</h2>
         </div>
 
-        <div className="jobs faq-page faq-tab-wrapper pt-150 pb-200">
+        <div className="jobs faq-page faq-tab-wrapper pt-50 pb-200">
           <div className="container">
             <div className="row">
+              <div className="pb-30 job-application">
+                <button
+                  class="theme-btn solid-button-one"
+                  data-erxes-modal="FMbmkB"
+                >
+                  Анкет бөглөх
+                  <i
+                    class="fa fa-angle-right icon-right"
+                    aria-hidden="true"
+                  ></i>
+                </button>
+              </div>
               <div className="col-lg-12">
                 <div className="faq-panel">
                   <div className="panel-group theme-accordion" id="accordion">

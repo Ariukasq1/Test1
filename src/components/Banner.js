@@ -23,11 +23,15 @@ const Header = () => (
     <div className="container">
       <div className="main-wrapper">
         <h1 className="main-title wow fadeInUp animated" data-wow-delay="0.4s">
-          <b>МАРКЕТИНГ, БОРЛУУЛАЛТ,<br />
-            ХЭРЭГЛЭГЧТЭЙ ХАРИЛЦАХ</b> <br />
+          <b>
+            МАРКЕТИНГ, БОРЛУУЛАЛТ,
+            <br />
+            ХЭРЭГЛЭГЧТЭЙ ХАРИЛЦАХ
+          </b>{" "}
+          <br />
           ҮЙЛ АЖИЛЛАГААГАА УДИРДАХ <br />
-          ЦОГЦ ПЛАТФОРМ<br />
-
+          ЦОГЦ ПЛАТФОРМ
+          <br />
         </h1>
         <p className="sub-title wow fadeInUp animated" data-wow-delay="0.9s">
           Маркетингийн санаануудаа үнэлэх, хэмжих, борлуулалтаа <br />
@@ -42,7 +46,8 @@ const Header = () => (
               className="more-button wow fadeInLeft animated"
               data-wow-delay="1.5s"
             >
-              Төлбөргүй турших <i className="fa fa-angle-right" aria-hidden="true" />
+              Төлбөргүй турших{" "}
+              <i className="fa fa-angle-right" aria-hidden="true" />
             </a>
           </li>
           <li>

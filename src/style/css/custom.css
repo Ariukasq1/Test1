@@ -215,6 +215,7 @@ figcaption { margin-top: 10px; font-size: 15px; color: #888; }
 .pt-250 {padding-top: 250px;}
 .pl-100 {padding-left: 100px;}
 .pb-30 {padding-bottom: 30px !important;}
+.pb-50 {padding-bottom: 70px;}
 .pb-70 {padding-bottom: 70px;}
 .pb-100 {padding-bottom: 100px;}
 .pb-150 {padding-bottom: 150px;}
@@ -225,6 +226,9 @@ figcaption { margin-top: 10px; font-size: 15px; color: #888; }
 .mt-100 {margin-top: 100px;}
 .mt-150 {margin-top: 150px;}
 .mt-200 {margin-top: 200px;}
+.mb-5 {
+  margin-bottom: 5px !important;;
+}
 .mb-20 {margin-bottom: 20px !important;}
 .mb-80 {margin-bottom: 80px !important;}
 .mb-120 {margin-bottom: 120px;}
@@ -1577,6 +1581,18 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   top:0;
   left:0;
   z-index: -1;
+}
+.job-application {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 15px;
+}
+.job-application button {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 35px;
 }
 /*------------------------ Theme Counter -------------------*/
 .agn-counter-section {
@@ -7313,17 +7329,19 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   padding-bottom: 45px;
 }
 .blog-filter-title .main-title {
-
   font-size: 60px;
   line-height: 60px;
   color: #313131;
 }
 .blog-filer {padding-left: 50px;padding-right: 50px;}
-.blog-filer .blog-filter-nav {border-bottom: 1px solid #5d5d5d;margin-bottom: 80px;}
+.blog-filer .blog-filter-nav {
+  border-bottom: 1px solid #5d5d5d;
+  margin-bottom: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 .blog-filer .blog-filter-nav li {
-
-  float: left;
-  width: 16.66666666%;
   text-align: center;
   margin: 15px 0 0;
   font-size: 18px;

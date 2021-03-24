@@ -17,18 +17,24 @@ class Blog extends Component {
       .perPage(40)
       .embed();
 
-    return { posts };
+    const blogCategories = await wp
+      .categories()
+      .parent(2)
+      .perPage(15)
+      .embed();
+
+    return { posts, blogCategories };
   }
 
   renderCategory = (categories) => {
-    const cat = categories.map((cat) => cat.name);
+    const cat = categories.map((cat) => cat.id);
 
     return `isotop-item ${cat.join(" ")}`;
   };
 
   render() {
-    const { posts } = this.props;
-    console.log(posts);
+    const { posts, blogCategories } = this.props;
+
     return (
       <Layout>
         <div className="our-blog blog-filer mb-150">
@@ -44,21 +50,11 @@ class Blog extends Component {
             <li className="is-checked" data-filter="*">
               <span>Бүгд</span>
             </li>
-            <li data-filter=".Маркетинг">
-              <span>Маркетинг</span>
-            </li>
-            <li data-filter=".Технологи">
-              <span>Технологи</span>
-            </li>
-            <li data-filter=".Борлуулалт">
-              <span>Борлуулалт</span>
-            </li>
-            <li data-filter=".Зөвлөмж">
-              <span>Зөвлөмж</span>
-            </li>
-            <li data-filter=".Шинэчлэл">
-              <span>Шинэчлэл</span>
-            </li>
+            {blogCategories.map((cat) => (
+              <li data-filter={`.${cat.id}`}>
+                <span>{cat.name}</span>
+              </li>
+            ))}
           </ul>
 
           <div className="masnory-blog-wrapper">
