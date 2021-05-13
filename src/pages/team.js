@@ -118,24 +118,6 @@ class Team extends Component {
                 "https://www.linkedin.com/in/indraganzorig/"
               )}
               {this.renderMember(
-                "Амаржаргалын <br /> Удвал",
-                "Харилцагчийн ахлах менежер",
-                "images/team/udval.jpg",
-                "",
-                "",
-                "",
-                "https://www.linkedin.com/in/udval-amarjargal-9bbaaba4/"
-              )}
-              {this.renderMember(
-                "Дэвид <br /> Картузински",
-                "Хөгжүүлэгчдийн ахлах төлөөлөгч",
-                "https://erxes.io/static/images/team/square/david.png",
-                "",
-                "",
-                "",
-                "https://www.linkedin.com/in/#/"
-              )}
-              {this.renderMember(
                 "Эрдэнийн Энхдэлгэр",
                 "Санхүүгийн ахлах менежер",
                 "https://erxes.io/static/images/team/square/enkhdelger.jpg",
@@ -148,15 +130,6 @@ class Team extends Component {
                 "Энхтөрийн Түвшинтөгс",
                 "Бүтээгдэхүүний ахлах менежер",
                 "https://erxes.io/static/images/team/square/tuvshintugs.jpg",
-                "",
-                "",
-                "",
-                "https://www.linkedin.com/in/#/"
-              )}
-              {this.renderMember(
-                "Даваанямын Халиунаа",
-                "Үйл ажиллагааны ахлах менежер",
-                "https://erxes.io/static/images/team/square/khaliunaa.jpg",
                 "",
                 "",
                 "",
@@ -256,39 +229,6 @@ class Team extends Component {
                           target="_blank"
                         >
                           <i className="fa fa-github" aria-hidden="true"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6 col-12">
-                <div className="single-team-member">
-                  <div className="wrapper">
-                    <div>
-                      <img src="images/team/munhorgil.jpg" alt="" />
-                    </div>
-                    <div className="info-meta">
-                      <h6 className="name">
-                        Мягмарсүрэнгийн
-                        <br /> Мөнх-Оргил
-                      </h6>
-                      <span>Систем хөгжүүлэгч</span>
-                    </div>
-                  </div>
-                  <div className="hover-content">
-                    <ul>
-                      <li>
-                        <a href="https://github.com/munkhorgil" target="_blank">
-                          <i className="fa fa-github" aria-hidden="true"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.linkedin.com/in/munkhorgil/"
-                          target="_blank"
-                        >
-                          <i className="fa fa-linkedin" aria-hidden="true"></i>
                         </a>
                       </li>
                     </ul>
