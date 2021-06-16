@@ -21,7 +21,7 @@ const Footer = () => (
                   <a href="/swag">Үнэгүй футболка авах</a>
                 </li>
                 <li>
-                  <a href="/training">Онлайн сургалтын цаг авах</a>
+                  <a href="/training">Онлайн танилцуулгын цаг авах</a>
                 </li>
               </ul>
             </div>

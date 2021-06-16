@@ -31,70 +31,10 @@ class Training extends Component {
                   <div className="text-wrapper">
                     <div className="theme-title-one">
                       <h2 className="main-title text-center">
-                        Эрксисийн цахим сургалт зөвлөгөө
+                        Эрксисийн цахим танилцуулга, зөвлөгөө
                       </h2>
                     </div>
                     <p className="pb-30">
-                      <b>ХЭЗЭЭ:</b> Долоо хоног бүрийн мягмар гарагт ⏳15:30 -
-                      17:00 <br />
-                      <b>ХЭРХЭН:</b> Сургалт цахимаар явагдана. Бизнесийн үйл
-                      ажиллагааг технологи ашиглан хэрхэн сайжруулах тухай
-                      ойлголтууд авахаас гадна эрксис програмийг хэрхэн ашиглах
-                      талаар бүрэн мэдлэгтэй болно.
-                    </p>
-                    <b>ХӨТӨЛБӨР:</b>
-                    <ul className="theme-list-item pb-30">
-                      <li>
-                        <i
-                          className="fa fa-chevron-right"
-                          aria-hidden="true"
-                        ></i>{" "}
-                        15:20 - Цахим ангид бүртгүүлсэн хэрэглэгчид орох
-                      </li>
-                      <li>
-                        <i
-                          className="fa fa-chevron-right"
-                          aria-hidden="true"
-                        ></i>{" "}
-                        15:30 - Танилцах
-                      </li>
-                      <li>
-                        <i
-                          className="fa fa-chevron-right"
-                          aria-hidden="true"
-                        ></i>{" "}
-                        15:40 - Эрксис бүтээгдэхүүний ерөнхий танилцуулга
-                      </li>
-                      <li>
-                        <i
-                          className="fa fa-chevron-right"
-                          aria-hidden="true"
-                        ></i>{" "}
-                        15:50 - Эрксис дээрх боломжууд
-                      </li>
-                      <li>
-                        <i
-                          className="fa fa-chevron-right"
-                          aria-hidden="true"
-                        ></i>{" "}
-                        16:10 - Асуулт, ярилцлага
-                      </li>
-                      <li>
-                        <i
-                          className="fa fa-chevron-right"
-                          aria-hidden="true"
-                        ></i>{" "}
-                        16:30 - Нэмэлт зөвөлгөө
-                      </li>
-                      <li>
-                        <i
-                          className="fa fa-chevron-right"
-                          aria-hidden="true"
-                        ></i>{" "}
-                        Гарын авлага
-                      </li>
-                    </ul>
-                    <div className="alert alert-warning" role="alert">
                       Хэрэв та Эрксисийг өөрийн бизнестээ нэвтрүүлж эхлэх
                       сонирхолтой байгаа бол эсвэл аль хэдийн ашиглаад эхэлсэн
                       бол бидэнд хандаарай. Энэхүү сургалт нь цахимаар явагдана.
@@ -102,9 +42,8 @@ class Training extends Component {
                       програмийг хэрхэн ашиглах талаар тодорхой мэдлэгтэй болно.
                       Мөн түүнчлэн энэхүү онлайн уулзалтын явцад та бидэнд санал
                       сэтгэгдлээ хэлж болно.
-                      <br />
-                      <br />
-                      <ul>
+                    </p>
+                    <ul>
                         <li className="mb-5">
                           &emsp;<i class="fa fa-check" aria-hidden="true"></i>
                           &nbsp;Эрксис бүтээгдэхүүний ерөнхий танилцуулга
@@ -121,7 +60,7 @@ class Training extends Component {
                       <br />
                       Та доорх анкетыг бөглөснөөр манай хамт олон онлайн
                       уулзалтыг таны имэйлээр товлох болно.
-                    </div>
+                    
                   </div>
                   <br />
                   <br />
