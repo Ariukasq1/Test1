@@ -138,7 +138,7 @@ class Team extends Component {
               {this.renderMember(
                 "Баатарын Одончимэг",
                 "Маркетинг хариуцсан захирал",
-                "https://erxes.io/static/images/team/square/unknown.png",
+                "https://erxes.io/static/images/team/square/odonchimeg.jpg",
                 "",
                 "",
                 "",
@@ -147,7 +147,7 @@ class Team extends Component {
                {this.renderMember(
                 "Зоригтбаатарын Цэрэнлхам",
                 "Төслийн ахлах менежер",
-                "https://erxes.io/static/images/team/square/unknown.png",
+                "https://erxes.io/static/images/team/square/tserenlham.jpg",
                 "",
                 "",
                 "",
@@ -282,7 +282,7 @@ class Team extends Component {
               {this.renderMember(
                 "Мөнгөнцэцгийн Амарзаяа",
                 "Харилцагчийн менежер",
-                "https://erxes.io/static/images/team/square/amarzaya.jpeg",
+                "https://erxes.io/static/images/team/square/amarzaya.jpg",
                 "",
                 "",
                 "",
@@ -300,7 +300,7 @@ class Team extends Component {
               {this.renderMember(
                 "Хатанбаатрын Марал",
                 "Контент мэргэжилтэн",
-                "https://erxes.io/static/images/team/square/unknown.png",
+                "https://erxes.io/static/images/team/square/maral.jpg",
                 "",
                 "",
                 "",
