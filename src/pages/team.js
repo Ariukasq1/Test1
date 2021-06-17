@@ -110,7 +110,7 @@ class Team extends Component {
               )}
               {this.renderMember(
                 "Ганзоригийн <br /> Индра",
-                "Бүтээгдэхүүн маркетингийн ахлах менежер",
+                "Маркетинг хариуцсан захирал",
                 "images/team/indra.png",
                 "",
                 "https://twitter.com/IndraGanzorig",
@@ -137,14 +137,14 @@ class Team extends Component {
               )}
               {this.renderMember(
                 "Баатарын Одончимэг",
-                "Маркетинг хариуцсан захирал",
-                "https://erxes.io/static/images/team/square/odonchimeg.jpg",
+                "Ахлах нягтлан бодогч",
+                "https://erxes.io/static/images/team/square/odonchimeg.png",
                 "",
                 "",
                 "",
                 ""
               )}
-               {this.renderMember(
+              {this.renderMember(
                 "Зоригтбаатарын Цэрэнлхам",
                 "Төслийн ахлах менежер",
                 "https://erxes.io/static/images/team/square/tserenlham.jpg",
@@ -189,7 +189,7 @@ class Team extends Component {
                 "https://github.com/Anu-Ujin",
                 "https://www.linkedin.com/in/anu-ujin/"
               )}
-                 {this.renderMember(
+              {this.renderMember(
                 "Самбуугийн Буянтогтох",
                 "Систем хөгжүүлэгч",
                 "https://erxes.io/static/images/team/square/buynaa.jpg",
@@ -207,7 +207,7 @@ class Team extends Component {
                 "https://github.com/soyombo-cook",
                 "https://www.linkedin.com/in/soyombo-bat-erdene-772a9a62/"
               )}
-               {this.renderMember(
+              {this.renderMember(
                 "Нармандахын <br /> Энхтүвшин",
                 "Систем хөгжүүлэгч",
                 "https://erxes.io/static/images/team/square/enkhtuwshin.jpg",
@@ -243,10 +243,10 @@ class Team extends Component {
                 "",
                 "https://www.linkedin.com/in/#/"
               )}
-               {this.renderMember(
+              {this.renderMember(
                 "Махгалсүрэнгийн Мягмарсүрэн",
                 "Систем админ",
-                "https://erxes.io/static/images/team/square/MyagmarsurenMakhgalsuren.jpg",
+                "https://erxes.io/static/images/team/square/miigaa.png",
                 "",
                 "",
                 "",
@@ -306,7 +306,6 @@ class Team extends Component {
                 "",
                 "https://www.linkedin.com/in/maral-khatanbaatar-78a4271a8/"
               )}
-            
             </div>
           </div>
         </div>

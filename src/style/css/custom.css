@@ -6332,6 +6332,9 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   padding: 0 45px 55px 0;
   margin-top: 80px;
 }
+.team-standard .single-team-member img{
+  height: 225px;
+}
 .team-standard .single-team-member .wrapper {position: relative;}
 .team-standard .single-team-member .img-box img {border-radius: 4px;}
 .team-standard .single-team-member .info-meta {
