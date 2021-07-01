@@ -113,7 +113,7 @@ class Pricing extends Component {
                         </li>
                       </ul>
                     </div>
-                    <p>Жилээр төлөөд 30% хэмнээрэй</p>
+                    <p>Жилээр нь төлөөд 25% хүртэл хэмнээрэй</p>
                   </div>
 
                   <div className="tab-content">

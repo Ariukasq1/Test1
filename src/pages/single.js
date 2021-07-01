@@ -47,7 +47,6 @@ export default class extends Component {
       identifier: post.id,
       title: post.title.rendered,
     };
-    console.log("p", post);
     return (
       <Layout>
         <div className="single">
@@ -98,7 +97,7 @@ export default class extends Component {
                       ))}
                     </ul>
                     <ul className="share-icon">
-                      <Share title={post.title} path={url} vertical={true} />
+                      <Share title={post.title.rendered} path={url} vertical={true} />
                     </ul>
                   </div>
                 </div>
