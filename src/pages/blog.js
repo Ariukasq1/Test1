@@ -51,7 +51,7 @@ class Blog extends Component {
               <span>Бүгд</span>
             </li>
             {blogCategories.map((cat) => (
-              <li data-filter={`.${cat.id}`}>
+              <li key={cat.id} data-filter={`.${cat.id}`}>
                 <span>{cat.name}</span>
               </li>
             ))}
@@ -74,7 +74,7 @@ class Blog extends Component {
 
               return (
                 <div
-                  key={post.slug}
+                  key={post.id}
                   className={this.renderCategory(
                     getData(post._embedded, "categories")
                   )}
