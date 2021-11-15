@@ -1,5 +1,5 @@
 const Config = {
-  apiUrl: 'https://erxes.mn/wp/wp-json',
+  apiUrl: 'https://erxes.nmma.co/wp/wp-json',
 };
 
 export default Config;

@@ -1,0 +1,10 @@
+name = "src"
+type = "webpack"
+route = ''
+zone_id = ''
+usage_model = ''
+compatibility_flags = []
+workers_dev = true
+site = {bucket = "./out",entry-point = "workers-site"}
+compatibility_date = "2021-11-12"
+account_id = "7c8392aff8ac4518aa06dfa4b6337ef2"
